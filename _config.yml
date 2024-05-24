@@ -32,7 +32,7 @@ words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
-comments:
+comments: true
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
@@ -123,9 +123,9 @@ author:
     url: "https://debuggingg.github.io/network/"
   links:
   
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+    - label: "05/24/network1"
+      icon: "fas fa-fw fa-link"
+      url: "https://debuggingg.github.io/network/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
