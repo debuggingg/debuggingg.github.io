@@ -6,7 +6,6 @@ title:  "2024/05/24/ Network-(Chating App)"
 # Chatting 
 ## Server
 
-
 This application forwards messages received from connected clients to all other clients. It uses multithreading to handle each client's socket independently for input and output operations.
 
 #### Field for Client Sockets
@@ -175,4 +174,156 @@ public class ChattingServerApp {
     }
 }
 ```
+## Client
+
+This section outlines the development of a chatting client application.
+
+ ### Do not explain how to make JFrame 
+
+### Sending Messages Entered via the JTextField Component to the Server - Event Handling (EventQueue Thread)
+
+- **Description**: This part handles the event where messages entered in the JTextField component are sent to the server. It utilizes an event handling mechanism (EventQueue thread) to accomplish this task.
+    -The statement textField.addActionListener(new ActionListener() {...}) in the context of the EventThread creates a thread only when an event occurs, and sends the message through the out object
+```java
+textField.addActionListener(new ActionListener() {
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // Retrieve the message entered in the JTextField component
+        String message = textField.getText();
+
+        // Send the message to the server using the output stream
+        out.println(message);
+
+        // Clear the JTextField component after sending the message
+        textField.setText("");
+    }
+});
+```
+
+---
+
+### Receiving Messages Sent from the Server and Displaying Them in the JTextArea Component - Continuous Loop (Main Thread)
+
+- **Description**: This segment is responsible for receiving messages sent from the server and displaying them in the JTextArea component. It operates within an infinite loop (main thread) to continuously listen for incoming messages.
+
+```java
+// Continuously receive messages from the server and display them in the JTextArea component
+while (true) {
+    try {
+        // Read the incoming message from the server
+        String receivedMessage = in.readLine();
+
+        // Append the received message to the JTextArea component
+        textArea.append(receivedMessage + "\n");
+
+        // Scroll the JTextArea component to display the latest messages
+        textArea.setCaretPosition(textArea.getText().length());
+    } catch (IOException e) {
+        // Handle network-related issues if the server connection is terminated
+        JOptionPane.showMessageDialog(this, "The connection to the server has been terminated.", "Connection Error", JOptionPane.ERROR_MESSAGE);
+        System.exit(0);
+    }
+}
+```
+
+---
+
+### Sending Messages Entered via the JTextField Component to the Server - Event Handling (EventQueue Thread)
+
+- **Description**: This section repeats the process of sending messages entered via the JTextField component to the server. It utilizes an event handling mechanism (EventQueue thread) similar to the previous part.
+
+```java
+textField.addActionListener(new ActionListener() {
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // Retrieve the message entered in the JTextField component
+        String message = textField.getText();
+
+        // Send the message to the server using the output stream
+        out.println(message);
+
+        // Clear the JTextField component after sending the message
+        textField.setText("");
+    }
+});
+```
+---
+## Full Code
+
+```java
+
+public class ChattingClientApp extends JFrame {
+    private static final long serialVersionUID = 1L;
+    private JTextArea textArea;
+    private JTextField textField;
+    private Socket socket;
+    private BufferedReader in;
+    private PrintWriter out;
+    private String aliasName;
+
+    public ChattingClientApp(String title) {
+        super(title);
+        textArea = new JTextArea();
+        textField = new JTextField();
+        textArea.setFont(new Font("굴림체", Font.BOLD, 20));
+        textField.setFont(new Font("굴림체", Font.BOLD, 20));
+        textArea.setFocusable(false);
+        JScrollPane scrollPane = new JScrollPane(textArea);
+        getContentPane().add(scrollPane, BorderLayout.CENTER);
+        getContentPane().add(textField, BorderLayout.SOUTH);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setBounds(700, 200, 400, 500);
+        setVisible(true);
+        // Add an ActionListener object to handle ActionEvents that occur in the JTextField component
+        textField.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String message = textField.getText();
+                if (!message.equals("")) {
+                    out.println(message);
+                    textField.setText("");
+                }
+            }
+        });
+        // Create a Socket object and store it in the field - Connect to the server
+        try {
+            socket = new Socket("192.168.13.31", 5000);
+            in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            out = new PrintWriter(socket.getOutputStream(), true);
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(this, "Unable to connect to the server.", "Connection Error", JOptionPane.ERROR_MESSAGE);
+            System.exit(0);
+        }
+
+        while (true) {
+             // Use an input dialog to enter the nickname and store it
+            aliasName = JOptionPane.showInputDialog(this, "Enter your nickname.", "Nickname Entry", JOptionPane.QUESTION_MESSAGE);
+           // Regular expression to ensure the nickname is between 2 and 6 Korean characters
+            String regEx = "^[가-힣]{2,6}$";
+            if (aliasName != null && Pattern.matches(regEx, aliasName)) break;
+            JOptionPane.showMessageDialog(this, "Please enter a nickname between 2 to 6 characters in length using Korean.", "Input Error", JOptionPane.ERROR_MESSAGE);
+        }
+         // Send the entered nickname to the server using the output stream
+        out.println(aliasName);
+         // Receive messages sent from the server using the input stream and display them in the JTextArea component
+        // => Process repeatedly until the client program exits
+        while (true) {
+            try {
+                 // Use the input stream to receive messages sent from the server and append them to the JTextArea component
+                textArea.append(in.readLine() + "\n");
+                textArea.setCaretPosition(textArea.getText().length());
+            // Handle IOExceptions that occur due to network issues or server disconnection
+            } catch (IOException e) {
+                JOptionPane.showMessageDialog(this, "The connection to the server has been terminated.", "Connection Error", JOptionPane.ERROR_MESSAGE);
+                System.exit(0);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        new ChattingClientApp("Java Chat");
+    }
+}
+```
+
 
