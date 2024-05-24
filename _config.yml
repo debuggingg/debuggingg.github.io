@@ -110,6 +110,10 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
+sidebar:
+  - text: "내 웹사이트 방문"
+    url: "https://example.com"
+
 # Site Author
 author:
   name             : "Beomseok Lee"
