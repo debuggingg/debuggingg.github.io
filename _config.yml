@@ -117,12 +117,8 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "S O M"
   location         : "Seoul in Korea"
-  email            : "beom.kb@gmail.com
-  sidebar:
-   text: "05/24/network1"
-    url: "https://debuggingg.github.io/network/"
+  email            : "beom.kb@gmail.com"
   links:
-  
     - label: "05/24/network1"
       icon: "fas fa-fw fa-link"
       url: "https://debuggingg.github.io/network/"
