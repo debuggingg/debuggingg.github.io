@@ -119,10 +119,10 @@ author:
   location         : "Seoul in Korea"
   email            : "beom.kb@gmail.com"
   links:
-    - label: "05/23:Network1"
+    - label: "05/23 Network1"
       icon: "fas fa-fw fa-link"
       url: "https://debuggingg.github.io/network/"
-    - label: "05/24:Network-02.UDP"
+    - label: "05/24 Network02-UDP"
       icon: "fas fa-fw fa-link"
        url: "https://debuggingg.github.io/Network2/"
     - label: "Twitter"
