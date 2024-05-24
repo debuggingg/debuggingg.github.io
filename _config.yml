@@ -110,9 +110,6 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-sidebar:
-   text: "05/24/network1"
-    url: "https://debuggingg.github.io/network/"
 
 # Site Author
 author:
@@ -120,8 +117,12 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "S O M"
   location         : "Seoul in Korea"
-  email            :
+  email            : "beom.kb@gmail.com
+  sidebar:
+   text: "05/24/network1"
+    url: "https://debuggingg.github.io/network/"
   links:
+  
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
