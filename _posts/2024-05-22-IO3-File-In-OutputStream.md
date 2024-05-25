@@ -3,7 +3,7 @@ layout: single
 title:  "2024/05/22/ IO-03/File In,OutputStream / "
 ---
 
-### File OutputStream 
+## File OutputStream 
 
 
 This Java program reads raw data from the keyboard and writes it to a file until the End Of File (EOF) signal (Ctrl+Z) is received.
@@ -34,7 +34,7 @@ This Java program reads raw data from the keyboard and writes it to a file until
 
 ---
 
-#### Full Code:
+## Full Code:
 
 ~~~
 import java.io.FileOutputStream;
@@ -95,7 +95,7 @@ public class FileOutputStreamApp {
 ---
 
 
-### File InputStream
+## File InputStream
 
 
 This Java program reads raw data from a file and prints it to the console.
@@ -123,7 +123,7 @@ This Java program reads raw data from a file and prints it to the console.
 
 ---
 
-#### Full Code:
+## Full Code:
 
 ~~~
 import java.io.FileInputStream;
