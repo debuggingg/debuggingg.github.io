@@ -76,13 +76,8 @@ public class ByteStreamApp {
 
 # Java Character Stream Application: Keyboard Input and Output
 
-## Purpose
 This program demonstrates how to read input from the keyboard using a character stream and display it on the monitor until the End Of File (EOF) signal (Ctrl+Z) is received. Character streams handle text data, converting raw bytes into character values.
 
-## Explanation
-
-### Package
-The program utilizes the `java.io` package, which provides classes for input and output operations.
 
 ### Concepts
 
