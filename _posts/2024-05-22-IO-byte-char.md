@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/23/ IO"
+title:  "2024/05/22/ IO"
 ---
 
 # Java Byte Stream Application: Keyboard Input and Output
