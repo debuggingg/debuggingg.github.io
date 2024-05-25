@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO / Byte, Char"
+title:  "2024/05/22/ IO-01 / Byte, Char"
 ---
 
 # Java Byte Stream Application: Keyboard Input and Output
@@ -47,7 +47,7 @@ The program utilizes the `java.io` package, which provides classes for input and
 - This program demonstrates basic byte stream operations. For more advanced input/output scenarios, consider using character streams or higher-level file operations.
 - Handle potential `IOException` exceptions that may occur during input/output operations.
 
-## Corresponding Code
+## Full Code
 
 ~~~
 
@@ -120,7 +120,7 @@ This program demonstrates how to read input from the keyboard using a character 
 - This program demonstrates basic character stream operations. For more advanced text processing, consider using higher-level classes like `Scanner` and `FileReader`/`FileWriter`.
 - Handle potential `IOException` exceptions that may occur during input/output operations.
 
-## Corresponding Code
+## Full Code
 
 ~~~
 
