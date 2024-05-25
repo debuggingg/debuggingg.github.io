@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/27/ DBMS Oracle "
+title:  "2024/05/27/ DBMS-Oracle"
 ---
 # Install
 go to Oracle Web below:
