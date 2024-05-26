@@ -44,7 +44,7 @@ This Java program demonstrates how to read a user's name and birth year from the
 
 ### Full Code:
 
-~~~
+```
 
 public class ConsoleIOApp {
     public static void main(String[] args) throws IOException {
@@ -73,6 +73,6 @@ public class ConsoleIOApp {
         System.out.println("[Result] " + name + ", your age is " + age + " years.");
     }
 }
-~~~
+```
 
 ---
