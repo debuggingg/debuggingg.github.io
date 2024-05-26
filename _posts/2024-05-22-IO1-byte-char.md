@@ -3,7 +3,7 @@ layout: single
 title:  "2024/05/22/ IO-01 / Byte, Char"
 ---
 
-# Java Byte Stream Application: Keyboard Input and Output
+# Java Byte Stream : Keyboard Input and Output
 
 This program demonstrates how to read input from the keyboard using a byte stream and display it on the monitor until the End Of File (EOF) signal (Ctrl+Z) is received.
 
@@ -43,9 +43,9 @@ The program utilizes the `java.io` package, which provides classes for input and
 - The `System.in.read()` method blocks the thread until a byte is available or the EOF signal is received.
 - The `System.out.write()` method writes the byte to the output stream as a raw byte value (1 byte).
 
-## Additional Notes
+## Notes
 - This program demonstrates basic byte stream operations. For more advanced input/output scenarios, consider using character streams or higher-level file operations.
-- Handle potential `IOException` exceptions that may occur during input/output operations.
+
 
 ## Full Code
 
@@ -74,7 +74,7 @@ public class ByteStreamApp {
 ~~~
 
 
-# Java Character Stream Application: Keyboard Input and Output
+# Java Character Stream: Keyboard Input and Output
 
 This program demonstrates how to read input from the keyboard using a character stream and display it on the monitor until the End Of File (EOF) signal (Ctrl+Z) is received. Character streams handle text data, converting raw bytes into character values.
 
@@ -116,9 +116,9 @@ This program demonstrates how to read input from the keyboard using a character 
 - The `out.write()` method writes the character to the output stream as a character value (2 bytes).
 - The `out.flush()` method ensures that the character is sent to the monitor immediately.
 
-## Additional Notes
+## Notes
 - This program demonstrates basic character stream operations. For more advanced text processing, consider using higher-level classes like `Scanner` and `FileReader`/`FileWriter`.
-- Handle potential `IOException` exceptions that may occur during input/output operations.
+
 
 ## Full Code
 
