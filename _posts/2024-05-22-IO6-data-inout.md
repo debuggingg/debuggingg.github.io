@@ -35,7 +35,7 @@ This Java program demonstrates how to read different types of data from a file u
 
 ## Full Code:
 
-~~~
+```java
 
 public class DataInputStreamApp {
     public static void main(String[] args) throws IOException {
@@ -61,7 +61,7 @@ public class DataInputStreamApp {
         in.close();
     }
 }
-~~~
+```
 
 ---
 
