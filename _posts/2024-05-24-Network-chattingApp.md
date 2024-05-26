@@ -11,7 +11,7 @@ This application forwards messages received from connected clients to all other 
 #### Field for Client Sockets
 - A list to store `SocketThread` objects representing currently connected clients.
 
-```java
+```
 private List<SocketThread> clientList;
 ```
 
@@ -106,7 +106,7 @@ public class SocketThread extends Thread {
 }
 ```
 
-### Full Code
+## Full Code
 
 ```java
 
