@@ -40,7 +40,7 @@ This Java program demonstrates how to read objects from a file using the `Object
 
 ## Full Code:
 
-~~~
+```java
 
 public class ObjectInputStreamApp {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
@@ -62,7 +62,7 @@ public class ObjectInputStreamApp {
         in.close();
     }
 }
-~~~
+```
 
 ---
 
