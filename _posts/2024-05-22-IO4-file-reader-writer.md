@@ -39,7 +39,7 @@ This Java program reads **character** data from the keyboard and writes it to a 
 
 ## Full Code:
 
-~~~
+```java
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -69,7 +69,7 @@ public class FileWriterApp {
         System.out.println("[Result] Check the file c:\\data\\char.txt.");
     }
 }
-~~~
+```
 
 ---
 
@@ -142,7 +142,7 @@ This Java program reads **character** data from a file and prints it to the cons
 
 ## Full Code:
 
-~~~
+```java
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -182,7 +182,7 @@ public class FileReaderApp {
         in.close();
     }
 }
-~~~
+```
 
 ---
 
