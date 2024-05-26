@@ -80,7 +80,7 @@ public class MessageReceiveApp {
 }
 ```
 
-### Summary
+### Key Point
 It binds a `DatagramSocket` to port 4000, receives a packet, extracts the message from the byte array, prints the message, and then closes the `DatagramSocket` to release resources.
 
 
@@ -162,7 +162,7 @@ public class MessageSendApp {
     }
 }
 ```
-### Summary
+### Key Point
 The message is read from the keyboard, converted to a byte array, and sent as a packet using `DatagramSocket` and `DatagramPacket`. After sending the message, the `DatagramSocket` is closed to release resources.
 
 
