@@ -178,7 +178,7 @@ public class ChattingServerApp {
 
 This section outlines the development of a chatting client application.
 
- ### Do not explain how to make JFrame 
+ ### NO  explanation: how to make JFrame 
 
 ### Sending Messages Entered via the JTextField Component to the Server - Event Handling (EventQueue Thread)
 
