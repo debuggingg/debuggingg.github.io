@@ -36,7 +36,7 @@ This Java program reads raw data from the keyboard and writes it to a file until
 
 ## Full Code:
 
-~~~
+```java
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -64,7 +64,7 @@ public class FileOutputStreamApp {
         System.out.println("[Result] Check the c:/data/byte.txt file.");
     }
 }
-~~~
+```
 
 ---
 
@@ -125,7 +125,7 @@ This Java program reads raw data from a file and prints it to the console.
 
 ## Full Code:
 
-~~~
+```java
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -160,7 +160,7 @@ public class FileInputStreamApp {
         in.close();
     }
 }
-~~~
+```
 
 ---
 
