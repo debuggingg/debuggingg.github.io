@@ -1,4 +1,4 @@
-`---
+---
 layout: single
 title:  "2024/05/22/ IO-01 / Byte, Char"
 ---
