@@ -49,7 +49,7 @@ The program utilizes the `java.io` package, which provides classes for input and
 
 ## Full Code
 
-```
+```java
 
 public class ByteStreamApp {
 
@@ -122,7 +122,7 @@ This program demonstrates how to read input from the keyboard using a character 
 
 ## Full Code
 
-```
+```java
 
 public class CharacterStreamApp {
 
