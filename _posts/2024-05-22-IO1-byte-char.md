@@ -1,4 +1,4 @@
----
+`---
 layout: single
 title:  "2024/05/22/ IO-01 / Byte, Char"
 ---
@@ -49,7 +49,7 @@ The program utilizes the `java.io` package, which provides classes for input and
 
 ## Full Code
 
-~~~
+```
 
 public class ByteStreamApp {
 
@@ -71,7 +71,7 @@ public class ByteStreamApp {
         System.out.println("[Message] Program terminating.");
     }
 }
-~~~
+```
 
 
 # Java Character Stream: Keyboard Input and Output
@@ -122,7 +122,7 @@ This program demonstrates how to read input from the keyboard using a character 
 
 ## Full Code
 
-~~~
+```
 
 public class CharacterStreamApp {
 
@@ -151,3 +151,4 @@ public class CharacterStreamApp {
     }
 }
 
+```
