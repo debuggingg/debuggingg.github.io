@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/20/ Swing - DigitalClockApp
+title:  "2024/05/20/ Swing - DigitalClockApp"
 ---
 
 # Digital Clock 
