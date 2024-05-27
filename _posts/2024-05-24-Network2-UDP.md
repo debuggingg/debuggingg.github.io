@@ -9,7 +9,7 @@ Characteristics: Establishes a 1:N connection for high-speed communication.
 
 ## Server/Client UDP Example - MessageSendApp, MessageReceiveApp
 ---
-## Server
+# Server
 This program listens for incoming messages from another computer using UDP. 
 
 #### DatagramSocket Class
@@ -60,9 +60,7 @@ datagramSocket.close();
 ## Full Code
 
 ```java
-import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
+
 
 public class MessageReceiveApp {
     public static void main(String[] args) throws IOException {
@@ -85,7 +83,7 @@ It binds a `DatagramSocket` to port 4000, receives a packet, extracts the messag
 
 ---
 
-## Client
+# Client
 - This program sends a user-input message from one computer to another over a network using UDP.
 ### BufferedReader for Input
 - Used to read input from the keyboard.
