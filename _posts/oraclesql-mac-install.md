@@ -37,7 +37,9 @@ your-folder(workspace)/docker-images/OracleDatabase/SingleInstance/dockerfiles/1
 - Check the container status:
   - docker ps -> might (health starting )- Wait until the container installation is complete.
  <img width="1047" alt="Screenshot 2024-05-29 at 11 37 50 PM" src="https://github.com/debuggingg/Second/assets/167505419/352825b1-286f-43a7-95bc-be8e8f25c180">
+ 
 ---
+
 - open Oracle Sql developer
  create connetion.-> new(+) symbol -change role Sysdba -> username : sys -> password: yourpassword
  -> other thing same except SID -> change SID xe to ORCLCDB -> test : success -> connet
@@ -72,7 +74,7 @@ now enjoy your SQL ![bear](https://github.com/debuggingg/Second/assets/167505419
 #### reference 
 - youtube:
 https://www.youtube.com/watch?v=uxvoMhkKUPE&t=556s
-- 
+  
 
 #### web
 - Oracle sql developer:
