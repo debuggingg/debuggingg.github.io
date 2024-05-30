@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/30/ SQL- 06 - Insert-Update-Delete "
+title:  "2024/05/30/ SQL- 06 - Insert-Update-Delete -Merge "
 ---
 
 ---
@@ -223,6 +223,41 @@ COMMIT;
 ``` 
 DELETE FROM DEPT WHERE LOC=(SELECT LOC FROM DEPT WHERE DNAME='Sales');
 SELECT * FROM DEPT;
+COMMIT;
+```
+---
+## Merge
+---
+
+- MERGE : 원본 테이블의 행을 검색하여 타겟 테이블에 행으로 삽입하거나 타겟 테이블에 저장된 행의 컬럼값을 변경하는 SQL 명령
+- 테이블의 행 병합
+- 형식) MERGE INTO 타겟테이블명 USING 원본테이블명 ON (조건식)
+        WHEN MATCHED THEN UPDATE SET 타겟컬럼명=원본컬럼명, 타겟컬럼명=원본컬럼명, ...
+        WHEN NOT MATCHED THEN INSERT(타겟컬럼명,  타겟컬럼명, ...) VALUES (원본컬럼명, 원본컬럼명, ...)
+
+-MERGE_DEPT 테이블 생성 - 속성 : 부서번호(숫자형), 부서이름(문자형), 부서위치(문자형)
+
+```CREATE TABLE MERGE_DEPT(DEPTNO NUMBER(2),DNAME VARCHAR2(14),LOC VARCHAR2(13));
+DESC MERGE_DEPT;
+```
+
+-MERGE_DEPT 테이블에 행을 삽입하여 저장
+```
+INSERT INTO MERGE_DEPT VALUES(30,'총무부','서울시');
+INSERT INTO MERGE_DEPT VALUES(60,'자재부','수원시');
+SELECT * FROM MERGE_DEPT;
+COMMIT;
+```
+
+--DEPT 테이블(원본 테이블)의 저장된 모든 행(부서정보)을 검색하여 MERGE_DEPT 테이블(타켓 테이블)의 행으로 삽입하거나 행의 컬럼값 변경
+
+```
+SELECT * FROM DEPT;//원본 테이블 : 10, 20, 30, 40, 50
+SELECT * FROM MERGE_DEPT;//타겟 테이블 : 30, 60
+MERGE INTO MERGE_DEPT M USING DEPT D ON (M.DEPTNO=D.DEPTNO)
+    WHEN MATCHED THEN UPDATE SET M.DNAME=D.DNAME,M.LOC=D.LOC
+    WHEN NOT MATCHED THEN INSERT(M.DEPTNO,M.DNAME,M.LOC) VALUES(D.DEPTNO,D.DNAME,D.LOC);
+SELECT * FROM MERGE_DEPT;//타겟 테이블 : 10, 20 30, 40, 50, 60
 COMMIT;
 ```
 
