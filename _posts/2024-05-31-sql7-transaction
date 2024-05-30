@@ -1,0 +1,50 @@
+---
+layout: single
+title:  "2024/05/31/ SQL- 07 - Transaction "
+---
+---
+# Tracsaction 
+--- 
+
+--TCL (TRANSACTION CONTROL LANGUAGE): Transaction Control Language
+--SQL commands that apply the stored SQL commands in a transaction to the actual table or cancel them without applying to the table
+
+--Transaction (TRANSACTION): A logical unit of work in a client connection environment (session - SESSION) where SQL commands are written and sent to the connected DBMS server
+--The DBMS server receiving the SQL commands stores them in the transaction and uses them for querying without immediately applying them to the actual table
+
+--To apply the SQL commands stored in the transaction to the actual table, commit (COMMIT) is needed - the transaction is initialized after commit
+--1. Automatic commit occurs if the current session is properly disconnected from the DBMS server
+--2. Automatic commit occurs if a DDL command or DCL command is written and sent to the DBMS server in the current session - Only DML commands are stored in the transaction
+--3. DML commands stored in the DBMS server's transaction are committed only when the COMMIT command is sent
+
+--To clear the SQL commands stored in the transaction without applying them to the actual table, rollback (ROLLBACK) is needed
+--1. Automatic rollback occurs if the current session is abnormally disconnected from the DBMS server
+--2. DML commands stored in the DBMS server's transaction are rolled back only when the ROLLBACK command is sent
+
+--Delete department information with department number 50 from the DEPT table
+
+SELECT * FROM DEPT;
+
+--When the DELETE command is sent to the DBMS server, the DELETE command is stored in the transaction without deleting the row from the table
+
+DELETE FROM DEPT WHERE DEPTNO=50;
+
+--Executing the SELECT command will provide the query results with the DELETE command stored in the transaction applied to the table rows
+
+SELECT * FROM DEPT;
+
+--Use the ROLLBACK command to perform a rollback
+
+ROLLBACK;
+
+SELECT * FROM DEPT;
+
+--Delete department information with department number 50 from the DEPT table
+
+DELETE FROM DEPT WHERE DEPTNO=50;--The DELETE command is stored in the transaction
+
+--Use the COMMIT command to perform a commit - the transaction is initialized after commit
+
+COMMIT;--The DELETE command stored in the transaction is applied to the actual table
+
+SELECT * FROM DEPT;
