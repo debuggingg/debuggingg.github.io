@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO-07/ Object In,OutputSteam / "
+title: 2024/05/22/ IO-07 -  Object In,OutputSteam /
 ---
 serialiaztion -> explanation at bottom line-> 
 # ObjectInputStream

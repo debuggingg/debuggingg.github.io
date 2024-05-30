@@ -3,9 +3,7 @@ layout: single
 title:  "2024/05/28/ SQL- 03 -Select-Function - 환경설정(setting)"
 
 ---
-
-![bear-ezgif.com-resize](C:\github\debuggingg.github.io\images\2024-05-28-sql3-oracle-select\bear-ezgif.com-resize-1717063153696-4.gif)
-
+![[bear-ezgif.com-resize.gif]]
 
 # Function
 

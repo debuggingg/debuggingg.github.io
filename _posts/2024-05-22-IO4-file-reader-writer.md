@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO-04/ File Reader,Writer/ "
+title: 2024/05/22/ IO-04 - File Reader,Writer/
 ---
 
 ## File Writing 

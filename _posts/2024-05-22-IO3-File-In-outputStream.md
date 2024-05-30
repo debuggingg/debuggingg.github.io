@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO-03/File In,OutputStream / "
+title: 2024/05/22/ IO-03 - File In,OutputStream
 ---
 
 ## File OutputStream 

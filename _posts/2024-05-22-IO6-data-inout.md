@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO-06/ Data In,OutputSteam / "
+title: 2024/05/22/ IO-06 - Data In,OutputSteam /
 ---
 
 # DataInputStream 

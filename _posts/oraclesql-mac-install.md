@@ -36,7 +36,8 @@ your-folder(workspace)/docker-images/OracleDatabase/SingleInstance/dockerfiles/1
     - name oracle19 -e ORACLE_PWD=xxxxx <- your own setting.
 - Check the container status:
   - docker ps -> might (health starting )- Wait until the container installation is complete.
- <img width="1047" alt="Screenshot 2024-05-29 at 11 37 50 PM" src="https://github.com/debuggingg/Second/assets/167505419/352825b1-286f-43a7-95bc-be8e8f25c180">
+
+![[Screenshot 2024-05-29 at 11.37.50 PM.png]]
  
 ---
 
@@ -67,7 +68,9 @@ CONNECT scott/tiger;
    - copy and past all cott_create.sql to new sheet. and run everything until right above
      SET TERMOUT ON
 ---
-now enjoy your SQL ![bear](https://github.com/debuggingg/Second/assets/167505419/b29247fb-3700-487d-b93a-c594df04e892)
+now enjoy your SQL 
+
+![[bear-ezgif.com-resize.gif]]
 
 --- 
 

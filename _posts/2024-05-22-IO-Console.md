@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO / ConsoleApp-Buffered"
+title: 2024/05/22/ IO - ConsoleApp-Buffered
 ---
 
 ### Console I/O Application

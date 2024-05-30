@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO-05/ File Copy / "
+title: 2024/05/22/ IO-05 - File Copy /
 ---
 
 # File Copy 

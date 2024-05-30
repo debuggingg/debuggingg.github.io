@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/22/ IO / NotepadApp"
+title: 2024/05/22/ IO -  NotepadApp
 ---
 
 # Notepad Application
