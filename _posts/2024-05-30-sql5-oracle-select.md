@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024/05/30/ SQL- 05 -SQL Select-SubQuery(Select)(Set) ,  "
+title:  "2024/05/30/ SQL- 05 -SQL Select-SubQuery-Set"
 ---
 
 
