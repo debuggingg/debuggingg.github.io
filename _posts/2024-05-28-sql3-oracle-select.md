@@ -4,9 +4,9 @@ title:  "2024/05/28/ SQL- 03 -Select-Function - 환경설정(setting)"
 
 ---
 
-![bear-ezgif com-resize](https://github.com/debuggingg/Second/assets/167505419/066645e6-0a90-4430-a050-f4933bc2b3ca)
+![bear-ezgif.com-resize](C:\github\debuggingg.github.io\images\2024-05-28-sql3-oracle-select\bear-ezgif.com-resize-1717063153696-4.gif)
 
-![penguin1](https://github.com/debuggingg/Second/assets/167505419/ecc20e1f-0fcf-4185-a986-6ee409f86f61.png)
+
 # Function
 
   TOTAL SETTING-> TOOL(WINDOWS FRAME),환경설정,DATABASE,NLS 
@@ -26,6 +26,7 @@ title:  "2024/05/28/ SQL- 03 -Select-Function - 환경설정(setting)"
 - UPPER(character_value): Function that converts the character value to uppercase and returns it
 - LOWER(character_value): Function that converts the character value to lowercase and returns it
   
+
 ``` SELECT ENAME,UPPER(ENAME),LOWER(ENAME) FROM EMP; ``` 
 
 - Search employee number, employee name, salary of the employee whose name is ALLEN from EMP table
@@ -36,7 +37,7 @@ title:  "2024/05/28/ SQL- 03 -Select-Function - 환경설정(setting)"
 ``` SELECT EMPNO,ENAME,SAL FROM EMP WHERE ENAME='allen'; ``` 
 
 - Use UPPER function or LOWER function to compare character values case-insensitively
- 
+
 ``` SELECT EMPNO,ENAME,SAL FROM EMP WHERE UPPER(ENAME)=UPPER('allen'); ``` 
 
 ``` SELECT EMPNO,ENAME,SAL FROM EMP WHERE LOWER(ENAME)=LOWER('allen'); ``` 
