@@ -1,12 +1,15 @@
 ---
 layout: single
-title:  "2024/05/28/ SQL- 03 -SQL Function"
+title:  "2024/05/28/ SQL- 03 -SQL-Select-Function - 환경설정(setting)"
+
 ---
+![bear-ezgif com-resize](https://github.com/debuggingg/Second/assets/167505419/066645e6-0a90-4430-a050-f4933bc2b3ca)
+
 # Function
 
-  TOTAL SETTING-> TOOL(WINDOWS FRAME),환경설정,DATABASE,NLS
-  
-  JUST SESSION CHANGE -> ALTER SESSION SET NLS_LANGUAGE='AMERICAN'; ``` 
+  TOTAL SETTING-> TOOL(WINDOWS FRAME),환경설정,DATABASE,NLS 
+
+  JUST SESSION CHANGE -> ALTER SESSION SET NLS_LANGUAGE='AMERICAN';
 
 ---
 ## CharacterFucntion
