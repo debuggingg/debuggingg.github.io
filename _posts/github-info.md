@@ -9,3 +9,45 @@ https://velog.io/@uzchu/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-image-%EC%82%BD%EC%9E
 ## change blog setting 
 - _config.yml
    change url =  url : "https://debuggingg.github.io"
+
+---
+# mark down 
+---
+(#)해더
+
+##해더
+
+###해더
+
+####해더
+
+(**)볼드채(* *)
+**볼드**
+
+(_ )기울임( _)
+_기울임_
+
+(~~)취소표시(~ ~)
+~~취소~~
+
+(==) 하이라이트 (==)
+
+==하이라이트==
+
+(-)리스트
+
+-리스트
+
+(---)구분선
+
+(>)안용
+>인용
+>
+>인용
+
+(-한칸뛰고[한칸뛰고]한칸뛰고)채크박스
+
+- [ ] 채크박스
+
+링크 [ 텍스트 ](URL 주소)
+
