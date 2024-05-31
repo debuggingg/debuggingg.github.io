@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-31-sql9-constraint.md",
+                "file": "_posts/2024-05-31-sql8-ddl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-31-sql9-constraint.md",
+                "file": "_posts/2024-05-31-sql8-ddl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-31-sql9-constraint.md"
+                "file": "_posts/2024-05-31-sql8-ddl.md"
               }
             }
           }
@@ -171,11 +171,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3d0b532f4aaacb60",
+  "active": "fc5a15f47f3803bc",
   "lastOpenFiles": [
+    "_posts/2024-05-31-sql9-constraint.md",
     "_posts/2024-05-31-sql7-transaction.md",
     "_posts/2024-05-31-sql8-ddl.md",
-    "_posts/2024-05-31-sql9-constraint.md",
     "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
     "_posts/2024-05-30-sql5-oracle-select.md",
     "_template/-.md",
