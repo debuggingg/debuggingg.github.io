@@ -75,14 +75,14 @@ now enjoy your SQL
 --- 
 
 #### reference 
-- youtube:
-https://www.youtube.com/watch?v=uxvoMhkKUPE&t=556s
+>- youtube:
+>https://www.youtube.com/watch?v=uxvoMhkKUPE&t=556s
   
 
 #### web
-- Oracle sql developer:
-https://www.oracle.com/database/sqldeveloper/technologies/download/
-- Oracle sql :
+>- Oracle sql developer:
+>https://www.oracle.com/database/sqldeveloper/technologies/download/
+>- Oracle sql :
 https://www.oracle.com/database/technologies/oracle-database-software-downloads.html
 - docker:
 https://www.docker.com/products/docker-desktop/
