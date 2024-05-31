@@ -22,15 +22,21 @@ title: 2024/05/31/ SQL- 07 - Transaction
 - 2. DML commands stored in the DBMS server's transaction are rolled back only when the ROLLBACK command is sent
 - Delete department information with department number 50 from the DEPT table
 
-``SELECT * FROM DEPT;
+```
+SELECT * FROM DEPT;
+```
 
 - When the DELETE command is sent to the DBMS server, the DELETE command is stored in the transaction without deleting the row from the table
 
-``DELETE FROM DEPT WHERE DEPTNO=50;
+```
+DELETE FROM DEPT WHERE DEPTNO=50;
+```
 
 - Executing the SELECT command will provide the query results with the DELETE command stored in the transaction applied to the table rows
 
-``SELECT * FROM DEPT;
+```
+SELECT * FROM DEPT;
+```
 
 - Use the ROLLBACK command to perform a rollback
 ```
@@ -43,9 +49,13 @@ SELECT * FROM DEPT;
 
 - Use the COMMIT command to perform a commit - the transaction is initialized after commit
 
+```
 COMMIT;- The DELETE command stored in the transaction is applied to the actual table
+```
 
-``SELECT * FROM DEPT;
+```
+SELECT * FROM DEPT;
+```
 
 - Use transactions to rollback in case of erroneous DML commands issued in the current session to recover data 
 - Data Integrity: Ensuring no abnormal values are stored in the table, providing correct query results
@@ -91,7 +101,9 @@ SELECT * FROM BONUS;
 - If another session attempts to manipulate the rows being processed by the current session, the execution in the other session is temporarily halted due to the data lock function by the transaction 
 
 - Only after committing or rolling back the commands stored in the transaction of the current session, the data lock function is deactivated, allowing execution of commands in other sessions
-``COMMIT;
+```
+COMMIT;
+```
 
 - SAVEPOINT: A command to label (store position information) in the transaction
 - Syntax: SAVEPOINT label_name

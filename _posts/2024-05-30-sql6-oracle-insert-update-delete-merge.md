@@ -121,9 +121,11 @@ COMMIT;
 - The number of columns and data types of the target columns in the subquery must match those of the table where rows will be inserted
 
 - Check the attributes and rows of the BONUS table
-DESC BONUS;```
-SELECT * FROM BONUS;```
 
+```
+DESC BONUS;
+SELECT * FROM BONUS;
+```
 - Insert the names, jobs, salaries, and commissions of employees who have a commission from the EMP table into the BONUS table
 
 ``` 
