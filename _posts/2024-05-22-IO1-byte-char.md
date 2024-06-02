@@ -16,12 +16,6 @@ The program utilizes the `java.io` package, which provides classes for input and
 - **Byte Stream**: A byte stream handles raw, unprocessed data, transferring values one byte at a time.
 - **EOF (End Of File)**: The EOF signal indicates the end of the data stream.
 
-### Classes
-
-- `InputStream`: An abstract class representing an input stream.
-- `OutputStream`: An abstract class representing an output stream.
-- `System.in`: A predefined input stream connected to the keyboard.
-- `System.out`: A predefined output stream connected to the console.
 
 ## Program Flow
 
