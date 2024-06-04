@@ -264,7 +264,7 @@ SELECT CONSTRAINT_NAME,CONSTRAINT_TYPE FROM USER_CONSTRAINTS WHERE TABLE_NAME='M
 - Insert rows into MGR3 table
 ```
 INSERT INTO MGR3 VALUES(1000,'Paul Lee',SYSDATE);
-INSERT INTO MGR3 VALUES(1000,'Im Geok-jeong',SYSDATE);
+INSERT INTO MGR3 VALUES(1000,'Sung Lee',SYSDATE);
 INSERT INTO MGR3 VALUES(2000,'Paul Lee',SYSDATE);
 INSERT INTO MGR3 VALUES(1000,'Paul Lee',SYSDATE);- Error due to violation of PRIMARY KEY constraint
 ```
@@ -387,10 +387,10 @@ DESC TRAINEE3;
 ```
 -  Insert and save rows into the TRAINEE3 table
 ```
-INSERT INTO TRAINEE3 VALUES(1000, 'Hong Gil-dong', 10);
-INSERT INTO TRAINEE3 VALUES(2000, 'Im Kkeok-jeong', 20);
-INSERT INTO TRAINEE3 VALUES(3000, 'Jeon Woo-chi', 30);
-INSERT INTO TRAINEE3 VALUES(4000, 'Iljimae', 40); -  Error due to violation of FOREIGN KEY constraint - Cannot insert as the parent table's column value cannot be referenced
+INSERT INTO TRAINEE3 VALUES(1000, 'Paul Lee', 10);
+INSERT INTO TRAINEE3 VALUES(2000, 'Tim Chae', 20);
+INSERT INTO TRAINEE3 VALUES(3000, 'Eddie Lee', 30);
+INSERT INTO TRAINEE3 VALUES(4000, 'Sung Lee', 40); -  Error due to violation of FOREIGN KEY constraint - Cannot insert as the parent table's column value cannot be referenced
 SELECT * FROM TRAINEE3;
 COMMIT;
 ```

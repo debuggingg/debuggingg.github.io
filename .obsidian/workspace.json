@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2545cda452851f5f",
+        "id": "66c840a8b967b9f3",
         "type": "tabs",
         "children": [
           {
-            "id": "889231504d4217f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-31-sql7-transaction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc5a15f47f3803bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-31-sql9-constraint.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d0b532f4aaacb60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-oraclesql-mac-install.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb7d6c2bda737a18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-03-sql10-create-subquery-drop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "040f291616b88479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-03-sql11-alter-view.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53982a620714aae7",
+            "id": "75a941daa34a50ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,9 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c0c768a162d5caa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7052510d646c2880",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-04-sql14-plsql.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 232.5
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -146,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-03-sql12-sequence.md",
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-03-sql12-sequence.md",
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-03-sql12-sequence.md"
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md"
               }
             }
           }
@@ -207,16 +171,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "53982a620714aae7",
+  "active": "c0c768a162d5caa0",
   "lastOpenFiles": [
-    "_posts/2024-06-03-sql11-alter-view.md",
     "_posts/2024-06-03-sql12-sequence.md",
-    "_posts/2024-oraclesql-mac-install.md",
+    "_posts/2024-06-03-sql11-alter-view.md",
+    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
+    "_posts/2024-06-04-sql14-plsql.md",
+    "_posts/image/image address.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
     "_posts/2024-05-31-sql9-constraint.md",
+    "_posts/2024-oraclesql-mac-install.md",
+    "_posts/2024-05-31-sql7-transaction.md",
     "_posts/github-info.md",
     "_posts/2024-05-31-sql8-ddl.md",
-    "_posts/2024-05-31-sql7-transaction.md",
     "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
     "_posts/2024-05-30-sql5-oracle-select.md",
     "_posts/2024-05-16-awt1.md",
@@ -233,9 +200,6 @@
     "_posts/2024-05-16-awt2.md",
     "_template/-.md",
     "_posts/2024-05-24-Network2-UDP.md",
-    "test/_posts/무제 파일.md",
-    "docs/_docs/10-layouts.md",
-    "_posts/2024-05-22-IO4-file-reader-writer.md",
     "images/2024-05-28-sql3-oracle-select/Screenshot 2024-05-29 at 11.37.50 PM.png",
     "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize.gif",
     "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063142974-2.gif",

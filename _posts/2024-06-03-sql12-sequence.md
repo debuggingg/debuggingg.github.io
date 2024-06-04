@@ -1,83 +1,118 @@
 ---
 layout: single
-title: 2024/06/03/ SQL- Sequence
+title: 2024/06/03/ SQL - 12 - Sequence
 ---
 ---
 # Sequence
 ---
--- Sequence: an object for storing numeric values - can use automatically incremented numeric values
+-  Sequence: an object for storing numeric values - can use automatically incremented numeric values
 
--- Creating a sequence
--- Format) CREATE SEQUENCE sequence_name [START WITH initial_value] [INCREMENT BY increment_value]  [MAXVALUE max_value] [MINVALUE min_value] [CYCLE] [CACHE count]
--- START WITH initial_value: sets the initial value stored in the sequence - omitted: NULL
--- INCREMENT BY increment_value: sets the automatically incremented numeric value by the sequence - omitted: 1
--- MAXVALUE max_value: the maximum value that can be stored in the sequence - omitted: the maximum value representable by Oracle
--- MINVALUE min_value: the minimum value that can be stored in the sequence - omitted: 1
--- CYCLE: an option to set the sequence to store values starting from the minimum value again if it exceeds the maximum value
--- CACHE count: sets the number of automatically incremented values that can be pre-generated and stored in temporary memory - omitted: 20
+-  Creating a sequence
+-  Format) CREATE SEQUENCE sequence_name [START WITH initial_value] [INCREMENT BY increment_value]  [MAXVALUE max_value] [MINVALUE min_value] [CYCLE] [CACHE count]
+-  START WITH initial_value: sets the initial value stored in the sequence - omitted: NULL
+-  INCREMENT BY increment_value: sets the automatically incremented numeric value by the sequence - omitted: 1
+-  MAXVALUE max_value: the maximum value that can be stored in the sequence - omitted: the maximum value representable by Oracle
+-  MINVALUE min_value: the minimum value that can be stored in the sequence - omitted: 1
+-  CYCLE: an option to set the sequence to store values starting from the minimum value again if it exceeds the maximum value
+-  CACHE count: sets the number of automatically incremented values that can be pre-generated and stored in temporary memory - omitted: 20
 
--- Creating the BOARD1 table - attributes: post number (numeric - PRIMARY KEY), writer (string), content (string)
+-  Creating the BOARD1 table - attributes: post number (numeric - PRIMARY KEY), writer (string), content (string)
 ```
 CREATE TABLE BOARD1(NO NUMBER CONSTRAINT BOARD1_NO_PK PRIMARY KEY, WRITER VARCHAR2(50), CONTENT VARCHAR2(1000));
 ```
--- Inserting and storing rows in the BOARD1 table
+-  Inserting and storing rows in the BOARD1 table
 ```
-INSERT INTO BOARD1 VALUES(1, 'Hong Gil-dong', 'This is the first post.');
+INSERT INTO BOARD1 VALUES(1, 'Paul Lee', 'This is the first post.');
 SELECT * FROM BOARD1;
 COMMIT;
 ```
--- Creating the BOARD1_SEQ sequence - created to provide automatically incremented values for the NO column in the BOARD1 table
+-  Creating the BOARD1_SEQ sequence - created to provide automatically incremented values for the NO column in the BOARD1 table
 ```
 CREATE SEQUENCE BOARD1_SEQ;
 ```
--- USER_SEQUENCES: a dictionary to provide information related to sequences
+-  USER_SEQUENCES: a dictionary to provide information related to sequences
 ```
 SELECT SEQUENCE_NAME, MAX_VALUE, MIN_VALUE, INCREMENT_BY FROM USER_SEQUENCES;
 ```
 
--- Checking the numeric value stored in the sequence - use the SELECT command
--- Format) SELECT sequence_name.CURRVAL FROM DUAL;
+-  Checking the numeric value stored in the sequence - use the SELECT command
+-  Format) SELECT sequence_name.CURRVAL FROM DUAL;
 
--- Checking the numeric value stored in the BOARD1_SEQ sequence
+-  Checking the numeric value stored in the BOARD1_SEQ sequence
 ```
-SELECT BOARD1_SEQ.CURRVAL FROM DUAL; -- Error occurs: error occurs because there are no numeric values stored in the sequence - NULL
+SELECT BOARD1_SEQ.CURRVAL FROM DUAL; -  Error occurs: error occurs because there are no numeric values stored in the sequence - NULL
 ```
 
--- Providing the next value using the numeric value stored in the sequence - the next value is automatically stored in the sequence
--- Format) sequence_name.NEXTVAL
--- If there are no numeric values stored in the sequence, the minimum value is automatically provided and the minimum value is stored in the sequence
+-  Providing the next value using the numeric value stored in the sequence - the next value is automatically stored in the sequence
+-  Format) sequence_name.NEXTVAL
+-  If there are no numeric values stored in the sequence, the minimum value is automatically provided and the minimum value is stored in the sequence
 ```
 SELECT BOARD1_SEQ.NEXTVAL FROM DUAL;
 ```
 
--- Inserting and storing rows in the BOARD1 table - used to insert rows by providing automatically incremented values from the sequence
+-  Inserting and storing rows in the BOARD1 table - used to insert rows by providing automatically incremented values from the sequence
 ```
-INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Im Gkeok-jeong', 'This is the second post.');
-INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Jeon Woo-chi', 'This is the third post.');
+INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Sung Lee', 'This is the second post.');
+INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Tim Chae', 'This is the third post.');
 SELECT * FROM BOARD1;
 COMMIT;
 SELECT BOARD1_SEQ.NEXTVAL FROM DUAL;
 ```
+
+-  Sequence value editting. 
+
 ```
 SELECT SEQUENCE_NAME, MAX_VALUE, MIN_VALUE, INCREMENT_BY FROM USER_SEQUENCES;
 ALTER SEQUENCE BOARD1_SEQ MAXVALUE 9999 INCREMENT BY 3;
 ALTER SEQUENCE BOARD1_SEQ MAXVALUE 9999 INCREMENT BY 1;
-INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Il Ji-mae', 'This is the fourth post.');
-INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Jang Bo-go', 'This is the fifth post.');
+INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Eddie Lee', 'This is the fourth post.');
+INSERT INTO BOARD1 VALUES(BOARD1_SEQ.NEXTVAL, 'Steven Bae', 'This is the fifth post.');
 SELECT * FROM BOARD1;
 ```
 
+-  Sequence delete 
+-  Format) DROP SEQUENCE name of sequence. 
 ```
 DROP SEQUENCE BOARD1_SEQ;
 ```
+
+
+-  Over oracle 12c : provided GENERATED function. 
+-  GENERATED: When you create table, auto add sequence number if you want. 
+	-  Format) CREATE TABLE table_name (column_name data_type GENERATED {ALWAYS|BY DEFAULT|BY DEFAULT SET NULL}   AS IDENTITY [(options)], column_name data_type, ...)
+-  Only numeric data types can have the auto-increment option, and it is recommended to set a PRIMARY KEY constraint on the column
+-  GENERATED ALWAYS AS IDENTITY: Always provides an auto-increment value for the column, and the user cannot manually set the column value
+-  GENERATED BY DEFAULT AS IDENTITY: Provides an auto-increment value for the column, but the user can manually set the column value - NULL not allowed
+-  GENERATED BY DEFAULT SET NULL AS IDENTITY: Provides an auto-increment value for the column, but the user can manually set the column value - NULL allowed
+-  When implementing the auto-increment feature for a column, a sequence is automatically created - the sequence's minimum value, maximum value, increment value, etc., can be changed
+
+-  Creating the BOARD1 table - attributes: post number (numeric - PRIMARY KEY: auto-increment feature), writer (string), content (string)
 ```
 CREATE TABLE BOARD2 (NO NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT BOARD2_NO_PK PRIMARY KEY, WRITER VARCHAR2(50), CONTENT VARCHAR2(1000));
-INSERT INTO BOARD2 VALUES(1, 'Hong Gil-dong', 'This is the first post.');
+```
+-  Attempting to insert a row with a specified value for the auto-increment column will result in an error
+```
+INSERT INTO BOARD2 VALUES(1, 'Hong Gil-dong', 'This is the first post.'); -  Error: Cannot insert a specific value into an auto-increment column
+```
+
+-  Correctly inserting rows by providing values for columns other than the auto-increment column
+```
 INSERT INTO BOARD2(WRITER, CONTENT) VALUES('Hong Gil-dong', 'This is the first post.');
 INSERT INTO BOARD2(WRITER, CONTENT) VALUES('Im Gkeok-jeong', 'This is the second post.');
 INSERT INTO BOARD2(WRITER, CONTENT) VALUES('Jeon Woo-chi', 'This is the third post.');
-SELECT * FROM BOARD2;
-COMMIT;
+```
 
+-  Selecting all rows from the BOARD2 table to verify the inserted data
+```
+SELECT * FROM BOARD2;
+```
+
+-  Committing the transaction to save the changes
+```
+COMMIT;
+```
+
+-  Querying the USER_SEQUENCES dictionary to get information about sequences
+```
 SELECT SEQUENCE_NAME, MAX_VALUE, MIN_VALUE, INCREMENT_BY FROM USER_SEQUENCES;
 ```
