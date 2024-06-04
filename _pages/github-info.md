@@ -1,6 +1,7 @@
 ---
 layout: single
-title:  "github info"
+title: github info
+permalink: /info/
 ---
 ## How to insert pic on my blog 
 info:
