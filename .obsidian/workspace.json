@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/github-info.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4f1b2ca5cba9df7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-oraclesql-mac-install.md",
+                "file": "_posts/2024-06-04-sql14-plsql.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-oraclesql-mac-install.md",
+                "file": "_posts/2024-06-04-sql14-plsql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-oraclesql-mac-install.md",
+                "file": "_posts/2024-06-04-sql14-plsql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-oraclesql-mac-install.md"
+                "file": "_posts/2024-06-04-sql14-plsql.md"
               }
             }
           }
@@ -183,18 +171,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f4f1b2ca5cba9df7",
+  "active": "c1c4d2bfcf68540a",
   "lastOpenFiles": [
-    "_posts/2024-06-04-sql14-plsql.md",
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
+    "_posts/github-info.md",
+    "_posts/2024-06-04-sql14-plsql.md",
+    "_posts/2024-oraclesql-mac-install.md",
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-03-sql11-alter-view.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
     "_posts/2024-05-31-sql9-constraint.md",
     "_posts/2024-05-14-set-lotto.md",
     "_posts/oraclesql-mac-install.md",
-    "_posts/2024-oraclesql-mac-install.md",
-    "_posts/github-info.md",
     "_posts/screenshot-layouts.png",
     "_posts/2024-05-16-awt1.md",
     "_posts/2024-05-16-awt2.md",
