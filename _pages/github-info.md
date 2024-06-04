@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "2024 github info"
+title:  "github info"
 ---
 ## How to insert pic on my blog 
 info:
