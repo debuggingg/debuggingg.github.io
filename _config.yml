@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Beomseok Lee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bear-ezgif.com-resize.gif"
   bio              : "G O M"
   location         : "Seoul in Korea"
   email            : "beom.kb@gmail.com"
