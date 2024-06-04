@@ -68,9 +68,9 @@ CONNECT scott/tiger;
    - copy and past all cott_create.sql to new sheet. and run everything until right above
      SET TERMOUT ON
 ---
-now enjoy your SQL 
+# now enjoy your SQL 
 
-![[bear-ezgif.com-resize.gif]]
+![](obsidian://open?vault=debuggingg.github.io&file=assets%2Fimages%2Fbear-ezgif.com-resize.gif)
 
 --- 
 

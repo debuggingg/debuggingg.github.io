@@ -1,0 +1,1 @@
+![](obsidian://open?vault=debuggingg.github.io&file=assets%2Fimages%2Fbear-ezgif.com-resize.gif)

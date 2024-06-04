@@ -2,6 +2,7 @@
 layout: single
 title: 2024/06/04/ SQL - 13- Index - Synonym-User-DCL
 ---
+![](obsidian://open?vault=debuggingg.github.io&file=assets%2Fimages%2Fbear-ezgif.com-resize.gif)
 ---
 # Index
 ---

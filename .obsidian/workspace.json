@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d5af5ea6679968c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-16-awt1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f7c93e1e3c2ed1d1",
             "type": "leaf",
             "state": {
@@ -32,19 +20,41 @@
             }
           },
           {
-            "id": "c1c4d2bfcf68540a",
+            "id": "4d5af5ea6679968c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-04-sql14-plsql.md",
+                "file": "_posts/2024-05-16-awt1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1c4d2bfcf68540a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/images/bear-ezgif.com-resize.gif"
+              }
+            }
+          },
+          {
+            "id": "b6d350b43ceae2e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-04-sql14-plsql.md",
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-04-sql14-plsql.md",
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-04-sql14-plsql.md"
+                "file": "_posts/2024-06-04-sql13-index-synonym-user-dcl.md"
               }
             }
           }
@@ -171,19 +181,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c1c4d2bfcf68540a",
+  "active": "b6d350b43ceae2e3",
   "lastOpenFiles": [
-    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
-    "_posts/github-info.md",
     "_posts/2024-06-04-sql14-plsql.md",
     "_posts/2024-oraclesql-mac-install.md",
+    "_posts/github-info.md",
+    "_posts/screenshot-layouts.png",
+    "assets/images/Pic file.md",
+    "assets/images/bear-ezgif.com-resize.gif",
+    "assets/images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063142974-2.gif",
+    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-03-sql11-alter-view.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
     "_posts/2024-05-31-sql9-constraint.md",
     "_posts/2024-05-14-set-lotto.md",
     "_posts/oraclesql-mac-install.md",
-    "_posts/screenshot-layouts.png",
     "_posts/2024-05-16-awt1.md",
     "_posts/2024-05-16-awt2.md",
     "_posts/2024-05-16-regular-expression.md",
@@ -198,11 +211,7 @@
     "_posts/2024-05-24-Network2-UDP.md",
     "_posts/2024-05-23-network1.md",
     "_posts/2024-05-21-swing-penguingameapp.md",
-    "_posts/2024-05-21-swing-digitalclock.md",
-    "_posts/2024-05-21-swing-penguinmoveapp.md",
-    "images/2024-05-28-sql3-oracle-select/Screenshot 2024-05-29 at 11.37.50 PM.png",
-    "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize.gif",
-    "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063142974-2.gif",
+    "assets/images/2024-05-28-sql3-oracle-select/Screenshot 2024-05-29 at 11.37.50 PM.png",
     "_template"
   ]
 }
