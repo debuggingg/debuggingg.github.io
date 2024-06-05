@@ -2,8 +2,6 @@
 main:
   - title: "LearninGithublog"
     url: https://debuggingg.github.io/info/
-  - title: "SQL"
-    url: /categories/sql/
   - title: "Categories"
     url: /categories/
   # - title: "Sample Posts"
