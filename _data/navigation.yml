@@ -2,8 +2,8 @@
 main:
   - title: "LearninGithublog"
     url: https://debuggingg.github.io/info/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+   - title: "Categories"
+    url: /categories/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
