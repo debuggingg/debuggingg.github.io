@@ -1,7 +1,7 @@
 ---
-layout: single
-title:  "2024/05/28/ SQL- 03 -Select-Function - 환경설정(setting)"
-
+layout: categories
+title: 2024/05/28/ SQL- 03 -Select-Function - 환경설정(setting)
+permalink: /categories/
 ---
 ![[bear-ezgif.com-resize.gif]]
 
