@@ -2,7 +2,7 @@
 main:
   - title: "LearninGithublog"
     url: https://debuggingg.github.io/info/
-   - title: "Categories"
+  - title: "Categories"
     url: /categories/
   # - title: "Sample Posts"
   #   url: /year-archive/
