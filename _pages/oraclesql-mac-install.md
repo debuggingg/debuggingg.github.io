@@ -1,6 +1,7 @@
 ---
 layout: single
 title: " Oracle SQL-Install with Docker M1 MACBOOK"
+permalink: /info/
 ---
 # Install Oracle SQL 
 - SID: ORCLCDB  <- oracle enterprice version provided SID :

@@ -2,7 +2,7 @@
 layout: single
 title: 2024/06/04/ SQL - 13- Index - Synonym-User-DCL
 ---
-![back](https://github.com/debuggingg/Second/assets/167505419/880efbd8-9d5d-404f-8cb5-bca10c355ca9)
+
 ---
 # Index
 ---
@@ -61,6 +61,10 @@ SELECT CONSTRAINT_NAME,CONSTRAINT_TYPE FROM USER_CONSTRAINTS WHERE TABLE_NAME='H
 SELECT C.INDEX_NAME,COLUMN_NAME,UNIQUENESS FROM USER_INDEXES I JOIN USER_IND_COLUMNS C ON I.INDEX_NAME=C.INDEX_NAME WHERE C.TABLE_NAME='HEWON';
 ```
 
+---
+## Synonym 
+---
+
 - Synonym (SYNONYM): An object that provides an alias for using Oracle objects 
 - Private Synonym: A synonym that can be used only by a specific user - managed by a regular user 
 - Public Synonym: A synonym that can be used by all users - managed by an administrator
@@ -112,7 +116,12 @@ DROP SYNONYM BONUS;
 SELECT TABLE_NAME,SYNONYM_NAME,TABLE_OWNER FROM USER_SYNONYMS; 
 SELECT * FROM BONUS;- Error: Table or view does not exist, so search is not possible
 ```
-- User (USER): A person authorized to use the DBMS - Account (ACCOUNT): A user that can be granted privileges 
+
+---
+## User
+---
+     
+- User (USER): A person authorized to use the DBMS - Account (ACCOUNT): A user that can be granted privileges - ex) login ,logout 
 - Account management (creation, modification, deletion, search) can only be performed by the system administrator (SYSDBA - SYS account)
 
 - Create Account - The password for the account must be set 

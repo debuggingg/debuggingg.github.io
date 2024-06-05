@@ -4,57 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "2545cda452851f5f",
+        "id": "66c840a8b967b9f3",
         "type": "tabs",
         "children": [
           {
-            "id": "f7c93e1e3c2ed1d1",
+            "id": "75a941daa34a50ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-17-awt3-eventhandle.md",
+                "file": "_posts/2024-06-03-sql12-sequence.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4d5af5ea6679968c",
+            "id": "c0c768a162d5caa0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-16-awt1.md",
+                "file": "_posts/2024-06-04-sql14-plsql.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c1c4d2bfcf68540a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/images/bear-ezgif.com-resize.gif"
-              }
-            }
-          },
-          {
-            "id": "b6d350b43ceae2e3",
+            "id": "7052510d646c2880",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/github-info.md",
+                "file": "_posts/2024-06-04-sql14-plsql.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 232.5
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -120,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/github-info.md",
+                "file": "_posts/2024-06-04-sql14-plsql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/github-info.md",
+                "file": "_posts/2024-06-04-sql14-plsql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/github-info.md"
+                "file": "_posts/2024-06-04-sql14-plsql.md"
               }
             }
           }
@@ -181,40 +171,42 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b6d350b43ceae2e3",
+  "active": "c0c768a162d5caa0",
   "lastOpenFiles": [
-    "assets/images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063153696-4.gif",
-    "assets/images/2024-05-28-sql3-oracle-select/Screenshot 2024-05-29 at 11.37.50 PM.png",
-    "assets/images/back.jpg",
-    "assets/images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063142974-2.gif",
-    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
+    "_pages/oraclesql-mac-install.md",
     "_pages/github-info.md",
-    "_pages",
     "_posts/2024-06-04-sql14-plsql.md",
-    "_posts/2024-oraclesql-mac-install.md",
-    "_posts/github-info.md",
-    "_posts/screenshot-layouts.png",
+    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
     "assets/images/Pic file.md",
     "assets/images/bear-ezgif.com-resize.gif",
+    "assets/images/back.jpg",
+    "assets/images",
+    "_pages",
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-03-sql11-alter-view.md",
+    "_posts/image/image address.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
     "_posts/2024-05-31-sql9-constraint.md",
-    "_posts/2024-05-14-set-lotto.md",
-    "_posts/oraclesql-mac-install.md",
+    "_posts/2024-05-31-sql7-transaction.md",
+    "_posts/github-info.md",
+    "_posts/2024-05-31-sql8-ddl.md",
+    "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
+    "_posts/2024-05-30-sql5-oracle-select.md",
     "_posts/2024-05-16-awt1.md",
-    "_posts/2024-05-16-awt2.md",
-    "_posts/2024-05-16-regular-expression.md",
-    "_posts/2024-05-17-awt5-windowadapter.md",
-    "_posts/2024-05-20-swing1.md",
-    "_posts/2024-05-17-awt4-eventsource.md",
-    "_posts/image/image address.md",
-    "_posts/2024-05-17-awt3-eventhandle.md",
+    "_posts/2024-05-14-set-lotto.md",
+    "_posts/screenshot-layouts.png",
+    "_posts/2024-05-21-swing-penguinmoveapp.md",
+    "_posts/2024-05-21-swing-penguingameapp.md",
+    "_posts/2024-05-21-swing-digitalclock.md",
     "_posts/2024-05-20-swing2-paintapp.md",
-    "_posts/2024-05-22-IO1-byte-char.md",
-    "_posts/2024-05-22-IO-notepad.md",
-    "_posts/2024-05-24-Network2-UDP.md",
-    "_posts/2024-05-23-network1.md",
+    "_posts/2024-05-17-awt5-windowadapter.md",
+    "_posts/2024-05-17-awt4-eventsource.md",
+    "_posts/2024-05-17-awt3-eventhandle.md",
+    "_posts/2024-05-16-regular-expression.md",
+    "_posts/2024-05-16-awt2.md",
+    "images/2024-05-28-sql3-oracle-select/Screenshot 2024-05-29 at 11.37.50 PM.png",
+    "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize.gif",
+    "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063142974-2.gif",
     "_template"
   ]
 }
