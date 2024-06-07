@@ -4,8 +4,8 @@ main:
     url: https://debuggingg.github.io/info/
   - title: "Categories"
     url: /categories/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "sql"
+    url: /categories/sql/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
