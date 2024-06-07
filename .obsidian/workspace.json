@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e55c01fb4d1304b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_pages/sql.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09f7cce628dd8d71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-27-sql1-oracle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-04-sql14-plsql.md",
+                "file": "_pages/sql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-04-sql14-plsql.md",
+                "file": "_pages/sql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-04-sql14-plsql.md"
+                "file": "_pages/sql.md"
               }
             }
           }
@@ -171,22 +195,31 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c0c768a162d5caa0",
+  "active": "6e55c01fb4d1304b",
   "lastOpenFiles": [
-    "_posts/2024-05-27-sql2-oracle.md",
-    "_posts/2024-05-28-sql3-oracle-select.md",
     "_posts/2024-05-29-sql4-oracle.md",
+    "_posts/2024-05-28-sql3-oracle-select.md",
+    "_posts/2024-05-27-sql2-oracle.md",
     "_posts/2024-05-27-sql1-oracle.md",
-    "_pages/oraclesql-mac-install.md",
-    "_pages/github-info.md",
-    "_posts/2024-06-04-sql14-plsql.md",
+    "_pages/sql.md",
+    "_posts/2024-06-07-jdbc2.md",
+    "_posts/2024-06-07-jdbc1.md",
+    "_posts/2024-05-22-IO6-data-inout.md",
+    "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
+    "_posts/2024-06-04-sql14-plsql.md",
+    "_pages/oraclesql-mac-install.md",
+    "_posts/2024-05-22-IO3-File-In-outputStream.md",
+    "_posts/2024-05-22-IO2-File.md",
+    "_pages/github-info.md",
+    "_posts/2024-05-30-sql5-oracle-select.md",
+    "_posts/screenshot-layouts.png",
+    "screenshot.png",
     "assets/images/Pic file.md",
     "assets/images/bear-ezgif.com-resize.gif",
     "assets/images/back.jpg",
     "assets/images",
     "_pages",
-    "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-03-sql11-alter-view.md",
     "_posts/image/image address.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
@@ -195,15 +228,7 @@
     "_posts/github-info.md",
     "_posts/2024-05-31-sql8-ddl.md",
     "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
-    "_posts/2024-05-30-sql5-oracle-select.md",
     "_posts/2024-05-16-awt1.md",
-    "_posts/2024-05-14-set-lotto.md",
-    "_posts/screenshot-layouts.png",
-    "_posts/2024-05-21-swing-penguinmoveapp.md",
-    "_posts/2024-05-21-swing-penguingameapp.md",
-    "_posts/2024-05-21-swing-digitalclock.md",
-    "_posts/2024-05-20-swing2-paintapp.md",
-    "_posts/2024-05-17-awt5-windowadapter.md",
     "images/2024-05-28-sql3-oracle-select/Screenshot 2024-05-29 at 11.37.50 PM.png",
     "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize.gif",
     "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063142974-2.gif",
