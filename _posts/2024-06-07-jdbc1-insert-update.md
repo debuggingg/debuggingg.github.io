@@ -5,7 +5,7 @@ title: 2024/06/07/ JDBC-01- StaticBlock-Insert-update
 ---
 # JDBC - StaticBlock
 ---
-
+project - oracle1
 ## Class object
 
 - **Class.forName(String className)**: This method takes the fully qualified name of a class as a string and loads it into memory using the ClassLoader. It returns a `Class` object containing information about the specified class. If the class is not found, a `ClassNotFoundException` is thrown, so proper exception handling is necessary.

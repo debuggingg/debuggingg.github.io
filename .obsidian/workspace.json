@@ -49,26 +49,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/sql.md",
+                "file": "_posts/2024-06-07-jdbc2-select.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "09f7cce628dd8d71",
+            "id": "7f2e19dfd6306ee6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-27-sql1-oracle.md",
+                "file": "_posts/2024-06-10-jdbc3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d503b1bf5653806e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-06-10-jdbc4-ex-app.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/sql.md",
+                "file": "2024-06-10-jdbc4-ex-app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/sql.md",
+                "file": "2024-06-10-jdbc4-ex-app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/sql.md"
+                "file": "2024-06-10-jdbc4-ex-app.md"
               }
             }
           }
@@ -195,23 +207,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6e55c01fb4d1304b",
+  "active": "d503b1bf5653806e",
   "lastOpenFiles": [
-    "_posts/2024-06-07-jdbc1-insert-update.md",
+    "_posts/2024-06-10-jdbc3.md",
+    "2024-06-10-jdbc4-ex-app.md",
     "_posts/2024-06-07-jdbc2-select.md",
+    "_posts/2024-05-27-sql1-oracle.md",
+    "_posts/2024-06-07-jdbc1-insert-update.md",
     "_pages/sql.md",
+    "_pages/oraclesql-mac-install.md",
+    "_pages/github-info.md",
+    "_posts/2024-06-04-sql14-plsql.md",
     "_posts/2024-05-29-sql4-oracle.md",
     "_posts/2024-05-28-sql3-oracle-select.md",
     "_posts/2024-05-27-sql2-oracle.md",
-    "_posts/2024-05-27-sql1-oracle.md",
     "_posts/2024-05-22-IO6-data-inout.md",
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
-    "_posts/2024-06-04-sql14-plsql.md",
-    "_pages/oraclesql-mac-install.md",
     "_posts/2024-05-22-IO3-File-In-outputStream.md",
     "_posts/2024-05-22-IO2-File.md",
-    "_pages/github-info.md",
     "_posts/2024-05-30-sql5-oracle-select.md",
     "_posts/screenshot-layouts.png",
     "screenshot.png",
@@ -227,8 +241,6 @@
     "_posts/2024-05-31-sql7-transaction.md",
     "_posts/github-info.md",
     "_posts/2024-05-31-sql8-ddl.md",
-    "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
-    "_posts/2024-05-16-awt1.md",
     "images/2024-05-28-sql3-oracle-select/Screenshot 2024-05-29 at 11.37.50 PM.png",
     "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize.gif",
     "images/2024-05-28-sql3-oracle-select/bear-ezgif.com-resize-1717063142974-2.gif",
