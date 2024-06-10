@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-06-10-jdbc4-ex-app.md",
+                "file": "_posts/2024-06-10-jdbc3.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-06-10-jdbc4-ex-app.md",
+                "file": "_posts/2024-06-10-jdbc3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-06-10-jdbc4-ex-app.md",
+                "file": "_posts/2024-06-10-jdbc3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-06-10-jdbc4-ex-app.md"
+                "file": "_posts/2024-06-10-jdbc3.md"
               }
             }
           }
@@ -209,8 +209,8 @@
   },
   "active": "d503b1bf5653806e",
   "lastOpenFiles": [
+    "_posts/2024-06-10-jdbc4-ex-app.md",
     "_posts/2024-06-10-jdbc3.md",
-    "2024-06-10-jdbc4-ex-app.md",
     "_posts/2024-06-07-jdbc2-select.md",
     "_posts/2024-05-27-sql1-oracle.md",
     "_posts/2024-06-07-jdbc1-insert-update.md",
