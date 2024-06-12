@@ -26,7 +26,7 @@ The provided JDBC program demonstrates how to handle database transactions manua
 - If an exception occurs, the transaction is rolled back using `con.rollback()` in the catch block.
 ## Full Code
 public class TransactionControlApp {
- ```
+ ```java
    public static void main(String[] args) {
         Connection con = null;
         Statement stmt = null;
@@ -94,7 +94,7 @@ public class TransactionControlApp {
     - `close(Connection con, Statement stmt)`: Closes the provided `Statement` and `Connection` objects.
     - `close(Connection con, Statement stmt, ResultSet rs)`: Closes the provided `ResultSet`, `Statement`, and `Connection` objects.
 ## Full Code
-```
+```java
 public class ConnectionFactory {
     // Static method to create and return a Connection object
     public static Connection getConnection() {

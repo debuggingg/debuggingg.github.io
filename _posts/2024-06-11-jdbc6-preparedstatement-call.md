@@ -47,7 +47,7 @@ public class PreparedStatementApp {
         System.out.println("==============================================================");
         
         // Insert the student information into the STUDENT table
-        Connection con = ConnectionFactory.getConnection();
+        Connection con = ConnectionFactory.getConnection();// ConnectionFactory class - is already created for connecting java to sql (userMade)
         String sql1 = "insert into student values(?,?,?,?,?)"; // Incomplete SQL command
         PreparedStatement pstmt = con.prepareStatement(sql1); // SQL command with placeholders
         
