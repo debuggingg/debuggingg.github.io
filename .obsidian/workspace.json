@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "66c840a8b967b9f3",
+        "id": "230c2415ba24426f",
         "type": "tabs",
         "children": [
           {
-            "id": "7c70e68e32aeaa93",
+            "id": "4bb45a28c382d2c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,55 +20,19 @@
             }
           },
           {
-            "id": "d5c74da3c8c63a79",
+            "id": "0a8c2b38c34f2416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30d6c150140d7447",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-12-dbcp1-properties.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc611bf25378dcd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-30-sql5-oracle-select.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7fe6203e142f12e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md",
+                "file": "2024-06-17-.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md",
+                "file": "2024-06-17-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md",
+                "file": "2024-06-17-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md"
+                "file": "2024-06-17-.md"
               }
             }
           }
@@ -195,10 +159,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a7fe6203e142f12e",
+  "active": "0a8c2b38c34f2416",
   "lastOpenFiles": [
+    "_pages/github-info.md",
+    "_pages/sql.md",
+    "_posts/2024-05-14-set-lotto.md",
+    "2024-06-17-.md",
+    "_posts/2024-05-23-network1.md",
+    "_template/-.md",
     "_posts/2024-06-12-dto-dao1.md",
     "_posts/2024-06-12-dbcp1-properties.md",
+    "무제 폴더",
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-05-31-sql9-constraint.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
@@ -209,7 +180,6 @@
     "_posts/2024-06-10-jdbc4-ex-app.md",
     "_posts/2024-06-11-jdbc6-preparedstatement-call.md",
     "_posts/2024-05-16-regular-expression.md",
-    "_posts/2024-05-14-set-lotto.md",
     "_posts/무제 파일.md",
     "_posts/2024-05-30-sql5-oracle-select.md",
     "_posts/2024-05-17-awt5-windowadapter.md",
@@ -218,11 +188,6 @@
     "_posts/2024-06-10-jdbc-sqlminusapp.md",
     "_posts/2024-06-07-jdbc2-select.md",
     "_posts/2024-06-04-sql14-plsql.md",
-    "_posts/2024-05-22-IO-Console.md",
-    "_posts/2024-05-17-awt4-eventsource.md",
-    "_posts/2024-06-07-jdbc1-insert-update.md",
-    "_posts/2024-05-29-sql4-oracle.md",
-    "_posts/2024-05-31-sql7-transaction.md",
     "_posts/screenshot-layouts.png",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",
