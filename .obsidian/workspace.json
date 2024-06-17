@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,14 +195,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dc24fe79a90e9e20",
+  "active": "a7fe6203e142f12e",
   "lastOpenFiles": [
+    "_posts/2024-06-12-dto-dao1.md",
     "_posts/2024-06-12-dbcp1-properties.md",
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-05-31-sql9-constraint.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
     "_posts/2024-05-31-sql8-ddl.md",
-    "_posts/2024-06-12-dto-dao1.md",
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
     "_posts/2024-06-10-jdbc3-transation-connection.md",
     "_posts/2024-06-11-jdbc5-statement.md",
