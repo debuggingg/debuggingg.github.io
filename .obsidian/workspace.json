@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-17-html01.md",
+                "file": "2024-06-17-.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-17-html01.md",
+                "file": "2024-06-17-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-17-html01.md",
+                "file": "2024-06-17-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-17-html01.md"
+                "file": "2024-06-17-.md"
               }
             }
           }
@@ -173,9 +173,9 @@
   },
   "active": "4977d88ff87acd53",
   "lastOpenFiles": [
+    "_posts/2024-06-17-html01.md",
     "_posts/2024-06-12-dto-dao1.md",
     "_posts/2024-06-12-dbcp1-properties.md",
-    "_posts/2024-06-17-html01.md",
     "2024-06-17-.md",
     "CHANGELOG.md",
     "_pages/github-info.md",
