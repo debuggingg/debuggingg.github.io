@@ -187,7 +187,8 @@ Look Like
 		<button type="reset">reset</button>
 	</form>
 </body>
-like this 
+</html>
+
 
 ---
 ## Label Tag
