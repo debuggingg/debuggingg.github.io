@@ -73,26 +73,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
+                "file": "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "74d02762f46240a2",
+            "id": "7aeb473f6718699c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
+                "file": "_posts/2024-06-19-css1-cascade-format-derive.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
+                "file": "_posts/2024-06-19-css1-cascade-format-derive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
+                "file": "_posts/2024-06-19-css1-cascade-format-derive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md"
+                "file": "_posts/2024-06-19-css1-cascade-format-derive.md"
               }
             }
           }
@@ -219,12 +219,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "96597fd69d2e4e1f",
+  "active": "7aeb473f6718699c",
   "lastOpenFiles": [
+    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
+    "_posts/2024-06-19-css1-cascade-format-derive.md",
     "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "_posts/2024-06-19-html4-form-label-texaarea-select.md",
     "2024-06-17-.md",
-    "무제 파일.md",
     "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
     "_posts/2024-06-17-html01.md",
     "_pages/github-info.md",
