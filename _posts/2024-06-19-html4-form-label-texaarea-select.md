@@ -27,7 +27,7 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 - **input, select, textarea Tags:**
     
     -  Input tags: Tags to receive values from the user - input tag, select tag, textarea tag, etc. 
-- **_submit Tags:**
+- **submit Tags:**
     
     -  Submit tags: Tags that trigger the submit event - input tag, button tag, img tag, etc. 
 	    -  When the submit event occurs, the form tag executes, requesting the web program at the URL address set in the action attribute and delivering the values entered in the input tags to the requested web program 
@@ -63,11 +63,12 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 -  URL addresses can only include alphanumeric characters and some special characters 
 -  If characters other than alphanumeric characters, numbers, and some special characters are used in the query string, values cannot be passed normally 
 -  To use characters other than alphanumeric characters, numbers, and some special characters, encode them before passing them; encoding can be done using Java or JavaScript 
+
 ```html
- 
  <p><a href="/web/html/13_form.html?name=홍길동&phone=010-1234-5678">[Move to login page]</a> 
-  `<p><a href="/web/html/13_form.html?name=HongGilDong&phone=010-1234-5678">[Move to login page]</a>`
+ <p><a href="/web/html/13_form.html?name=HongGilDong&phone=010-1234-5678">[Move to login page]</a>
 ```
+
 ---
 ---
 ## Input Tag
@@ -113,6 +114,7 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 	When the type attribute of an input tag is set to [reset], it appears as a button, and clicking it triggers the reset event
 	Sets the label for the button using the value attribute
 ## Full code
+
 ```html
 <body>
 	<h1>input tag</h1>
@@ -149,6 +151,8 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 	</form>
 </body>
 ```
+
+
 <body>
 	<h1>input tag</h1>
 	<hr>
@@ -183,6 +187,7 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 		<button type="reset">reset</button>
 	</form>
 </body>
+
 
 ---
 ## Label Tag
@@ -192,6 +197,7 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 	=> Clicking the label tag provides focus to the input tag specified by the for attribute value
 
 ## Full code
+
 ```html
 <body>
 	<h1>label 태그</h1>
@@ -211,6 +217,8 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 			<input type="checkbox" name="hobby" value="게임" id="hobby4"><label for="hobby4">게임</label></p>		
 </body>
 ```
+
+
 <body>
 	<h1>label 태그</h1>
 	<hr>
@@ -228,12 +236,15 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 			<input type="checkbox" name="hobby" value="낚시" id="hobby3"><label for="hobby3">낚시</label>
 			<input type="checkbox" name="hobby" value="게임" id="hobby4"><label for="hobby4">게임</label></p>		
 </body>
+
 ---
 ## Textarea
 -  textarea tag: A tag used for receiving multi-line input from the keyboard 
 	=> If content is written within the textarea tag, it will be used as the initial value of the input field 
 -  rows attribute: Sets the number of rows for the input field
  - cols attribute: Sets the number of columns for the input field 
+## Full Code
+
 
 ```html
 <body>
@@ -256,6 +267,8 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 	</form>
 </body>
 ```
+
+
 <body>
 	<h1>textarea 태그</h1>
 	<hr>

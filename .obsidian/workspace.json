@@ -85,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-18-html3-a-anchor-tag.md",
+                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -219,13 +219,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "96597fd69d2e4e1f",
+  "active": "74d02762f46240a2",
   "lastOpenFiles": [
+    "_posts/2024-06-18-html3-a-anchor-tag.md",
+    "_posts/2024-06-19-html4-form-label-texaarea-select.md",
     "2024-06-17-.md",
     "무제 파일.md",
-    "_posts/2024-06-19-html4-form-label-texaarea-select.md",
     "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
-    "_posts/2024-06-18-html3-a-anchor-tag.md",
     "_posts/2024-06-17-html01.md",
     "_pages/github-info.md",
     "_posts/2024-06-03-sql11-alter-view.md",
