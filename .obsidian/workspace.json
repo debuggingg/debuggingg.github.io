@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-19-css1-cascade-format-derive.md",
+                "file": "test/_pages/search.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 430.5
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-19-css1-cascade-format-derive.md",
+                "file": "test/_pages/search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-19-css1-cascade-format-derive.md",
+                "file": "test/_pages/search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-19-css1-cascade-format-derive.md"
+                "file": "test/_pages/search.md"
               }
             }
           }
@@ -221,8 +221,22 @@
   },
   "active": "7aeb473f6718699c",
   "lastOpenFiles": [
-    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
+    "test/_pages/sitemap.md",
+    "test/_pages/search.md",
+    "test/_pages/recipes-archive.md",
+    "test/_pages/portfolio-archive.md",
+    "test/_pages/page-b.md",
+    "test/_pages/page-a.md",
+    "test/_pages/markup-grid.md",
+    "test/_pages/markup.md",
+    "test/_pages/lorem-ipsum.md",
+    "test/_pages/edge-case.md",
+    "test/_pages/category-archive-grid.md",
+    "test/_pages/category-archive.md",
+    "test/_pages/archive-layout-with-content.md",
+    "test/_pages/404.md",
     "_posts/2024-06-19-css1-cascade-format-derive.md",
+    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
     "_posts/2024-06-18-html3-a-anchor-tag.md",
     "2024-06-17-.md",
     "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
@@ -234,21 +248,7 @@
     "_posts/2024-06-12-dto-dao1.md",
     "_posts/2024-06-11-jdbc6-preparedstatement-call.md",
     "_posts/2024-06-07-jdbc2-select.md",
-    "_posts/2024-06-04-sql14-plsql.md",
-    "_posts/2024-06-10-jdbc-sqlminusapp.md",
-    "_posts/2024-06-12-dbcp1-properties.md",
-    "CHANGELOG.md",
-    "_pages/sql.md",
-    "_posts/2024-05-14-set-lotto.md",
-    "_posts/2024-05-23-network1.md",
-    "_template/-.md",
     "무제 폴더",
-    "_posts/2024-06-03-sql12-sequence.md",
-    "_posts/2024-05-31-sql9-constraint.md",
-    "_posts/2024-06-03-sql10-create-subquery-drop.md",
-    "_posts/2024-05-31-sql8-ddl.md",
-    "_posts/2024-06-10-jdbc3-transation-connection.md",
-    "_posts/2024-06-11-jdbc5-statement.md",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",
     "assets/images/back.jpg",
