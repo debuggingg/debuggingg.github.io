@@ -72,8 +72,9 @@ title: 2024/0618 HTML 03 -A tag-Anchor
     
     -  Using # symbol in href attribute to set the tag identifier (id attribute value), it moves to the position of the tag specified by the identifier - Anchor functionality 
     -  If only the tag's output position is changed within a single page, related information of the requested web document (web program) can be omitted 
-```html
 
+## Full code
+```html
  <body>
 	<h1 id="top">a Tag</h1>
 	<hr>

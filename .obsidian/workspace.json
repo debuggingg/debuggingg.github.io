@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
+                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/20204-06-19-html4-form-label-texaarea-select.md",
+                "file": "_posts/2024-06-18-html3-a-anchor-tag.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/20204-06-19-html4-form-label-texaarea-select.md",
+                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/20204-06-19-html4-form-label-texaarea-select.md",
+                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/20204-06-19-html4-form-label-texaarea-select.md"
+                "file": "_posts/2024-06-19-html4-form-label-texaarea-select.md"
               }
             }
           }
@@ -219,17 +219,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "74d02762f46240a2",
+  "active": "96597fd69d2e4e1f",
   "lastOpenFiles": [
-    "_posts/2024-06-17-html01.md",
+    "2024-06-17-.md",
+    "무제 파일.md",
+    "_posts/2024-06-19-html4-form-label-texaarea-select.md",
     "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
     "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "_posts/20204-06-19-html4-form-label-texaarea-select.md",
-    "무제 파일.md",
+    "_posts/2024-06-17-html01.md",
     "_pages/github-info.md",
     "_posts/2024-06-03-sql11-alter-view.md",
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
-    "2024-06-17-.md",
     "_posts/screenshot-layouts.png",
     "_posts/2024-06-12-dto-dao1.md",
     "_posts/2024-06-11-jdbc6-preparedstatement-call.md",
