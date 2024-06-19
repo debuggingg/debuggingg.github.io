@@ -152,7 +152,7 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 </body>
 ```
 
-
+Look Like
 <body>
 	<h1>input tag</h1>
 	<hr>
@@ -187,7 +187,8 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 		<button type="reset">reset</button>
 	</form>
 </body>
----
+like this 
+
 ---
 ## Label Tag
 
@@ -217,7 +218,7 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 </body>
 ```
 
-
+look like
 <body>
 	<h1>label 태그</h1>
 	<hr>
@@ -235,7 +236,7 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 			<input type="checkbox" name="hobby" value="낚시" id="hobby3"><label for="hobby3">낚시</label>
 			<input type="checkbox" name="hobby" value="게임" id="hobby4"><label for="hobby4">게임</label></p>		
 </body>
-
+like this 
 ---
 ## Textarea
 -  textarea tag: A tag used for receiving multi-line input from the keyboard 
