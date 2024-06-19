@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -219,7 +219,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "74d02762f46240a2",
+  "active": "96597fd69d2e4e1f",
   "lastOpenFiles": [
     "_posts/2024-06-18-html3-a-anchor-tag.md",
     "_posts/2024-06-19-html4-form-label-texaarea-select.md",
