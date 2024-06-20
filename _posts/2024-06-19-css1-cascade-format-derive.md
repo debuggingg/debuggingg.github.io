@@ -16,8 +16,8 @@ Selector[, Selector,...][:pseudo-class] {
 	...
 }
 ## Full code 
+
 ```html
-<title>CSS</title>
 <style type="text/css">
 h1 {text-align: center;}	
 
@@ -25,7 +25,6 @@ p {
 	font-size: 25px;
 	color: green;
 }
-
 p:nth-child(2n) {color: blue;}
 </style>
 </head>
@@ -37,6 +36,7 @@ p:nth-child(2n) {color: blue;}
 	
 </body>
 ```
+
 ---
 
 ## Cascade 
@@ -46,6 +46,7 @@ p:nth-child(2n) {color: blue;}
 	- important: Style property value to apply the style with the highest priority, ignoring step-by-step application 
 	- Exceptions to step-by-step application - Styles applied based on the hierarchical order of HTML tags 
 <title>CSS</title>
+
 ```html
 <style type="text/css">
 body {color: red;}
@@ -70,6 +71,7 @@ li {color: aqua;}
 	</ul>
 </body>
 ```
+
 ---
 ## Format
 
@@ -102,8 +104,11 @@ h4 {color: aqua;}
 	<h3>This is very important content that will be displayed in the browser.</h3>
 	<!-- Applying style sheet using the style attribute on the tag - this style will override all previous styles -->
 	<h4 style="color: maroon;">This is very important content that will be displayed in the browser.</h4>
-</body>```
+</body>
+```
+
 ### link(which is imported for above code)
+
 ```css
 @charset "UTF-8";
 

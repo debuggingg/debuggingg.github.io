@@ -94,9 +94,9 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 	- file type: Allows selection and transfer of files - form tag's enctype attribute should be set to [multipart/form-data]
 	- email type: Allows input and validation of email addresses
 	- number type: Allows input and validation of numeric values - increment and decrement buttons are provided
-	- tel type: Allows input and validation of phone numbers - changes input pad for smart devices
-	- url type: Allows input and validation of URL addresses - changes input pad for smart devices
-	- search type: Allows input and transfer of search terms - utilizes auto-complete feature on smart devices
+	- tel type: Allows input and validation of phone numbers - changes input pad for **smart devices**
+	- url type: Allows input and validation of URL addresses - changes input pad for **smart devices**
+	- search type: Allows input and transfer of search terms - utilizes auto-complete feature on **smart devices**
 	- color type: Allows selection of a color and passes its color value (#RRGGBB)
 	- range type: Allows selection of a value within a specified range defined by min and max attributes
 	- date type: Allows input and transfer of date values (yyyy-MM-dd) - provides a date selection box
@@ -163,21 +163,21 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 
 ```html
 <body>
-	<h1>label 태그</h1>
+	<h1>label tag</h1>
 	<hr>
-	<h2>label 태그 미사용</h2>
-	<p>이름 : <input type="text" name="name"></p>
-	<p>취미 : <input type="checkbox" name="hobby" value="독서">독서
-			<input type="checkbox" name="hobby" value="등산">등산
-			<input type="checkbox" name="hobby" value="낚시">낚시
-			<input type="checkbox" name="hobby" value="게임">게임</p>	
+	<h2>label no used  tag</h2>
+	<p>name : <input type="text" name="name"></p>
+	<p>hobby : <input type="checkbox" name="hobby" value="Reading">Reading
+			<input type="checkbox" name="hobby" value="Hiking">Hiking
+			<input type="checkbox" name="hobby" value="Fishing">Fishing
+			<input type="checkbox" name="hobby" value="Gaming">Gaming</p>	
 	<hr>		
-	<h2>label 태그 사용</h2>
-	<p><label>이름 : <input type="text" name="name"></label></p>
-	<p>취미 : <input type="checkbox" name="hobby" value="독서" id="hobby1"><label for="hobby1">독서</label>
-			<input type="checkbox" name="hobby" value="등산" id="hobby2"><label for="hobby2">등산</label>
-			<input type="checkbox" name="hobby" value="낚시" id="hobby3"><label for="hobby3">낚시</label>
-			<input type="checkbox" name="hobby" value="게임" id="hobby4"><label for="hobby4">게임</label></p>		
+	<h2>label with tag</h2>
+	<p><label>name : <input type="text" name="name"></label></p>
+	<p>hobby : <input type="checkbox" name="hobby" value="Reading" id="hobby1"><label for="hobby1">Reading</label>
+			<input type="checkbox" name="hobby" value="Hiking" id="hobby2"><label for="hobby2">Hiking</label>
+			<input type="checkbox" name="hobby" value="Fishing" id="hobby3"><label for="hobby3">Fishing</label>
+			<input type="checkbox" name="hobby" value="Gaming" id="hobby4"><label for="hobby4">Gaming</label></p>		
 </body>
 ```
 
@@ -197,15 +197,15 @@ title: 2024/06/19 HTML-04-Form-Label-TexArea-Select
 	<form method="post">
 		<table>
 			<tr>
-				<td>장점</td>
-				<td><textarea rows="5" cols="80" name="good">장점이 아주 많습니다.</textarea></td>
+				<td>good</td>
+				<td><textarea rows="5" cols="80" name="good">a lot good thing.</textarea></td>
 			</tr>
 			<tr>
-				<td>단점</td>
+				<td>bad</td>
 				<td><textarea rows="5" cols="80" name="bad"></textarea></td>
 			</tr>
 			<tr>
-				<td colspan="2"><button type="submit">제출</button></td>
+				<td colspan="2"><button type="submit">submit</button></td>
 			</tr>
 		</table>
 	</form>

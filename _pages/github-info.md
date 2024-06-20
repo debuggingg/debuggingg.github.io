@@ -2,6 +2,13 @@
 layout: single
 title: github info
 permalink: /info/
+excerpt: info
+categories:
+  - info
+tags:
+  - github
+  - insert
+last_modified_at: 2024-06-20
 ---
 ## How to insert pic on my blog 
 info:
