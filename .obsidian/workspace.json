@@ -4,119 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "230c2415ba24426f",
+        "id": "d6204b0ca2efc145",
         "type": "tabs",
         "children": [
           {
-            "id": "4bb45a28c382d2c0",
+            "id": "54f9ecd972ef953e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md",
+                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0a8c2b38c34f2416",
+            "id": "55d0ebcae8b37b6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-06-17-.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4977d88ff87acd53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-17-html01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dadca0f77e255669",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b65b89bffe0c900",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-18-html3-a-anchor-tag.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96597fd69d2e4e1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7aeb473f6718699c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_pages/github-info.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f0ef5abca1d8ca4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_pages/category-archive.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c432e538e4311c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-28-sql3-oracle-select.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-28-sql3-oracle-select.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-28-sql3-oracle-select.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-05-28-sql3-oracle-select.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -243,10 +151,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3c432e538e4311c3",
+  "active": "55d0ebcae8b37b6a",
   "lastOpenFiles": [
-    "_posts/2024-05-29-sql4-oracle.md",
+    "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+    "_posts/2024-06-19-css1-cascade-format-derive.md",
+    "_pages/category-archive.md",
+    "_pages/github-info.md",
+    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
+    "_posts/2024-06-18-html3-a-anchor-tag.md",
+    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
+    "_posts/2024-06-17-html01.md",
+    "_posts/2024-06-12-dto-dao1.md",
+    "2024-06-17-.md",
+    "_pages/oraclesql-mac-install.md",
+    "_pages/tags-archive.md",
+    "_pages/sql.md",
     "_posts/2024-05-28-sql3-oracle-select.md",
+    "_posts/2024-05-29-sql4-oracle.md",
     "_posts/2024-05-27-sql2-oracle.md",
     "_posts/2024-05-27-sql1-oracle.md",
     "_posts/2024-05-24-Network2-UDP.md",
@@ -256,21 +177,8 @@
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
     "_posts/2024-06-04-sql14-plsql.md",
-    "_pages/github-info.md",
-    "_pages/sql.md",
-    "_pages/tags-archive.md",
-    "_pages/oraclesql-mac-install.md",
-    "_pages/category-archive.md",
-    "_posts/2024-06-19-css1-cascade-format-derive.md",
-    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
     "test/_pages/search.md",
     "test/_pages/sitemap.md",
-    "test/_pages/recipes-archive.md",
-    "test/_pages/portfolio-archive.md",
-    "test/_pages/page-b.md",
-    "test/_pages/page-a.md",
-    "test/_pages/markup-grid.md",
-    "test/_pages/markup.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",

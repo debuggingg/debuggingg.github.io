@@ -109,7 +109,7 @@ h4 {color: aqua;}
 
 ### link(which is imported for above code)
 
-```css
+```
 @charset "UTF-8";
 
 h1 {
@@ -144,6 +144,7 @@ color: pink;
 	id attribute : Specifies a unique identifier for distinguishing tags
 	Cannot assign the same id attribute value to multiple tags 
 ## Full code 
+
 ```html
 <title>CSS</title>
 <style type="text/css">
@@ -193,6 +194,7 @@ p { color: blue; }
 
 - Adjacent Sibling Selector: Selects the first sibling element at the same level following an element selected by a selector and applies styles 
     _Format: selector + siblingSelector 
+    
     ```html
     <title>CSS</title>
     <style type="text/css">
