@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: category
 title: github info
-permalink: /info/
+permalink: /categories/
 excerpt: info
 categories:
   - info

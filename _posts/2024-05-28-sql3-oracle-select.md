@@ -1,7 +1,7 @@
 ---
 layout: category
 title: 2024/05/28/ SQL- 03 -Select-Function - 환경설정(setting)
-permalink: /categories/sql/
+permalink: /categories/sql
 taxonomy: SQL
 ---
 ![[bear-ezgif.com-resize.gif]]

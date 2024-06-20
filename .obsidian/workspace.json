@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/tags-archive.md",
+                "file": "_posts/2024-05-28-sql3-oracle-select.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/tags-archive.md",
+                "file": "_posts/2024-05-28-sql3-oracle-select.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/tags-archive.md",
+                "file": "_posts/2024-05-28-sql3-oracle-select.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/tags-archive.md"
+                "file": "_posts/2024-05-28-sql3-oracle-select.md"
               }
             }
           }
@@ -245,10 +245,22 @@
   },
   "active": "3c432e538e4311c3",
   "lastOpenFiles": [
-    "_pages/category-archive.md",
+    "_posts/2024-05-29-sql4-oracle.md",
+    "_posts/2024-05-28-sql3-oracle-select.md",
+    "_posts/2024-05-27-sql2-oracle.md",
+    "_posts/2024-05-27-sql1-oracle.md",
+    "_posts/2024-05-24-Network2-UDP.md",
+    "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
+    "_posts/2024-06-03-sql10-create-subquery-drop.md",
+    "_posts/2024-06-03-sql11-alter-view.md",
+    "_posts/2024-06-03-sql12-sequence.md",
+    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
+    "_posts/2024-06-04-sql14-plsql.md",
+    "_pages/github-info.md",
     "_pages/sql.md",
     "_pages/tags-archive.md",
-    "_pages/github-info.md",
+    "_pages/oraclesql-mac-install.md",
+    "_pages/category-archive.md",
     "_posts/2024-06-19-css1-cascade-format-derive.md",
     "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
     "test/_pages/search.md",
@@ -259,18 +271,6 @@
     "test/_pages/page-a.md",
     "test/_pages/markup-grid.md",
     "test/_pages/markup.md",
-    "test/_pages/lorem-ipsum.md",
-    "test/_pages/edge-case.md",
-    "test/_pages/category-archive-grid.md",
-    "test/_pages/category-archive.md",
-    "test/_pages/archive-layout-with-content.md",
-    "test/_pages/404.md",
-    "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "2024-06-17-.md",
-    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
-    "_posts/2024-06-17-html01.md",
-    "_posts/2024-06-03-sql11-alter-view.md",
-    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
