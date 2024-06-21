@@ -72,49 +72,48 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 	-  Format: selector:state - Different states are available depending on the selected tag 
 
 * link: Applies styles when the URL specified in the a tag has never been requested by the browser 
-	ex) a:link { color: lime; }
+	* ex) a:link { color: lime; }
 
 * visited: Applies styles when the URL specified in the a tag has been requested at least once by the browser 
-	ex) a:visited { color: red; }
+	* ex) a:visited { color: red; }
 
 * active: Applies styles when the mouse button is pressed on the tag 
-	ex) a:active { color: green; }
+	* ex) a:active { color: green; }
 
 * hover: Applies styles when the mouse cursor is positioned over the tag 
-	 ex) a:hover {
+	* ex) a:hover {
 		color: blue;
-		text-decoration: underline;
-	}
+		text-decoration: underline;}
 
 * first-child: Applies styles to the first child tag among child tags 
-	ex) ul li:first-child { color: red; }
+	* ex) ul li:first-child { color: red; }
 
 * last-child: Applies styles to the last child tag among child tags 
-	ex) ul li:last-child { color: green; }
+	* ex) ul li:last-child { color: green; }
 
 * nth-child(n): Applies styles to the nth child tag among child tags 
-	ex) ul li:nth-child(3) { color: blue; }
+	* ex) ul li:nth-child(3) { color: blue; }
 
 * nth-child(2n): Applies styles to even-numbered child tags 
-	ex) ol li:nth-child(2n) { color: gold; }
+	* ex) ol li:nth-child(2n) { color: gold; }
 	  ol li:nth-child(even) { color: gold; }
 
 * nth-child(2n-1): Applies styles to odd-numbered child tags 
-	ex) ol li:nth-child(2n-1) { color: silver; }
-	  ol li:nth-child(odd) { color: silver; }
-	  input { border: 1px solid gray; }
-	  input[type='text'] { border: 1px solid maroon; }
+	* ex) ol li:nth-child(2n-1) { color: silver; }
+		ol li:nth-child(odd) { color: silver; }
+		input { border: 1px solid gray; }
+		input[type='text'] { border: 1px solid maroon; }
 
 * not(selector): Applies styles to all tags except the ones selected by the selector 
-	ex) input:not([type='text']) { border: 1px solid orange; }
+	* ex) input:not([type='text']) { border: 1px solid orange; }
 
 * disabled: Applies styles to disabled tags 
 * checked: Applies styles to selected tags in input elements (radio or checkbox) 
 * selected: Applies styles to selected items (option tags) in select elements 
-	ex) input[type='text']:disabled { border: 1px solid red; }
+	* ex) input[type='text']:disabled { border: 1px solid red; }
 
 * focus: Applies styles to tags that have focus 
-	ex) input:focus { border: 3px double green; }
+	* ex) input:focus { border: 3px double green; }
 
 ## Full Code
 ```html
