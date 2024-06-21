@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "492cd1e8d59a0937",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-06-20-css3-background-box.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+                "file": "2024-06-20-css3-background-box.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+                "file": "2024-06-20-css3-background-box.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md"
+                "file": "2024-06-20-css3-background-box.md"
               }
             }
           }
@@ -159,8 +171,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "55d0ebcae8b37b6a",
+  "active": "492cd1e8d59a0937",
   "lastOpenFiles": [
+    "2024-06-20-css3-background-box.md",
     "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
     "_posts/2024-06-19-css1-cascade-format-derive.md",
     "_pages/category-archive.md",
@@ -186,7 +199,6 @@
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
     "_posts/2024-06-04-sql14-plsql.md",
     "test/_pages/search.md",
-    "test/_pages/sitemap.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",

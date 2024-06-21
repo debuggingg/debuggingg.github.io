@@ -9,19 +9,19 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 		- ex) div[title] { color: green; }
 
 -  Format: selector[attribute='value'] - Selects elements with the specified attribute value 
-		- ex) div[title='choice'] { color: blue; }
+	- ex) div[title='choice'] { color: blue; }
 
 -  Format: selector[attribute*='value'] - Selects elements with an attribute value that contains the specified value 
-		- ex) div[title*='woman'] { color: gold; } 
+	- ex) div[title*='woman'] { color: gold; } 
 
 -  Format: selector[attribute~='value'] - Selects elements with an attribute value that is one of the space-separated values 
-		- ex) div[title~='cosmetic'] { color: silver; } 
+	- ex) div[title~='cosmetic'] { color: silver; } 
 
 -  Format: selector[attribute^='value'] - Selects elements with an attribute value that starts with the specified value 
-		- ex) div[title^='man'] { color: orange; } 
+	- ex) div[title^='man'] { color: orange; } 
 
 -  Format: selector[attribute$='value'] - Selects elements with an attribute value that ends with the specified value 
-		- ex) div[title$='남성'] { color: maroon; }
+	- ex) div[title$='남성'] { color: maroon; }
 
 ## Full code
 
