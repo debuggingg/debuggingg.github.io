@@ -23,8 +23,12 @@
             "id": "55d0ebcae8b37b6a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md"
+              }
             }
           }
         ]
