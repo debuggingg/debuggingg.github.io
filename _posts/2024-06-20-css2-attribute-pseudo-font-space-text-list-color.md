@@ -6,22 +6,22 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 
 -  Attribute Selector: Selects elements based on their attribute and value to apply styles 
 	- Format: selector[attribute] - Selects elements with the specified attribute 
-		ex) div[title] { color: green; }
+		- ex) div[title] { color: green; }
 
 -  Format: selector[attribute='value'] - Selects elements with the specified attribute value 
-		ex) div[title='choice'] { color: blue; }
+		- ex) div[title='choice'] { color: blue; }
 
 -  Format: selector[attribute*='value'] - Selects elements with an attribute value that contains the specified value 
-		ex) div[title*='woman'] { color: gold; } 
+		- ex) div[title*='woman'] { color: gold; } 
 
 -  Format: selector[attribute~='value'] - Selects elements with an attribute value that is one of the space-separated values 
-		ex) div[title~='cosmetic'] { color: silver; } 
+		- ex) div[title~='cosmetic'] { color: silver; } 
 
 -  Format: selector[attribute^='value'] - Selects elements with an attribute value that starts with the specified value 
-		ex) div[title^='man'] { color: orange; } 
+		- ex) div[title^='man'] { color: orange; } 
 
 -  Format: selector[attribute$='value'] - Selects elements with an attribute value that ends with the specified value 
-		ex) div[title$='남성'] { color: maroon; }
+		- ex) div[title$='남성'] { color: maroon; }
 
 ## Full code
 
@@ -232,19 +232,19 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 ```
 
 -  font-family: Font-related style property - sets the font as the property value 
-	=> Fonts can be listed and applied sequentially using the [,] symbol 
+	- Fonts can be listed and applied sequentially using the [,] symbol 
 -  If the font-family property is omitted or the fonts set as property values are not available, the platform's default font is used 
-	=> Different default fonts are used on each platform, resulting in different page displays 
+	- Different default fonts are used on each platform, resulting in different page displays 
 
 -  font-size: Style property for font size - default size: 16px 
 -  Property values (units): px, pt, em, %, keywords (small, medium, large, etc.) 
--  font-style: Style property for font slant - normal (default), italic 
--  Keywords related to font size increase or decrease by 1.2 times based on medium (16px) 
+- font-style: Style property for font slant - normal (default), italic 
+	-  Keywords related to font size increase or decrease by 1.2 times based on medium (16px) 
 -  font-variant: Style property for English letters - normal (default), small-caps (capitalizes English letters and makes the remaining letters small except for the first letter) 
--  em: Sets the font size based on the width of the M character - used in responsive web design 
-- font-weight: Style property for font weight - 100~900 (default: 400), keywords (normal, bold, etc.) 
+-  em: Sets the font size based on the width of the M character  used in responsive web design 
+- font-weight: Style property for font weight 100~900 (default: 400), keywords (normal, bold, etc.) 
 - font: A property to apply all style values related to fonts 
-	=> The font must be set to apply font-related style values 
+	- The font must be set to apply font-related style values 
 -  letter-spacing: Style property to set the spacing between letters - units: px, em, %, etc. 
 -  word-spacing: Style property to set the spacing between words - units: px, em, %, etc. 
 -  line-height: Style property to set line spacing - units: px, em, %, etc. 
@@ -352,56 +352,56 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 
 -  Automatically wraps content if it exceeds the width of the tag that is why we need space control 
 - white-space: 
-	Style property for handling spaces
-     => Provides functionality for handling content that exceeds the tag width 
-	 => Property values: normal (default - pre-line), pre, nowrap, pre-wrap 
+	- Style property for handling spaces
+		- Provides functionality for handling content that exceeds the tag width 
+		- Property values: normal (default - pre-line), pre, nowrap, pre-wrap 
 		- pre-line: Converts multiple spaces into one space and automatically wraps content if it exceeds the tag width
 		- pre: Keeps multiple spaces as is and displays content that exceeds the tag width outside the tag 
-		    => The overflow style property can handle content that exceeds the tag 
+			- The overflow style property can handle content that exceeds the tag 
 		- nowrap: Converts multiple spaces into one space and displays content that exceeds the tag width outside the tag 
 		- pre-wrap: Keeps multiple spaces as is and automatically wraps content if it exceeds the tag width 
 - direction: 
-	Style property for writing direction 
-	 => Property values: ltr (left to right - default), rtl (right to left) 
+	- Style property for writing direction 
+		- Property values: ltr (left to right - default), rtl (right to left) 
 -  text-align: 
-	Style property for text alignment 
-	  => Property values: left (default), right, center, justify (both sides) 
+	- Style property for text alignment 
+		- Property values: left (default), right, center, justify (both sides) 
 - text-shadow: 
-	Style property to provide shadow effect on text 
-     =>Property values: horizontal vertical blur color 
+	- Style property to provide shadow effect on text 
+		- Property values: horizontal vertical blur color 
     
-- overflow: 
-	Style property related to handling content that exceeds the tag 
-     =>Property values: visible (default) - display, hidden - hide, scroll - provide scroll 
-     -  text-overflow: Style property related to handling hidden text 
-        =>Property values: clip (default) - cut off, ellipsis - use [...] symbol 
+- overflow:
+	- Style property related to handling content that exceeds the tag 
+		- Property values: visible (default) - display, hidden - hide, scroll - provide scroll 
+	- text-overflow: Style property related to handling hidden text 
+		- Property values: clip (default) - cut off, ellipsis - use [...] symbol 
     -  text-decoration: Style property for line-related text 
-	    =>Property values: none (default), underline, line-through, overline 
+	    - Property values: none (default), underline, line-through, overline 
 	    
     - text-indent: Style property for text indentation - provides margin at the beginning of the text 
     - text-transform: Style property for text transformation (for English letters) 
-	    =>Property values: none (default), uppercase, lowercase, capitalize 
+	    - Property values: none (default), uppercase, lowercase, capitalize 
 
 -  list-style-type: 
-	Style property for bullet or order values for list items (li tags) 
-	    =>Property values: none - no bullets or order values 
-        =>Property values (ul tags) - disc (default), circle, square, etc. 
-        =>Property values (ol tags) - decimal (default), lower-alpha, upper-alpha, lower-roman, upper-roman, etc. 
+	- Style property for bullet or order values for list items (li tags) 
+		- Property values: none - no bullets or order values 
+        - Property values (ul tags) - disc (default), circle, square, etc. 
+        - Property values (ol tags) - decimal (default), lower-alpha, upper-alpha, lower-roman, upper-roman, etc. 
 - list-style-image: 
-	Style property to use an image file as a bullet using the url function 
+	- Style property to use an image file as a bullet using the url function 
 -  list-style-position: 
-	Style property related to the output position of the list 
-		=> Property values: inside (indented), outside (outdented) 
-- list-style: Style property to use all style values related to lists 
+	- Style property related to the output position of the list 
+		- Property values: inside (indented), outside (outdented) 
+- **list-style: Style property to use all style values related to lists** 
 
 - color: 
-	Style property for text color 
-	    =>Property values: color-related keywords - red, green, blue, etc. 
-	    =>Property values: hexadecimal notation for color - #RGB or #RRGGBB 
-	    =>Property values: rgb (RED: 0~255, GREEN: 0~255, BLUE: 0~255) function 
-	    =>Property values: hsl (hue: 0~360, saturation: 0~100%, lightness: 0~100%) function 
-	    =>Property values: rgba (RED: 0~255, GREEN: 0~255, BLUE: 0~255, transparency: 0.0 (transparent) ~ 1.0 (opaque)) function 
-	    =>Property values: hsla (hue: 0~360, saturation: 0~100%, lightness: 0~100%, transparency: 0.0 (transparent) ~ 1.0 (opaque)) function 
+	- Style property for text color 
+	    - Property values: color-related keywords - red, green, blue, etc. 
+	    - Property values: hexadecimal notation for color - #RGB or #RRGGBB 
+	    - Property values: rgb (RED: 0~255, GREEN: 0~255, BLUE: 0~255) function 
+	    - Property values: hsl (hue: 0~360, saturation: 0~100%, lightness: 0~100%) function 
+	    - Property values: rgba (RED: 0~255, GREEN: 0~255, BLUE: 0~255, transparency: 0.0 (transparent) ~ 1.0 (opaque)) function 
+	    - Property values: hsla (hue: 0~360, saturation: 0~100%, lightness: 0~100%, transparency: 0.0 (transparent) ~ 1.0 (opaque)) function 
 	    
 ```html
 <style type="text/css">
