@@ -208,8 +208,8 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 ## Font 
 
   - Google Web Fonts can be used - refer to https:fonts.google.com 
-	ex)```
-```html
+	  - ex)```
+	```html
 	<link rel="preconnect" href="https:fonts.googleapis.com">
 	<link rel="preconnect" href="https:fonts.gstatic.com">
 	<link href="https:fonts.googleapis.comcss2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
@@ -224,7 +224,7 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 - @font-face: A system property to provide font files to the client 
 -  font-family: Sets the identifier of the font as the property value (font name) 
 * src: Uses the url function to set the URL address of the font file as the property value 
-	ex)
+	* ex)
 ```html
 @font-face {
 	font-family: "NanumGothic";
@@ -244,7 +244,7 @@ title: 20240620 CSS - 02-Attribute-Pseudo-Font-Space,Text,List,Color
 -  em: Sets the font size based on the width of the M character - used in responsive web design 
 - font-weight: Style property for font weight - 100~900 (default: 400), keywords (normal, bold, etc.) 
 - font: A property to apply all style values related to fonts 
-	 => The font must be set to apply font-related style values 
+	=> The font must be set to apply font-related style values 
 -  letter-spacing: Style property to set the spacing between letters - units: px, em, %, etc. 
 -  word-spacing: Style property to set the spacing between words - units: px, em, %, etc. 
 -  line-height: Style property to set line spacing - units: px, em, %, etc. 
