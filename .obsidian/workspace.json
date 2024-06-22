@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-07-jdbc1-insert-update.md",
+                "file": "2024-06-17-.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-07-jdbc1-insert-update.md",
+                "file": "2024-06-17-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-07-jdbc1-insert-update.md",
+                "file": "2024-06-17-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-07-jdbc1-insert-update.md"
+                "file": "2024-06-17-.md"
               }
             }
           }
@@ -221,21 +221,22 @@
   },
   "active": "477f62efda1f9718",
   "lastOpenFiles": [
-    "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+    "_posts/2024-06-17-html01.md",
+    "_posts/2024-06-13-project1.md",
+    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
     "_posts/2024-06-19-css1-cascade-format-derive.md",
+    "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+    "2024-06-20-css3-background-box.md",
+    "_posts/2024-06-07-jdbc1-insert-update.md",
     "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
     "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
-    "_posts/2024-06-17-html01.md",
     "_posts/2024-05-29-sql4-oracle.md",
     "_posts/2024-05-27-sql2-oracle.md",
     "_pages/tags-archive.md",
     "_pages/category-archive.md",
-    "2024-06-20-css3-background-box.md",
     "2024-06-17-.md",
     "_posts/2024-06-07-jdbc2-select.md",
     "_posts/2024-06-10-jdbc-sqlminusapp.md",
-    "_posts/2024-06-07-jdbc1-insert-update.md",
     "_posts/2024-06-10-jdbc3-transation-connection.md",
     "_posts/2024-06-10-jdbc4-ex-app.md",
     "_posts/2024-06-11-jdbc5-statement.md",
@@ -246,7 +247,6 @@
     "_posts/2024-05-27-sql2-oracle-select.md",
     "_posts/2024-05-27-sql1-oracle.md",
     "무제 파일.md",
-    "_posts/2024-06-13-project1.md",
     "assets/images/bear-ezgif.com-resize.gif",
     "_posts/screenshot-layouts.png",
     "screenshot.png",
