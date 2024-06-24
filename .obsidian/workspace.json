@@ -42,9 +42,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "57d67aab9c25eea3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-21-css4-layout.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0dff849fe2ed4086",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-21-css5-transform-transition-animation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e173e69c111faf49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-24-javascript1-var-operator-cast.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0801e812d3d5dc72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-06-20-css3-background-box.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -94,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 200
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -171,16 +219,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "492cd1e8d59a0937",
+  "active": "0801e812d3d5dc72",
   "lastOpenFiles": [
+    "_posts/2024-06-24-javascript2-control-function-scope.md",
+    "_posts/2024-06-24-javascript1-var-operator-cast.md",
+    "_posts/2024-06-21-css5-transform-transition-animation.md",
+    "_posts/2024-06-20-css1-cascade-format-derive.md",
+    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
+    "_posts/2024-06-18-html3-a-anchor-tag.md",
+    "_posts/2024-06-19-html4-form-label-texaarea-select.md",
     "2024-06-20-css3-background-box.md",
+    "_posts/2024-06-21-css4-layout.md",
     "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
-    "_posts/2024-06-19-css1-cascade-format-derive.md",
     "_pages/category-archive.md",
     "_pages/github-info.md",
-    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
-    "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
     "_posts/2024-06-17-html01.md",
     "_posts/2024-06-12-dto-dao1.md",
     "2024-06-17-.md",
@@ -195,10 +247,6 @@
     "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
     "_posts/2024-06-03-sql11-alter-view.md",
-    "_posts/2024-06-03-sql12-sequence.md",
-    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
-    "_posts/2024-06-04-sql14-plsql.md",
-    "test/_pages/search.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
