@@ -4,40 +4,88 @@
     "type": "split",
     "children": [
       {
-        "id": "d6204b0ca2efc145",
+        "id": "66c840a8b967b9f3",
         "type": "tabs",
         "children": [
           {
-            "id": "54f9ecd972ef953e",
+            "id": "7c70e68e32aeaa93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+                "file": "_posts/2024-05-31-sql9-constraint.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "55d0ebcae8b37b6a",
+            "id": "d5c74da3c8c63a79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+                "file": "_posts/2024-06-12-dto-dao1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "492cd1e8d59a0937",
+            "id": "30d6c150140d7447",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-06-20-css3-background-box.md",
+                "file": "_posts/2024-06-12-dbcp1-properties.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc611bf25378dcd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-30-sql5-oracle-select.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7fe6203e142f12e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-12-dto-dao1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45bddda60ad89e2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-13-project1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "477f62efda1f9718",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-06-17-.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +190,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 200
+=======
+    "width": 576.5
+>>>>>>> dc2aa2a9ca372071b6c0e5836e4ea8ec02bce9f4
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -158,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-06-20-css3-background-box.md",
+                "file": "2024-06-17-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-06-20-css3-background-box.md",
+                "file": "2024-06-17-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-06-20-css3-background-box.md"
+                "file": "2024-06-17-.md"
               }
             }
           }
@@ -219,6 +271,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
+<<<<<<< HEAD
   "active": "0801e812d3d5dc72",
   "lastOpenFiles": [
     "_posts/2024-06-24-javascript2-control-function-scope.md",
@@ -250,7 +303,39 @@
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
+=======
+  "active": "477f62efda1f9718",
+  "lastOpenFiles": [
+    "_posts/2024-06-17-html01.md",
+    "_posts/2024-06-13-project1.md",
+    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
+    "_posts/2024-06-19-css1-cascade-format-derive.md",
+    "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
+    "2024-06-20-css3-background-box.md",
+    "_posts/2024-06-07-jdbc1-insert-update.md",
+    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
+    "_posts/2024-06-18-html3-a-anchor-tag.md",
+    "_posts/2024-05-29-sql4-oracle.md",
+    "_posts/2024-05-27-sql2-oracle.md",
+    "_pages/tags-archive.md",
+    "_pages/category-archive.md",
+    "2024-06-17-.md",
+    "_posts/2024-06-07-jdbc2-select.md",
+    "_posts/2024-06-10-jdbc-sqlminusapp.md",
+    "_posts/2024-06-10-jdbc3-transation-connection.md",
+    "_posts/2024-06-10-jdbc4-ex-app.md",
+    "_posts/2024-06-11-jdbc5-statement.md",
+    "_posts/2024-06-11-jdbc6-preparedstatement-call.md",
+    "_posts/2024-06-12-dto-dao1.md",
+    "_posts/2024-06-12-dbcp1-properties.md",
+    "_posts/2024-06-04-sql14-plsql.md",
+    "_posts/2024-05-27-sql2-oracle-select.md",
+    "_posts/2024-05-27-sql1-oracle.md",
+    "무제 파일.md",
+>>>>>>> dc2aa2a9ca372071b6c0e5836e4ea8ec02bce9f4
     "assets/images/bear-ezgif.com-resize.gif",
+    "_posts/screenshot-layouts.png",
+    "screenshot.png",
     "assets/images/back.jpg",
     "assets/images",
     "_pages",
