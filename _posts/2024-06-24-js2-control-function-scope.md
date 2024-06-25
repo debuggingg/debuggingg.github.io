@@ -2,12 +2,9 @@
 layout: single
 title: 2024/06/24 JavaScript -02-Control-Function-Scope(local,global variable)
 ---
-## Control
-
-
+## Control - if,switch,for,while,....
 
 ```html
-
 <title>JavaScript Control Statements</title>
 </head>
 <body>
@@ -97,10 +94,9 @@ title: 2024/06/24 JavaScript -02-Control-Function-Scope(local,global variable)
 ```
 
 
-## Function
+## Functions
 
 ```html
-
 <title>JavaScript Functions</title>
 </head>
 <body>
@@ -201,13 +197,9 @@ title: 2024/06/24 JavaScript -02-Control-Function-Scope(local,global variable)
 
 ## Scope
 
-Here is the translated version of the HTML and JavaScript code with the comments translated into English:
+
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
 <title>JavaScript</title>
 </head>
 <body>

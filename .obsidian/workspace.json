@@ -4,83 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "66c840a8b967b9f3",
+        "id": "8436f3e973836c14",
         "type": "tabs",
         "children": [
           {
-            "id": "7c70e68e32aeaa93",
+            "id": "984a7ce08bf3bc5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-31-sql9-constraint.md",
+                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d5c74da3c8c63a79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30d6c150140d7447",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-12-dbcp1-properties.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc611bf25378dcd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-30-sql5-oracle-select.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7fe6203e142f12e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-12-dto-dao1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45bddda60ad89e2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-13-project1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "477f62efda1f9718",
+            "id": "6f6797af7a56286d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,55 +32,43 @@
             }
           },
           {
-            "id": "57d67aab9c25eea3",
+            "id": "ea1f9641223e421d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-21-css4-layout.md",
+                "file": "_posts/2024-06-25-js3-argument-return-inner-callback-closure-timer.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0dff849fe2ed4086",
+            "id": "8414bec5e424c0ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-21-css5-transform-transition-animation.md",
+                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e173e69c111faf49",
+            "id": "67497fa562baf63f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-24-javascript1-var-operator-cast.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0801e812d3d5dc72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-06-20-css3-background-box.md",
+                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,11 +118,7 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
     "width": 200
-=======
-    "width": 576.5
->>>>>>> dc2aa2a9ca372071b6c0e5836e4ea8ec02bce9f4
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -210,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-06-17-.md",
+                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-06-17-.md",
+                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-06-17-.md"
+                "file": "_posts/2024-06-24-js1-var-operator-cast.md"
               }
             }
           }
@@ -271,24 +195,26 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-<<<<<<< HEAD
-  "active": "0801e812d3d5dc72",
+  "active": "67497fa562baf63f",
   "lastOpenFiles": [
-    "_posts/2024-06-24-javascript2-control-function-scope.md",
-    "_posts/2024-06-24-javascript1-var-operator-cast.md",
     "_posts/2024-06-21-css5-transform-transition-animation.md",
+    "_posts/2024-06-24-js1-var-operator-cast.md",
+    "_posts/2024-06-24-js2-control-function-scope.md",
+    "_posts/2024-06-25-js3-argument-return-inner-callback-closure-timer.md",
+    "_posts/2024-06-25-js4-encode-encode-eval-is-parse.md",
+    "_posts/2024-06-25-js5-object.md",
+    "2024-06-20-css3-background-box.md",
+    "2024-06-17-.md",
+    "_posts/2024-06-21-css4-layout.md",
+    "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
     "_posts/2024-06-20-css1-cascade-format-derive.md",
     "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
     "_posts/2024-06-18-html3-a-anchor-tag.md",
     "_posts/2024-06-19-html4-form-label-texaarea-select.md",
-    "2024-06-20-css3-background-box.md",
-    "_posts/2024-06-21-css4-layout.md",
-    "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
     "_pages/category-archive.md",
     "_pages/github-info.md",
     "_posts/2024-06-17-html01.md",
     "_posts/2024-06-12-dto-dao1.md",
-    "2024-06-17-.md",
     "_pages/oraclesql-mac-install.md",
     "_pages/tags-archive.md",
     "_pages/sql.md",
@@ -297,45 +223,10 @@
     "_posts/2024-05-27-sql2-oracle.md",
     "_posts/2024-05-27-sql1-oracle.md",
     "_posts/2024-05-24-Network2-UDP.md",
-    "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
-    "_posts/2024-06-03-sql10-create-subquery-drop.md",
-    "_posts/2024-06-03-sql11-alter-view.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
-=======
-  "active": "477f62efda1f9718",
-  "lastOpenFiles": [
-    "_posts/2024-06-17-html01.md",
-    "_posts/2024-06-13-project1.md",
-    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
-    "_posts/2024-06-19-css1-cascade-format-derive.md",
-    "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
-    "2024-06-20-css3-background-box.md",
-    "_posts/2024-06-07-jdbc1-insert-update.md",
-    "_posts/2024-06-19-a-html4-form-label-texaarea-select.md",
-    "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "_posts/2024-05-29-sql4-oracle.md",
-    "_posts/2024-05-27-sql2-oracle.md",
-    "_pages/tags-archive.md",
-    "_pages/category-archive.md",
-    "2024-06-17-.md",
-    "_posts/2024-06-07-jdbc2-select.md",
-    "_posts/2024-06-10-jdbc-sqlminusapp.md",
-    "_posts/2024-06-10-jdbc3-transation-connection.md",
-    "_posts/2024-06-10-jdbc4-ex-app.md",
-    "_posts/2024-06-11-jdbc5-statement.md",
-    "_posts/2024-06-11-jdbc6-preparedstatement-call.md",
-    "_posts/2024-06-12-dto-dao1.md",
-    "_posts/2024-06-12-dbcp1-properties.md",
-    "_posts/2024-06-04-sql14-plsql.md",
-    "_posts/2024-05-27-sql2-oracle-select.md",
-    "_posts/2024-05-27-sql1-oracle.md",
-    "무제 파일.md",
->>>>>>> dc2aa2a9ca372071b6c0e5836e4ea8ec02bce9f4
     "assets/images/bear-ezgif.com-resize.gif",
-    "_posts/screenshot-layouts.png",
-    "screenshot.png",
     "assets/images/back.jpg",
     "assets/images",
     "_pages",

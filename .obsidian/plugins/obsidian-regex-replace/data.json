@@ -1,6 +1,6 @@
 {
-  "findText": "/*",
-  "replaceText": "",
+  "findText": "임꺽정",
+  "replaceText": "Sung",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,

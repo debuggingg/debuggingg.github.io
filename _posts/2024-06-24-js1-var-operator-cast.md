@@ -41,30 +41,26 @@ title: 2024/06/24 JavaScript -01 -Variable-Operator-TypeCast
 ## Full Code 
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
 <title>JavaScript</title>
 <script type="text/javascript" src="/web/js/01_hello.js"></script>
 <script type="text/javascript">
 console.log("Hello, JavaScript!!!");
-alert("head 태그에 작성된 자바스크립트 명령 실행");
+alert("head tag for javascript prompt");
 
 function eventHandler() {
-	alert('이벤트 처리 명령 실행');
+	alert('evnt action');
 }
 </script>
 </head>
 <body>
-	<h1>자바스크립트 작성</h1>
+	<h1>write javascript</h1>
 	<hr>
-	<p>자바스크립트(JavaScript) : 웹페이지에서 발생되는 이벤트를 처리하기 위한 기능을 제공하는 스크립트 프로그램 언어 - 클라이언트 브라이저에서 해석되어 실행</p>
-	<p>자바스트립트 표준 규약은 ES15(ECMAScript15)까지 정의되어 있으며 일반적으로 ES6(ECMAScript6) 표준 규약을 사용하여 작성</p>
+	<p>(JavaScript): A programming language for event processing on web pages - it runs in the client browser. </p>
+	<p>ES15 and ES6 refer to the same standard, officially known as ECMAScript 2015. To avoid confusion, it's better to consistently refer to it as ECMAScript 2015 or ES6. </p>
 	<hr>
-	<button type="button" onclick="eventHandler();">버튼을 눌러보세요.</button>
+	<button type="button" onclick="eventHandler();">press button</button>
 	<script type="text/javascript">
-		alert("body 태그에 작성된 자바스크립트 명령 실행");
+		alert("body tag for javascript prompt");
 	</script>
 </body>
 </html>
@@ -104,10 +100,6 @@ function eventHandler() {
 
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
 <title>JavaScript</title>
 </head>
 <body>
@@ -119,47 +111,47 @@ function eventHandler() {
 	<p>JavaScript variables automatically change their data type based on the stored value.</p>
 	
 	<script type="text/javascript">
-	// Variable declaration - If the variable is not initialized with a value, it is treated as having the [undefined] data type
-	// var num;
-	// alert(num);
+	/* Variable declaration - If the variable is not initialized with a value, it is treated as having the [undefined] data type
+	 var num;
+	 alert(num);
+	
+	 Variable declaration and initialization
+	 var num = 10; // Store a number value in the variable - data type of the variable: number
+	 alert("num = " + num); // Concatenate string values using the + operator
 
-	// Variable declaration and initialization
-	// var num = 10; // Store a number value in the variable - data type of the variable: number
-	// alert("num = " + num); // Concatenate string values using the + operator
+	 Re-declaring a variable with the same name does not cause an error - the existing variable is used
+	 var num = 20;
+	 alert("num = " + num);
 
-	// Re-declaring a variable with the same name does not cause an error - the existing variable is used
-	// var num = 20;
-	// alert("num = " + num);
+	 In JavaScript, string values are represented using ' ' or " " symbols
+	 var num = '10'; // Store a string value in the variable - data type of the variable: string
+	 alert("num = " + num);
 
-	// In JavaScript, string values are represented using ' ' or " " symbols
-	// var num = '10'; // Store a string value in the variable - data type of the variable: string
-	// alert("num = " + num);
+	 typeof(variableName): An operator that provides the data type of a variable
+	 var num = 10;
+	 alert("num variable's data type = " + typeof(num)); // num variable's data type = number
 
-	// typeof(variableName): An operator that provides the data type of a variable
-	// var num = 10;
-	// alert("num variable's data type = " + typeof(num)); // num variable's data type = number
+	 num = "10";
+	 alert("num variable's data type = " + typeof(num)); // num variable's data type = string
 
-	// num = "10";
-	// alert("num variable's data type = " + typeof(num)); // num variable's data type = string
+	 Store a boolean value (false or true) in the variable
+	 var result = true;
+	 alert("result = " + result);
+	 alert("result variable's data type = " + typeof(result)); // result variable's data type = boolean
 
-	// Store a boolean value (false or true) in the variable
-	// var result = true;
-	// alert("result = " + result);
-	// alert("result variable's data type = " + typeof(result)); // result variable's data type = boolean
+	 Store a function in a JavaScript variable - JavaScript internally treats functions as a single value
+	 var fun = function() {
+		alert("Execute commands written in the function");
+	 }
+	 alert("fun = " + fun);
+	 alert("fun variable's data type = " + typeof(fun)); // fun variable's data type = function
 
-	// Store a function in a JavaScript variable - JavaScript internally treats functions as a single value
-	// var fun = function() {
-	//	alert("Execute commands written in the function");
-	// }
-	// alert("fun = " + fun);
-	// alert("fun variable's data type = " + typeof(fun)); // fun variable's data type = function
+	 Create an object and store it in a variable
+	 var obj = new Object();
+	 alert("obj = " + obj); // [object Object]
+	 alert("obj variable's data type = " + typeof(obj)); // obj variable's data type = object
 
-	// Create an object and store it in a variable
-	// var obj = new Object();
-	// alert("obj = " + obj); // [object Object]
-	// alert("obj variable's data type = " + typeof(obj)); // obj variable's data type = object
-
-	// Even if a variable is not declared with the var keyword, it can be used if a value is assigned to it
+	 Even if a variable is not declared with the var keyword, it can be used if a value is assigned to it*/
 	num = 10;
 	alert("num = " + num);
 	</script>
@@ -188,10 +180,6 @@ function eventHandler() {
 ### Full Code 
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
 <title>JavaScript</title>
 </head>
 <body>
@@ -298,10 +286,6 @@ function eventHandler() {
 ### Full Code 
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
 <title>JavaScript</title>
 </head>
 <body>
@@ -415,10 +399,6 @@ Here is the translated version of the HTML and JavaScript code with the comments
 ## Full Code 
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
 <title>JavaScript Type Conversion</title>
 </head>
 <body>
