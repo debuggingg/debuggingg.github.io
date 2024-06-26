@@ -178,3 +178,75 @@ title: 2024/06/25 JavaScript-Object-prototype,
 </body>
 </html>
 ```
+---
+## Object 
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript</title>
+</head>
+<body>
+	<h1>Object Constructor Function</h1>
+	<hr>
+	<p>The browser has predefined constructor functions to create objects.</p>
+	<hr>
+	<p>Object Constructor Function: A constructor function to create Object instances. All JavaScript objects inherit from the Object prototype.</p>
+	<p>Object: An object with no properties initially, but contains the `toString` method.</p>
+	<p>Object.toString(): A method that returns the name of the constructor function that created the object. It is automatically called when an object variable is printed.</p>
+	<p>You can add properties and methods to the Object instance as needed.</p>
+	 
+	<script type="text/javascript">
+	// Creating an Object instance using the Object constructor
+	var student = new Object();
+	
+	// Adding properties to the Object instance
+	student.num = 1000;
+	student.name = "홍길동";
+	student.address = "서울시 강남구";
+	
+	// Adding a method to the Object instance
+	student.display = function() {
+		alert("학번 = " + this.num + ", 이름 = " + this.name + ", 주소 = " + this.address);
+	};	
+	
+	// Calling the method to display student details
+	student.display();
+
+	// Deleting a property from the Object instance
+	delete student.address;
+
+	// Trying to access the deleted property (should return undefined)
+	alert("학번 = " + student.num + ", 이름 = " + student.name + ", 주소 = " + student.address);
+
+	// Using JSON notation to create an Object instance with properties and methods
+	var studentJSON = {
+		"num": 1000,
+		"name": "홍길동",
+		"address": "서울시 강남구",
+		display() {
+			alert("학번 = " + this.num + ", 이름 = " + this.name + ", 주소 = " + this.address);
+		}
+	};
+	
+	// Calling the method to display student details
+	studentJSON.display();
+	</script> 
+</body>
+</html>
+```
+
+
+1. **Object Constructor**:
+   - An instance of `Object` is created using the `new Object()` constructor.
+   - Properties (`num`, `name`, and `address`) and a method (`display`) are added to this instance.
+   - The `display` method is defined using a function expression and is called to show the student details.
+   - The `address` property is deleted using the `delete` operator, and attempting to access it returns `undefined`.
+
+2. **JSON Notation**:
+   - An object is created using JSON notation, with properties and a method defined directly within the object literal.
+   - The `display` method is defined using the shorthand method syntax, which omits the `function` keyword.
+   - The method is called to display the student details.

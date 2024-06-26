@@ -61,14 +61,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
+                "file": "_posts/2024-06-25-js5-object-prototype.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53a35ec6b377c78d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-25-js5-object-prototype.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7069f91c121befce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6808fde4bf789763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -118,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 206.5
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -134,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
+                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
+                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-24-js1-var-operator-cast.md"
+                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md"
               }
             }
           }
@@ -195,14 +231,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "67497fa562baf63f",
+  "active": "6808fde4bf789763",
   "lastOpenFiles": [
-    "_posts/2024-06-21-css5-transform-transition-animation.md",
-    "_posts/2024-06-24-js1-var-operator-cast.md",
-    "_posts/2024-06-24-js2-control-function-scope.md",
-    "_posts/2024-06-25-js3-argument-return-inner-callback-closure-timer.md",
+    "2024-06-26-js7-bom-window-navigator-location-history-document.md",
+    "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
+    "_posts/2024-06-25-js5-object-prototype.md",
     "_posts/2024-06-25-js4-encode-encode-eval-is-parse.md",
-    "_posts/2024-06-25-js5-object.md",
+    "_posts/2024-06-25-js3-argument-return-inner-callback-closure-timer.md",
+    "_posts/2024-06-24-js1-var-operator-cast.md",
+    "_posts/2024-06-21-css5-transform-transition-animation.md",
+    "_posts/2024-06-24-js2-control-function-scope.md",
     "2024-06-20-css3-background-box.md",
     "2024-06-17-.md",
     "_posts/2024-06-21-css4-layout.md",
@@ -221,8 +259,6 @@
     "_posts/2024-05-28-sql3-oracle-select.md",
     "_posts/2024-05-29-sql4-oracle.md",
     "_posts/2024-05-27-sql2-oracle.md",
-    "_posts/2024-05-27-sql1-oracle.md",
-    "_posts/2024-05-24-Network2-UDP.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
