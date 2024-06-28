@@ -8,103 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "984a7ce08bf3bc5b",
+            "id": "112c5fc66861392c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
+                "file": "_posts/2024-06-27-js8-dom-elements-innerhtml.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6f6797af7a56286d",
+            "id": "4ac5bd707d92b915",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-06-17-.md",
+                "file": "2024-06-27-js10-event-listener.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ea1f9641223e421d",
+            "id": "447dea2c6af7f954",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-25-js3-argument-return-inner-callback-closure-timer.md",
+                "file": "2024-06-27-js10-event-listener.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8414bec5e424c0ca",
+            "id": "963edf76f687e17a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-24-js1-var-operator-cast.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67497fa562baf63f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-25-js5-object-prototype.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53a35ec6b377c78d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-25-js5-object-prototype.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7069f91c121befce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6808fde4bf789763",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
+                "file": "2024-06-27-js10-event-listener.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 305.5
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -170,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
+                "file": "2024-06-27-js10-event-listener.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
+                "file": "2024-06-27-js10-event-listener.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md"
+                "file": "2024-06-27-js10-event-listener.md"
               }
             }
           }
@@ -231,24 +183,27 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6808fde4bf789763",
+  "active": "447dea2c6af7f954",
   "lastOpenFiles": [
-    "2024-06-26-js7-bom-window-navigator-location-history-document.md",
+    "_posts/2024-06-27-js8-dom-elements-innerhtml.md",
+    "2024-06-27-js9-event-eventhandle,this,default,propagation.md",
+    "2024-06-27-js10-event-listener.md",
+    "_posts/2024-06-19-html4-form-label-texaarea-select.md",
+    "2024-06-20-css3-background-box.md",
+    "_posts/2024-06-26-js7-bom-window-navigator-location-history-document.md",
     "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
     "_posts/2024-06-25-js5-object-prototype.md",
-    "_posts/2024-06-25-js4-encode-encode-eval-is-parse.md",
-    "_posts/2024-06-25-js3-argument-return-inner-callback-closure-timer.md",
     "_posts/2024-06-24-js1-var-operator-cast.md",
+    "_posts/2024-06-25-js3-argument-return-inner-callback-closure-timer.md",
+    "_posts/2024-06-25-js4-encode-encode-eval-is-parse.md",
     "_posts/2024-06-21-css5-transform-transition-animation.md",
     "_posts/2024-06-24-js2-control-function-scope.md",
-    "2024-06-20-css3-background-box.md",
     "2024-06-17-.md",
     "_posts/2024-06-21-css4-layout.md",
     "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
     "_posts/2024-06-20-css1-cascade-format-derive.md",
     "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
     "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "_posts/2024-06-19-html4-form-label-texaarea-select.md",
     "_pages/category-archive.md",
     "_pages/github-info.md",
     "_posts/2024-06-17-html01.md",
@@ -256,9 +211,6 @@
     "_pages/oraclesql-mac-install.md",
     "_pages/tags-archive.md",
     "_pages/sql.md",
-    "_posts/2024-05-28-sql3-oracle-select.md",
-    "_posts/2024-05-29-sql4-oracle.md",
-    "_posts/2024-05-27-sql2-oracle.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",

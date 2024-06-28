@@ -29,8 +29,8 @@ title: 2024/06/26 JavaScript 06- Object,Array,Number,String,Date,Math,Json,and D
 	
 	// Adding properties to the Object instance
 	student.num = 1000;
-	student.name = "홍길동";
-	student.address = "서울시 강남구";
+	student.name = "Paul";
+	student.address = "Seoul GangNam";
 	
 	// Adding a method to the Object instance
 	student.display = function() {
@@ -49,8 +49,8 @@ title: 2024/06/26 JavaScript 06- Object,Array,Number,String,Date,Math,Json,and D
 	// Using JSON notation to create an Object instance with properties and methods
 	var studentJSON = {
 		"num": 1000,
-		"name": "홍길동",
-		"address": "서울시 강남구",
+		"name": "Paul",
+		"address": "Seoul GangNam",
 		display() {
 			alert("학번 = " + this.num + ", 이름 = " + this.name + ", 주소 = " + this.address);
 		}
@@ -130,7 +130,7 @@ title: 2024/06/26 JavaScript 06- Object,Array,Number,String,Date,Math,Json,and D
 		alert("arrayJSON[" + index + "] = " + arrayJSON[index]);
 	}
 
-	// Iterating over the array using a for-of loop
+	// Iterating over the array using a for-of loop 
 	for (var value of arrayJSON) {
 		alert(value);
 	}
@@ -163,24 +163,24 @@ title: 2024/06/26 JavaScript 06- Object,Array,Number,String,Date,Math,Json,and D
 ```
 
 
-1. **Creating Arrays**:
+-  **Creating Arrays**:
    - An empty array is created using `new Array()`.
    - An array with a specific size is created using `new Array(5)`, where all elements are initially `undefined`.
    - An array with initial values is created using `new Array(10, 20, 30)`.
 
-2. **Accessing and Manipulating Elements**:
+-  **Accessing and Manipulating Elements**:
    - Elements are accessed using indices (e.g., `arrayWithValues[0]`).
    - An out-of-bounds index returns `undefined`.
    - Arrays can also be created using JSON notation for easier initialization.
 
-3. **Iterating Over Arrays**:
+-  **Iterating Over Arrays**:
    - Various loops are demonstrated to iterate over array elements:
      - A `for` loop using indices.
      - A `for-in` loop, which iterates over indices (not recommended for arrays but shown for completeness).
      - A `for-of` loop, which iterates over values.
      - The `forEach` method, which calls a function for each element in the array.
 
-4. **Array Methods**:
+-  **Array Methods**:
    - `push`: Adds an element to the end of the array.
    - `pop`: Removes and returns the last element of the array.
    - `unshift`: Adds an element to the beginning of the array.
@@ -350,11 +350,6 @@ title: 2024/06/26 JavaScript 06- Object,Array,Number,String,Date,Math,Json,and D
 ## Date,Math,JSON
 
 ```html
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta charset="UTF-8">
 <title>JavaScript</title>
 </head>
 
@@ -444,9 +439,7 @@ var stu = eval("(" + str + ")");
 // alert("stu = " + stu); // stu = [object Object]
 alert("Student number = " + stu.num + ", Name = " + stu.name); // Student number = 1000, Name = Hong Gil-dong
 </script>
-
 </body>
-
 </html>
 ```
 
@@ -454,10 +447,6 @@ alert("Student number = " + stu.num + ", Name = " + stu.name); // Student number
 ## Destructuring
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
 <title>JavaScript</title>
 </head>
 <body>
@@ -467,7 +456,7 @@ alert("Student number = " + stu.num + ", Name = " + stu.name); // Student number
 	
 	<script type="text/javascript">
 	/*
-	var array=["홍길동", "임꺽정", "전우치"];
+	var array=["Paul", "Sung", "Tim"];
 	//alert(array);
 
 	//var one=array[0];
@@ -482,10 +471,10 @@ alert("Student number = " + stu.num + ", Name = " + stu.name); // Student number
 	*/
 
 	/*
-	//var [one, two, three]=["홍길동", "임꺽정", "전우치"];
+	//var [one, two, three]=["Paul", "Sung", "Tim"];
 	//When destructuring an array, you can set default values for variables
-	//var [one, two, three="일지매"]=["홍길동", "임꺽정", "전우치"];
-	var [one, two, three="일지매"]=["홍길동", "임꺽정"];
+	//var [one, two, three="Eddie"]=["Paul", "Sung", "Tim"];
+	var [one, two, three="Eddie"]=["Paul", "Sung"];
 
 	alert("one = "+one+", two = "+two+", three = "+three);
 	*/
@@ -538,7 +527,7 @@ alert("Student number = " + stu.num + ", Name = " + stu.name); // Student number
 	
 	/*
 	//Creating an object and storing it in a variable
-	var student={"num":1000, "name":"홍길동"};
+	var student={"num":1000, "name":"Paul"};
 	//alert("Student ID ="+student.num+", Name = "+student.name);
 	//alert("Student ID ="+student["num"]+", Name = "+student["name"]);
 	
@@ -558,13 +547,13 @@ alert("Student number = " + stu.num + ", Name = " + stu.name); // Student number
 	*/
 	
 	/*
-	var {num:bunho, name:irum}={num:1000, name:"홍길동"};
+	var {num:bunho, name:irum}={num:1000, name:"Paul"};
 	alert("Student ID ="+bunho+", Name = "+irum);
 	*/
 	
-	var people=[{name:"홍길동", subject:"JAVA", grade:"Beginner"}
-		, {name:"임꺽정", subject:"JSP", grade:"Intermediate"}
-		,{name:"전우치", subject:"SPRING", grade:"Advanced"}];
+	var people=[{name:"Paul", subject:"JAVA", grade:"Beginner"}
+		, {name:"Sung", subject:"JSP", grade:"Intermediate"}
+		,{name:"Tim", subject:"SPRING", grade:"Advanced"}];
 	
 	/*
 	for(i=0;i<people.length;i++) {
@@ -591,7 +580,7 @@ alert("Student number = " + stu.num + ", Name = " + stu.name); // Student number
 		alert("Student ID = "+num+", Name = "+name);
 	}
 	
-	display({num:1000, name:"홍길동"});
+	display({num:1000, name:"Paul"});
 	
 	</script>
 </body>
