@@ -7,6 +7,8 @@ title: 2024/06/27 JavaScript 08-DOM- Element-add,remove,innerHTML
 
 ## Element
 
+- script- nomaly it put on the bottom on the body tag, expect using function on the top then you can use script on the head. 
+	
 ```html
 <script type="text/javascript">
 /*
@@ -25,7 +27,7 @@ window.onload=function() {
 	uses the browser engine's DOM parser to read the HTML document and create a DOM tree, applies the CSS stylesheet, 
 	and then outputs it in the browser</p> 
 	<p>By using JavaScript, you can create dynamic pages by finding and manipulating tags (Node objects) in the DOM tree when an event occurs on the tag - DHTML (Dynamic HTML)</p>
-	<p>Dynamic pages can only be implemented after the DOM tree is completed</p>
+	<p>Dynamic pages can only be implemented after the DOM tree is completed- onload </p>
 	<p>Node object: Represents tags (TagNode) and tag content (TextNode) as JavaScript objects
 	- Can be represented separately as Element objects and Text objects</p>
 	<p>Element object: Represents only tags (TagNode) as a JavaScript object</p>
@@ -116,6 +118,8 @@ window.onload=function() {
 	<hr>
 	<h2>Element-1</h2>
 	<h2 id="remove">Element-2</h2>
+	
+	<hr>
 	<h2>Element-3</h2>
 	<hr>
 		<ul>
@@ -165,6 +169,10 @@ window.onload=function() {
 	var hrE = document.createElement("hr");
 	//Element.insertBefore(newElement, before): A member function that searches the DOM tree for a tag (before) and inserts a new tag (newElement) before the found tag
 	document.body.insertBefore(hrE, h2E);
+
+
+
+// Remove 
 	var h2E = document.getElementById("remove");
 	
 	/*
@@ -175,6 +183,9 @@ window.onload=function() {
 	
 	//Element.parentElement: A member variable that stores the parent Element object of the Element object
 	h2E.parentElement.removeChild(h2E);
+	
+	
+// Inner 
 	/*
 	// Write a program that finds the li tag with the tag content [Menu-2] among the li tags and changes the tag content to [New Menu]
 	var ulList = document.getElementsByTagName("ul");
@@ -225,7 +236,7 @@ Here is the English translation of your HTML document:
 	font-weight: bold;
 	text-align: center;
 	border: 2px solid black; 
-}
+}[p]
 </style>
 </head>
 <body>

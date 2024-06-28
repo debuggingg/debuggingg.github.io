@@ -1,6 +1,6 @@
 {
-  "findText": "일지매",
-  "replaceText": "Eddie",
+  "findText": "연습",
+  "replaceText": "practice",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,

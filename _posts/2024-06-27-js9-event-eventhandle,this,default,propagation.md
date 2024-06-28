@@ -158,6 +158,7 @@ ul li {
 </body>
 </html>
 ```
+---
 ## Event Propagation
 
  **Styles:**
