@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/06/28 JQuery-
+title: 2024/06/28 JQuery 01-Selector-Filter-Each
 ---
 # JQurey
 ## Jquery- install  and $
@@ -64,14 +64,14 @@ jQuery(document).ready(function() {
 </body>
 </html>
 ```
-
+---
 ## Selector 
+
 - **Tag Selector** (`$("h2")`): Selects all `<h2>` elements and changes their text color to red.
 - **Class Selector** (`$(".item")`): Selects all elements with class "item" and changes their text color to orange.
 - **ID Selector** (`$("#tag")`): Selects the element with id "tag" and changes its text color to green.
 - **Method Chaining**: Demonstrates chaining of jQuery methods (`$("p").css("color", "blue").css("font-size","30px")`) to first change text color to blue and then set font size to 30 pixels for all `<p>` elements.
 - **Object Argument**: Uses an object to pass multiple CSS properties (`$("p").css({"color":"blue", "font-size":"30px"})`) in a single call to the jQuery `css()` method.
-
 
 ```html
 <!DOCTYPE html>
@@ -115,7 +115,6 @@ jQuery(document).ready(function() {
   
 - **Descendant Selector** (`$("#subject p")`): Selects all `<p>` elements that are descendants (children at any level) of the element with id "subject" and applies a CSS style (`color`).
 
-These selectors demonstrate how jQuery can efficiently target specific elements based on their relationship to other elements within the HTML structure.
 ```html
 <!DOCTYPE html>
 <html>
@@ -216,7 +215,17 @@ These selectors demonstrate how jQuery can efficiently target specific elements 
 	
 	// Applying CSS font-size 25px to all <li> elements inside <ul>
 	$("ul").find("li").css("font-size","25px");
-	
+	Here is the translated content:
+
+//Pseudo-class Selector: A selector to provide tags based on the state or position of the selected tag.
+//:nth-child(N): A pseudo-class selector to provide the tag located at the Nth position.
+//You can use pseudo-class selectors by passing them as arguments to the filter member function.
+
+
+//:eq(index): A pseudo-class selector to provide the tag at the specified index position.
+
+
+//$(selector).eq(index): A member function that returns the tag at the specified index among the multiple tags found by the selector as a jQuery object.
 	// Applying CSS color red to the third <li> element inside <ul>
 	$("ul li").eq(2).css("color","red");
 
@@ -284,7 +293,7 @@ These selectors demonstrate how jQuery can efficiently target specific elements 
 	}
 	*/
 	
-	// $(selector).each(callback([index][, element])): A member function that iterates over the number of tags selected by the selector, calling a callback function repeatedly.
+	// $(selector).each(callback([index],[element])): A member function that iterates over the number of tags selected by the selector, calling a callback function repeatedly.
 	// Explicit iteration
 	// The callback function automatically stores the index of the selected tag and the Element object of the tag, which can be used in the callback function.
 	$("h3").each(function(index, element) {

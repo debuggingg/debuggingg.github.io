@@ -73,14 +73,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-06-20-css3-background.md",
+                "file": "_posts/2024-06-28-js11-form-exception-.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69afb497c643c1c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-07-01-jquery2-event-this-onoff-false.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0951f2ce6ca61c07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -130,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 230.5
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -146,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-06-20-css3-background.md",
+                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-06-20-css3-background.md",
+                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-06-20-css3-background.md"
+                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md"
               }
             }
           }
@@ -207,15 +231,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0c1f392a09d0d73e",
+  "active": "dc24fe79a90e9e20",
   "lastOpenFiles": [
-    "_posts/2024-06-28-jquery.md",
+    "_posts/2024-07-01-jquery2-event-this-onoff-false.md",
+    "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
+    "_posts/2024-07-01-jquery1-css-attr-text-element.md",
+    "_posts/2024-06-28-js12-jquery-selector-filter-each.md",
     "_posts/2024-06-28-js11-form-exception-.md",
+    "2024-06-20-css3-background.md",
     "_posts/2024-06-27-js10-event-listener.md",
     "_posts/2024-06-27-js9-event-eventhandle,this,default,propagation.md",
     "_posts/2024-06-27-js8-dom-elements-innerhtml.md",
     "_posts/2024-06-19-html4-form-label-texaarea-select.md",
-    "2024-06-20-css3-background.md",
     "_posts/2024-06-26-js7-bom-window-navigator-location-history-document.md",
     "_posts/2024-06-26-js6-object-array-number-string-date-destructure.md",
     "_posts/2024-06-25-js5-object-prototype.md",
@@ -232,9 +259,6 @@
     "_posts/2024-06-18-html3-a-anchor-tag.md",
     "_pages/category-archive.md",
     "_pages/github-info.md",
-    "_posts/2024-06-17-html01.md",
-    "_posts/2024-06-12-dto-dao1.md",
-    "_pages/oraclesql-mac-install.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
