@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-28-js11-form-exception-.md",
+                "file": "_posts/2024-06-28-js11-form-exception.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,31 +73,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-28-js11-form-exception-.md",
+                "file": "_posts/2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "69afb497c643c1c2",
+            "id": "4fb7e0616abe6979",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-01-jquery2-event-this-onoff-false.md",
+                "file": "2024-07-02-jqurey4-.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0951f2ce6ca61c07",
+            "id": "974ab07728159d8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
+                "file": "2024-07-02-servlet1.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
+                "file": "2024-07-02-servlet1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
+                "file": "2024-07-02-servlet1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-01-jquery3-mouse-key-scroll-submit-form.md"
+                "file": "2024-07-02-servlet1.md"
               }
             }
           }
@@ -231,13 +231,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dc24fe79a90e9e20",
+  "active": "974ab07728159d8e",
   "lastOpenFiles": [
+    "_posts/2024-05-22-IO7-object-inout.md",
+    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
+    "_posts/2024-06-10-jdbc-sqlminusapp.md",
+    "2024-07-02-servlet1.md",
+    "2024-07-02-jqurey4-.md",
+    "_posts/2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
+    "_posts/2024-06-28-js11-form-exception.md",
     "_posts/2024-07-01-jquery2-event-this-onoff-false.md",
-    "2024-07-01-jquery3-mouse-key-scroll-submit-form.md",
     "_posts/2024-07-01-jquery1-css-attr-text-element.md",
     "_posts/2024-06-28-js12-jquery-selector-filter-each.md",
-    "_posts/2024-06-28-js11-form-exception-.md",
     "2024-06-20-css3-background.md",
     "_posts/2024-06-27-js10-event-listener.md",
     "_posts/2024-06-27-js9-event-eventhandle,this,default,propagation.md",
@@ -254,11 +259,6 @@
     "2024-06-17-.md",
     "_posts/2024-06-21-css4-layout.md",
     "_posts/2024-06-20-css2-attribute-pseudo-font-space-text-list-color.md",
-    "_posts/2024-06-20-css1-cascade-format-derive.md",
-    "_posts/2024-06-18-html2-li-ul-table-etc tag.md",
-    "_posts/2024-06-18-html3-a-anchor-tag.md",
-    "_pages/category-archive.md",
-    "_pages/github-info.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",

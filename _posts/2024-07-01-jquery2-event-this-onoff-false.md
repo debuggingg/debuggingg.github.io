@@ -148,7 +148,7 @@ div {
 		}
 	});
 	</script>
-<h1>jQuery Event Handling</h1>
+	<h1>jQuery Event Handling</h1>
 	<hr>
 	<button type="button" id="eventOn">Register Event Handler Button</button>
 	<button type="button" id="eventOff">Remove Event Handler Button</button>
