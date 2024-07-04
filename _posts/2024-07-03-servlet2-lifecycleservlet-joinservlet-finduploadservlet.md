@@ -1,11 +1,11 @@
 ---
 layout: single
-title: 2024/07/03 Servlet
+title: 2024/07/03 Servlet-LifeCycleServlet-JoinServlet-FileUploadServlet
 ---
 # Servlet
 ## LifeCycleServlet
 
-### Concept Summary
+### Concept 
 
 #### Servlet Lifecycle
 1. **Instantiation**:
@@ -170,10 +170,9 @@ public class LifeCycleServlet extends HttpServlet {
 ---
 ## JoinServlet
 
-### Translated Code
-
-
-### Concept Summary
+## **There are  HTML files too**
+#### signup html, errorMessage html
+### Concept 
 
 #### Servlet Request Handling
 1. **Request Type Handling**:
@@ -370,6 +369,31 @@ public class JoinServlet extends HttpServlet {
 6. **Response Generation**:
    - The servlet generates an HTML response that includes the uploader's name, original file names, saved file names, and displays the uploaded images.
    - The response is sent back to the client and displayed in the client's browser.
+
+### Steps to Download and Build the COS Library File Distributed by the Oreilly Group into the Project
+
+1. **Download COS Library**
+   - Visit [Servlets.com](http://www.servlets.com).
+   - Click on the **COS File Upload Library** menu.
+   - Download the `cos-22.05.zip` file.
+
+2. **Extract COS Library**
+   - Unzip the downloaded `cos-22.05.zip` file.
+   - Navigate to the extracted `cos-22.05` folder.
+   - Go to the `lib` directory inside the `cos-22.05` folder.
+
+3. **Copy COS Jar File**
+   - Locate the `cos.jar` file in the `lib` directory.
+   - Copy the `cos.jar` file.
+
+4. **Build COS Library into the Project**
+   - Open your project directory.
+   - Navigate to `src/main/webapp/WEB-INF/lib`.
+   - Paste the `cos.jar` file into the `lib` folder.
+
+### Summary
+By pasting the `cos.jar` file into the `/WEB-INF/lib` directory, the library file is automatically built into your project. This allows you to utilize the classes and methods provided by the COS library for file upload handling in your servlet application.
+
 
 ## Full Code
 ```java
