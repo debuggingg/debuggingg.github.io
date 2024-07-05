@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/07/03 Servlet-LifeCycleServlet-JoinServlet-FileUploadServlet
+title: 2024/07/03 Servlet 02-LifeCycleServlet-JoinServlet-FileUploadServlet
 ---
 # Servlet
 ## LifeCycleServlet
