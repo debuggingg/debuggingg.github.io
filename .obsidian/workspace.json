@@ -61,14 +61,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-05-servlet5-sql-connect.md",
+                "file": "_posts/2024-07-05-servlet5-sql-connect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "620c33993a225bb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-07-05-servlet5-sql-connect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17d164c30a914d07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-08-jsp-.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -118,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 200
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -134,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-05-servlet5-sql-connect.md",
+                "file": "2024-07-08-jsp-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-05-servlet5-sql-connect.md",
+                "file": "2024-07-08-jsp-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-05-servlet5-sql-connect.md"
+                "file": "2024-07-08-jsp-.md"
               }
             }
           }
@@ -195,10 +219,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "08a16d625de659ca",
+  "active": "17d164c30a914d07",
   "lastOpenFiles": [
+    "2024-07-08-jsp-.md",
+    "_posts/2024-07-05-servlet5-sql-connect.md",
+    "_posts/2024-07-05-servlet6-sql-connect-proceed.md",
     "_posts/2024-07-04-servlet4-dao-dto-jdbc.md",
-    "2024-07-05-servlet5-sql-connect.md",
     "_posts/2024-07-04-servlet3-cookie-session.md",
     "_posts/2024-07-03-servlet2-lifecycleservlet-joinservlet-finduploadservlet.md",
     "_posts/2024-07-02-servlet1.md",
@@ -221,8 +247,6 @@
     "_posts/2024-06-28-js11-form-exception.md",
     "_posts/2024-06-27-js10-event-listener.md",
     "_posts/2024-06-27-js8-dom-elements-innerhtml.md",
-    "2024-06-17-.md",
-    "_posts/2024-05-22-IO7-object-inout.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
