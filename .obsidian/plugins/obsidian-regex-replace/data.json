@@ -1,6 +1,6 @@
 {
-  "findText": "연습",
-  "replaceText": "practice",
+  "findText": "</p>",
+  "replaceText": "",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,
