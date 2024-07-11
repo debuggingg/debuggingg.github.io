@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-09-jsp6-action-include.md",
+                "file": "_posts/2024-07-10-jsp9-ex-student-dao-db.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c35fc48fe09f92ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-11-jsp10-ex-shop-member-signup.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-09-jsp6-action-include.md",
+                "file": "2024-07-11-jsp10-ex-shop-member-signup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-09-jsp6-action-include.md",
+                "file": "2024-07-11-jsp10-ex-shop-member-signup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-09-jsp6-action-include.md"
+                "file": "2024-07-11-jsp10-ex-shop-member-signup.md"
               }
             }
           }
@@ -171,20 +183,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dc24fe79a90e9e20",
+  "active": "c35fc48fe09f92ec",
   "lastOpenFiles": [
+    "_posts/2024-07-10-jsp9-ex-student-dao-db.md",
+    "2024-07-11-jsp10-ex-shop-member-signup.md",
     "_posts/2024-07-09-jsp7-action-forward.md",
-    "_posts/2024-07-09-jsp6-action-include.md",
-    "_posts/2024-07-09-jsp5-scope.md",
+    "_posts/2024-07-05-servlet6-sql-connect-proceed.md",
     "_posts/2024-07-08-jsp4-implicit.md",
+    "_posts/2024-07-09-jsp5-scope.md",
+    "_posts/2024-07-09-jsp6-action-include.md",
+    "_posts/2024-07-10-jsp8-action-useBean.md",
+    "_posts/2024-07-03-servlet2-lifecycleservlet-joinservlet-finduploadservlet.md",
     "_posts/2024-07-08-jsp3-directive.md",
     "_posts/2024-07-08-jsp2-script.md",
     "_posts/2024-07-08-jsp1.md",
     "_posts/2024-07-05-servlet5-sql-connect.md",
     "_posts/2024-07-04-servlet3-cookie-session.md",
-    "_posts/2024-07-03-servlet2-lifecycleservlet-joinservlet-finduploadservlet.md",
     "2024-06-20-css3-background.md",
-    "_posts/2024-07-05-servlet6-sql-connect-proceed.md",
     "_posts/2024-07-04-servlet4-dao-dto-jdbc.md",
     "_posts/2024-07-02-servlet1.md",
     "_posts/2024-07-02-jqurey4-.md",
@@ -196,9 +211,6 @@
     "_posts/2024-06-03-sql12-sequence.md",
     "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
     "_posts/2024-05-31-sql9-constraint.md",
-    "_posts/2024-06-04-sql14-plsql.md",
-    "_posts/2024-05-31-sql8-ddl.md",
-    "_posts/2024-05-27-sql2-oracle.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",

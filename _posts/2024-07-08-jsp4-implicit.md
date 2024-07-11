@@ -181,10 +181,8 @@ title: 2024/07/08 JSP 03-Implict
         return;
     }
 
-    // request.setCharacterEncoding(String encoding): Method that changes the encoding to receive the values passed by POST method
-    // in the desired character set
-    // => Can be omitted if the JSP document is requested using the GET method or if the passed values are composed of
-    // only English letters, numbers, and special characters
+    // request.setCharacterEncoding(String encoding): Method that changes the encoding to receive the values passed by POST method in the desired character set
+    // => Can be omitted if the JSP document is requested using the GET method or if the passed values are composed of only English letters, numbers, and special characters
     // request.setCharacterEncoding("utf-8");
 
     // Retrieve the passed values and store them
