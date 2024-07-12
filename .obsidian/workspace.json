@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-11-jsp10-ex-shop-member-signup.md",
+                "file": "2024-07-12-jsp12-ex-shop-member-login-logout.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f34e0458f2662eb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-12-jsp14-ex-shop-pagesmove-cart.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-11-jsp10-ex-shop-member-signup.md",
+                "file": "2024-07-12-jsp14-ex-shop-pagesmove-cart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-11-jsp10-ex-shop-member-signup.md",
+                "file": "2024-07-12-jsp14-ex-shop-pagesmove-cart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-11-jsp10-ex-shop-member-signup.md"
+                "file": "2024-07-12-jsp14-ex-shop-pagesmove-cart.md"
               }
             }
           }
@@ -183,10 +195,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c35fc48fe09f92ec",
+  "active": "f34e0458f2662eb0",
   "lastOpenFiles": [
-    "_posts/2024-07-10-jsp9-ex-student-dao-db.md",
+    "2024-07-12-jsp12-ex-shop-member-login-logout.md",
+    "2024-07-12-jsp11-ex-shop-m-signup-password.md",
+    "2024-07-12-jsp13-ex-shop-member-mypage.md",
     "2024-07-11-jsp10-ex-shop-member-signup.md",
+    "2024-07-12-jsp14-ex-shop-pagesmove-cart.md",
+    "_posts/2024-07-10-jsp9-ex-student-dao-db.md",
     "_posts/2024-07-09-jsp7-action-forward.md",
     "_posts/2024-07-05-servlet6-sql-connect-proceed.md",
     "_posts/2024-07-08-jsp4-implicit.md",
@@ -207,10 +223,6 @@
     "_posts/2024-05-29-sql4-oracle.md",
     "_posts/2024-05-30-sql6-oracle-insert-update-delete-merge.md",
     "_posts/2024-06-03-sql10-create-subquery-drop.md",
-    "_posts/2024-06-03-sql11-alter-view.md",
-    "_posts/2024-06-03-sql12-sequence.md",
-    "_posts/2024-06-04-sql13-index-synonym-user-dcl.md",
-    "_posts/2024-05-31-sql9-constraint.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",

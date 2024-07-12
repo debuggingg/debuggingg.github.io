@@ -4,9 +4,53 @@ title: 2024/07/11 JSP 10-EX-Shop-Member SignUp
 ---
 # Shopping Mall 
 
+## Index Page-jsp 
+#### All requests are processed and displayed to the client through index.jsp
+```html
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%-- JSP document implementing a template page --%>    
+<%-- => Provides response results for all client requests --%>
+<%-- => Dynamically includes the result (HTML) of the requested JSP document in the content area --%>    
+<%
+    String workgroup = request.getParameter("workgroup");
+    if (workgroup == null) workgroup = "main";
+    
+    String work = request.getParameter("work");
+    if (work == null) work = "main_page";
+
+    String contentPath = workgroup + "/" + work + ".jsp";
+%>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JSP</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <%-- Header area: company logo, menu, etc. --%>
+    <div id="header">
+        <jsp:include page="header.jsp"/>
+    </div>
+    
+    <%-- Content area: displays the result of the request --%>
+    <div id="content">
+        <jsp:include page="<%=contentPath %>"/>        
+    </div>
+    
+    <%-- Footer area: copyright, terms, privacy policy, company address, etc. --%>
+    <div id="footer">
+        <jsp:include page="footer.jsp"/>
+    </div>
+</body>
+</html>
+```
+
 ## Member SignUp Pages 
 
-## MemberDTO 
+## MemberDTO -  table(sql),field(java)  created
 
 create table member(member_num number primary key, member_id varchar2(30) unique, member_passwd varchar2(200)
     , member_name varchar2(30), member_email varchar2(50), member_mobile varchar2(20), member_zipcode varchar2(10)
@@ -447,3 +491,29 @@ $("#id").change(function() {
 %>
 ```
 
+#### FreeUse  Auto Address creation- useing Daum
+
+#### Original Code: 
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+    new daum.Postcode({
+        oncomplete: function(data) {
+        
+        }
+    }).open();
+</script>
+### EX) code 
+Insert to memberAction -jsp
+
+```html
+<%-- => When the [Search Zipcode] tag is clicked, use the [Daum Zipcode Service] to change the input values of the input tags (zipcode and basic address) --%>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>    
+$("#postSearch").click(function() {
+	new daum.Postcode({
+	    oncomplete: function(data) {
+	        $("#zipcode").val(data.zonecode);
+	        $("#address1").val(data.address);
+	    }
+	}).open();	
+});
+```

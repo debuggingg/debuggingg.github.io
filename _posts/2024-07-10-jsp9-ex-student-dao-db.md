@@ -2,7 +2,7 @@
 layout: single
 title: 2024/07/10 JSP 09-EX-Student
 ---
-### 
+### Using JSP, and Java DAO,DTO-DB Insert,update,select,delete 
 
 The file that must be configured before creating the DAO and DTO
 WEB-INF  -> lib->ojdbc11.jar
