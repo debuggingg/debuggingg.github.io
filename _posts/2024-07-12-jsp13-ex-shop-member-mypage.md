@@ -26,6 +26,8 @@ title: 2024/07/12 JSP 13-EX-Shop-Member-MyPage
 	}
 --%>
 <%@include file="/security/login_check.jspf" %> 
+= include directice 는 권한 확인 할때 자주 사용 된다. 
+
 <style type="text/css">
 #detail {
 	width: 500px;
