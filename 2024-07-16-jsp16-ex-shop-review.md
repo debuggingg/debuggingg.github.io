@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/06
+title: 2024/07/16 JSP 16-EX-Shop-Review
 ---
 ## Review
 
@@ -53,3 +53,7 @@ private int reviewStatus;
 자기 스스로를 요청 하는 경우
 
 다른 페이지를 요청하는 경우
+
+SQL 4일차 보면 ROWNUM 을 공부 다시 하자 
+
+### Add DTO

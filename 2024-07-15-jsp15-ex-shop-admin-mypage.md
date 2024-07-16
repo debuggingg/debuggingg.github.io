@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/06
+title: 2024/07/15 JSP 15-EX-Shop-Admin-<yAccount
 ---
 
 ## Admin 

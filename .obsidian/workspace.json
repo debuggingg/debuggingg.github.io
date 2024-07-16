@@ -68,31 +68,19 @@
             }
           },
           {
-            "id": "2a5b60229bd4fe06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5bca167ebdc30584",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 파일 1.md",
+                "file": "2024-07-16-jsp16-ex-shop-review.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일 1.md",
+                "file": "2024-07-16-jsp16-ex-shop-review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일 1.md",
+                "file": "2024-07-16-jsp16-ex-shop-review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일 1.md"
+                "file": "2024-07-16-jsp16-ex-shop-review.md"
               }
             }
           }
@@ -221,9 +209,9 @@
   },
   "active": "5bca167ebdc30584",
   "lastOpenFiles": [
-    "무제 파일.md",
-    "무제 파일 1.md",
     "_posts/2024-07-12-jsp14-ex-shop-pagesmove-cart.md",
+    "2024-07-16-jsp16-ex-shop-review.md",
+    "2024-07-15-jsp15-ex-shop-admin-mypage.md",
     "_posts/2024-07-12-jsp13-ex-shop-member-mypage.md",
     "_posts/2024-07-12-jsp12-ex-shop-member-login-logout.md",
     "_posts/2024-07-12-jsp11-ex-shop-m-signup-password.md",
