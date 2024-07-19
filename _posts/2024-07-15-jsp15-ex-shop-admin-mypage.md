@@ -157,7 +157,7 @@ $("#submitBtn").click(function() {
 
 ```
 
-####  member_modify .jsp
+####  member_modify .jsp - no css
 
 ```jsp
 <%@page import="xyz.itwill.util.Utility"%>
@@ -187,53 +187,7 @@ $("#submitBtn").click(function() {
 	}
 %>
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>    
-<style type="text/css">
-fieldset {
-	text-align: left;
-	margin: 10px auto;
-	width: 1100px;
-}
 
-legend {
-	font-size: 1.2em;
-}
-
-#join label {
-	width: 150px;
-	text-align: right;
-	float: left;
-	margin-right: 10px;
-}
-
-#join ul li {
-	list-style-type: none;
-	margin: 15px 0;
-}
-
-#fs {
-	text-align: center;
-}
-
-.error {
-	color: red;
-	position: relative;
-	left: 160px;
-	display: none;
-}
-
-#idCheck, #postSearch {
-	font-size: 12px;
-	font-weight: bold;
-	cursor: pointer;
-	margin-left: 10px;
-	padding: 2px 10px;
-	border: 1px solid black;
-}
-
-#idCheck:hover, #postSearch:hover {
-	background: aqua;
-}
-</style>
 <form id="join" action="<%=request.getContextPath() %>/index.jsp?workgroup=member&work=member_modify_action" method="post">
 <input type="hidden" name="num" value="<%=loginMember.getMemberNum()%>">
 <fieldset>

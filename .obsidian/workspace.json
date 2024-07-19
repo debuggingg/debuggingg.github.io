@@ -73,14 +73,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-16-jsp16-ex-shop-review.md",
+                "file": "2024-07-16-jsp16-ex-shop-reviewlist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e1cfbe80fc4278d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-17-jsp17-ex-shop-review-write.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9fe4f75a67ba9dee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-18-jsp19-ex-shop-review-modify.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "287f8f1cf2cef75a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-19-ajax20-.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -146,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-16-jsp16-ex-shop-review.md",
+                "file": "2024-07-19-ajax20-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-16-jsp16-ex-shop-review.md",
+                "file": "2024-07-19-ajax20-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-16-jsp16-ex-shop-review.md"
+                "file": "2024-07-19-ajax20-.md"
               }
             }
           }
@@ -207,11 +243,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5bca167ebdc30584",
+  "active": "287f8f1cf2cef75a",
   "lastOpenFiles": [
+    "2024-07-18-jsp19-ex-shop-review-modify.md",
+    "2024-07-19-ajax20-.md",
+    "2024-07-17-jsp18-ex-shop-review-detail.md",
+    "2024-07-17-jsp17-ex-shop-review-write.md",
+    "2024-07-16-jsp16-ex-shop-reviewlist.md",
+    "_posts/2024-07-15-jsp15-ex-shop-admin-mypage.md",
     "_posts/2024-07-12-jsp14-ex-shop-pagesmove-cart.md",
-    "2024-07-16-jsp16-ex-shop-review.md",
-    "2024-07-15-jsp15-ex-shop-admin-mypage.md",
     "_posts/2024-07-12-jsp13-ex-shop-member-mypage.md",
     "_posts/2024-07-12-jsp12-ex-shop-member-login-logout.md",
     "_posts/2024-07-12-jsp11-ex-shop-m-signup-password.md",
@@ -231,10 +271,6 @@
     "_posts/2024-07-05-servlet5-sql-connect.md",
     "_posts/2024-07-04-servlet3-cookie-session.md",
     "_posts/2024-07-04-servlet4-dao-dto-jdbc.md",
-    "_posts/2024-07-02-servlet1.md",
-    "_posts/2024-07-02-jqurey4-.md",
-    "_posts/2024-05-28-sql3-oracle-select.md",
-    "_posts/2024-05-29-sql4-oracle.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
