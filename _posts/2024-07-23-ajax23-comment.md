@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/06
+title: 2024/07/23 AJAX 22-Search ID-PW
 ---
 
 #### Comment
