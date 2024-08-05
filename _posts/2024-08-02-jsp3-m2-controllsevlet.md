@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/08/02 SP3-M2-controllsevlet
+title: 2024/08/02 JSP3-M2-controllsevlet
 ---
 
 
@@ -163,6 +163,65 @@ public class ControllerServlet extends HttpServlet {
     }
 }
 ```
+#### Reflection
+
+this code snippet is utilizing Java's reflection capabilities. Reflection is a powerful feature in Java that allows a program to inspect and manipulate classes, methods, and fields at runtime, even if they are private or protected. Let's break down how reflection is used in this code:
+
+### Explanation of Reflection in the Code
+
+1. **Iterating Through Properties:**
+   ```java
+   for (Object key : properties.keySet()) {
+       // Get the key (request information) as a string
+       String command = (String) key;
+       
+       // Get the value (model class) as a string
+       String actionClass = (String) properties.get(key);
+   ```
+   - `properties` is presumably a `Map` where each entry maps a command (as a `String`) to a class name (also a `String`).
+   - The code iterates through each entry in this map.
+
+2. **Using Reflection to Create Objects:**
+   ```java
+   try {
+       Action actionObject = (Action) Class.forName(actionClass)
+               .getDeclaredConstructor().newInstance();
+   ```
+   - `Class.forName(actionClass)` dynamically loads the class specified by the `actionClass` string. This returns a `Class` object representing the class with that name.
+   - `.getDeclaredConstructor()` gets the default (no-argument) constructor of the class.
+   - `.newInstance()` creates a new instance of the class using the retrieved constructor. The resulting object is cast to the `Action` type.
+
+3. **Storing Objects in a Map:**
+   ```java
+   actionMap.put(command, actionObject);
+   ```
+   - The created object is stored in a `HashMap` (or similar map) with the command as the key and the `Action` object as the value.
+
+4. **Handling Exceptions:**
+   ```java
+   } catch (Exception e) {
+       e.printStackTrace();
+   }
+   ```
+   - Reflection operations can throw various exceptions, such as `ClassNotFoundException`, `InstantiationException`, `IllegalAccessException`, `NoSuchMethodException`, and `InvocationTargetException`. The `catch` block handles these by printing the stack trace.
+
+### Key Points about Reflection
+
+- **Dynamic Behavior:** Reflection allows for dynamic instantiation of classes and invocation of methods, which is useful for frameworks, dependency injection, or plugin architectures.
+- **Class Information:** You can retrieve metadata about classes, methods, and fields at runtime.
+- **Flexibility:** Reflection provides flexibility to work with objects and methods that are not known at compile time.
+
+### Use Cases
+
+1. **Frameworks:** Many frameworks use reflection to instantiate objects and invoke methods dynamically, such as dependency injection frameworks or serialization libraries.
+2. **Dynamic Code:** Reflection is used in situations where the code to be executed is determined at runtime rather than at compile time.
+3. **Plugins and Extensibility:** Reflection can be used to load and instantiate plugins or modules at runtime, based on configuration files or user input.
+
+### Risks and Considerations
+
+- **Performance:** Reflection can be slower than direct method calls because it involves additional overhead.
+- **Security:** Using reflection can bypass normal access controls, potentially exposing sensitive parts of the code.
+- **Maintainability:** Code using reflection can be harder to understand and maintain due to its dynamic nature.
 
 #### PropertiesFile
 ```

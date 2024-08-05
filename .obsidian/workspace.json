@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-01-jsp1-m2-program-flow.md",
+                "file": "_posts/2024-08-02-jsp3-m2-controllsevlet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f42c2c9d8a7f46bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-05-jsp4-m2-el.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5b1eb72f0a5671a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-05-jsp5-m2-el-implicit.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 200
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-01-jsp1-m2-program-flow.md",
+                "file": "2024-08-05-jsp5-m2-el-implicit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-01-jsp1-m2-program-flow.md",
+                "file": "2024-08-05-jsp5-m2-el-implicit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-01-jsp1-m2-program-flow.md"
+                "file": "2024-08-05-jsp5-m2-el-implicit.md"
               }
             }
           }
@@ -146,10 +171,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "35d74b353584733c",
+  "active": "b5b1eb72f0a5671a",
   "lastOpenFiles": [
-    "2024-08-02-jsp2-m2-2-ex.md",
+    "implicit_init.jsp",
+    "implicit_cookie_use.jsp",
+    "implicit_cookie_add.jsp",
+    "2024-08-05-jsp4-m2-el.md",
+    "2024-08-05-jsp5-m2-el-implicit.md",
     "_posts/2024-08-02-jsp3-m2-controllsevlet.md",
+    "_posts/2024-08-02-jsp2-m2-2-ex.md",
     "_posts/2024-08-01-jsp1-m2-program-flow.md",
     "2024-06-17-.md",
     "_posts/2024-07-23-ajax24-rss.md",
@@ -171,9 +201,6 @@
     "_posts/2024-07-12-jsp13-ex-shop-member-mypage.md",
     "_posts/2024-07-12-jsp11-ex-shop-m-signup-password.md",
     "_posts/2024-07-11-jsp10-ex-shop-member-signup.md",
-    "_posts/2024-07-09-jsp7-action-forward.md",
-    "_posts/2024-07-05-servlet6-sql-connect-proceed.md",
-    "_posts/2024-07-08-jsp4-implicit.md",
     "_posts/screenshot-layouts.png",
     "무제 폴더",
     "screenshot.png",
