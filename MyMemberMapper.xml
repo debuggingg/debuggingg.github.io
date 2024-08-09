@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- XML 기반의 매퍼파일과 Interface 기반의 매퍼파일로 매퍼 바인딩 처리하기 위한 규칙 -->
+<!-- => XML 기반의 매퍼파일에 mapper 엘리먼트의 namespace 속성값으로 Interface 기반의 매퍼파일 작성 -->
+<!-- => XML 기반의 매퍼파일에서 SQL 명령이 등록된 엘리먼트의 정보를 사용해 Interface 기반의 
+매퍼파일에 추상메소드 작성 -->
+<mapper namespace="xyz.itwill.mapper.MyMemberMapper">
+	<!-- SQL 명령이 등록된 엘리먼트의 정보를 참조해 추상메소드 작성 -->
+	<!-- => 엘리먼트의 id 속성값으로 추상메소드의 이름 작성 -->
+	<!-- => 엘리먼트의 parameterType 속성값으로 추상메소드의 매개변수 작성 -->
+	<!-- => 엘리먼트의 resultType 속성값으로 추상메소드의 반환형 작성 -->
+	<insert id="insertMyMember" parameterType="MyMember">
+		insert into mymember values(#{id}, #{name}, #{phone}, #{email})
+	</insert>
+	
+	<update id="updateMyMember" parameterType="MyMember">
+		update mymember set name=#{name}, phone=#{phone}, email=#{email} where id=#{id}
+	</update>
+	
+	<delete id="deleteMyMember" parameterType="string">
+		delete from mymember where id=#{id}
+	</delete>	
+	
+	<select id="selectMyMember" parameterType="string" resultType="MyMember">
+		select id, name, phone, email from mymember where id=#{id}
+	</select>
+	
+	<select id="selectMyMemberList" resultType="MyMember">
+		select id, name, phone, email from mymember order by id
+	</select>
+</mapper>

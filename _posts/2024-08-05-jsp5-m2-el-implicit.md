@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/08/02 SP5-M2-EL-implicit
+title: 2024/08/05 SP5-M2-EL-implicit
 ---
 
 #### implicit_scope
