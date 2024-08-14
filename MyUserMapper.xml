@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.itwill.mapper.MyUserMapper">
+	<insert id="insertUser" parameterType="MyUser">
+		insert into myuser values(#{userId}, #{userName})
+	</insert>
+	
+	<!-- resultType 속성을 사용하면 resultType 속성값으로 설정된 클래스로 객체를 생성하여
+	검색행의 컬럼값을 컬럼명과 같은 이름의 객체 필드값으로 자동 저장하여 객체 제공 - 자동 매핑 -->
+	<!-- 문제점 : 검색행의 컬럼명과 resultType 속성값으로 설정된 클래스의 필드명이 모두 다른
+	경우 resultType 속성값으로 설정된 클래스로 객체를 생성하여 제공하지 않고 NULL 제공 -->
+	<!-- => 웹프로그램 실행시 NullPointerException 발생 -->
+	<!-- 
+	<select id="selectUserList" resultType="MyUser">
+		select user_id, user_name from myuser order by user_id
+	</select>
+	 -->
+	 
+	<!-- 해결법-1 : 검색행의 컬럼명을 resultType 속성값으로 설정된 클래스의 필드명과 같도록 검색 -->
+	<!-- => SELECT 명령에서 Column Alias 기능을 사용하여 검색대상의 별칭을 필드명과 같도록 작성 -->
+	<!--   
+	<select id="selectUserList" resultType="MyUser">
+		select user_id userId, user_name userName from myuser order by user_id
+	</select>
+	-->
+	
+	<!-- sql : SQL 명령을 구성하는 일부분의 문장을 등록하기 위한 엘리먼트 -->
+	<!-- 
+	<sql id="myUserColumnAlias">
+		user_id userId, user_name userName
+	</sql> 
+	-->
+	 
+	<!-- include : sql 엘리먼트에 등록된 문장을 제공받아 SQL 명령에 포함하기 위한 엘리먼트 -->
+	<!-- refid 속성 : sql 엘리먼트를 구분하기 위한 식별자(id 속성값)를 속성값으로 설정  -->
+	<!--
+	<select id="selectUserList" resultType="MyUser">
+		select <include refid="myUserColumnAlias"/> from myuser order by user_id
+	</select>
+	-->
+	
+	<!-- 해결법-2 : mybatis 환경설정파일(mybatis-config.xml)의 setting 엘리먼트를 사용해 SELECT  
+	명령으로 검색된 행에서 스네이크 표기법으로 작성된 컬럼명을 자동으로 카멜 표기법으로 변환하는
+	옵션(mapUnderscoreToCamelCase)을 활성화(true) 되도록 설정 -->
+	<!-- 
+	<select id="selectUserList" resultType="MyUser">
+		select user_id, user_name from myuser order by user_id
+	</select>
+	-->
+	
+	<!-- resultMap : 검색행을 Java 객체로 생성하기 위한 정보를 제공하는 엘리먼트 - 매핑정보 제공 -->
+	<!-- => 검색행의 컬럼값이 객체 필드에 저장되도록 하위 엘리먼트를 사용하여 설정 -->
+	<!-- => 하위 엘리먼트 : constructor, id, result, association, collection, discriminator -->
+	<!-- type 속성 : resultMap 엘리먼트로 생성될 객체의 Java 자료형을 속성값으로 설정  -->
+	<!-- => Java 자료형 대신 typeAlias 엘리먼트로 설정된 별칭 사용 가능 -->
+	<resultMap type="MyUser" id="myUserResultMap">
+		<!-- id : 검색행의 컬럼값을 객체 필드에 저장하기 위한 엘리먼트 - Setter 메소드 호출 -->
+		<!-- => PK 제약조건이 설정된 컬럼값을 제공받아 객체 필드에 저장하기 위한 엘리먼트 -->
+		<!-- column 속성 : 검색행의 컬럼명을 속성값으로 설정 -->
+		<!-- property 속성 : 객체의 필드명을 속성값으로 설정 -->
+		<id column="user_id" property="userId"/>
+		<!-- result : 검색행의 컬럼값을 객체 필드에 저장하기 위한 엘리먼트 - Setter 메소드 호출 -->
+		<result column="user_name" property="userName"/>
+	</resultMap>
+	
+	<!-- 해결법-3 : resultMap 엘리먼트를 제공받아 검색행의 컬럼값이 객체 필드에 저장되도록 설정 - 수동 매핑 -->
+	<!-- resultMap 속성 : resultMap 엘리먼트의 식별자(id 속성값)를 속성값으로 설정 -->
+	<select id="selectUserList" resultMap="myUserResultMap">
+		select user_id, user_name from myuser order by user_id
+	</select>
+</mapper>

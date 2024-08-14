@@ -3,7 +3,7 @@ layout: single
 title: 2024/08/08 MyBatis-EX-MyComment
 ---
 #### DTO
-Here is the translated Java class into English:
+
 
 ```java
 package xyz.itwill.dto;
@@ -75,7 +75,7 @@ public class MyComment1 {
 ```
 
 #### XML 
-Here is the translated MyBatis XML mapper file in English:
+
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -187,7 +187,7 @@ Here is the translated MyBatis XML mapper file in English:
   - `myComment2ConstructorResultMap`: Uses the constructor of `MyComment2` to create objects and set field values from query results.
 
 ### interface
-Here is the Java interface for the `MyCommentMapper` with explanations:
+
 
 ```java
 package xyz.itwill.mapper;
@@ -213,7 +213,6 @@ public interface MyCommentMapper {
 ```
 
 ### DAO
-Here's the translation of your Java DAO class for managing `MyMember` objects using MyBatis. This class provides methods for CRUD operations on the `MYMEMBER` table.
 
 ```java
 package xyz.itwill.dao;

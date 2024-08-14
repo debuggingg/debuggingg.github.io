@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/08/08 MyBatis-Interface-Mapper -EX-MyMember
+title: 2024/08/08 MyBatis-Interface-Mapper Binding -EX-MyMember
 ---
 #### Package Elements
 **Important** - By using package elements, you can automatically provide aliases for all Java data types. With this approach, you can avoid using type aliases and mapper elements and still be able to use Java data types directly for execution.

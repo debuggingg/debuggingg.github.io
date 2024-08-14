@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.itwill.mapper.MyReplyMapper">
+	<insert id="insertReply" parameterType="MyReply">
+		<selectKey resultType="int" keyProperty="replyNo" order="BEFORE">
+			select myreply_seq.nextval from dual
+		</selectKey>
+		insert into myreply values(#{replyNo}, #{replyId}, #{replyContent}, sysdate, #{replyCommentNo})	
+	</insert>
+	
+	<select id="selectReplyList" resultType="MyReply">
+		select reply_no, reply_id, reply_content, reply_date, reply_comment_no 
+			from myreply order by reply_no desc
+	</select>
+
+	<!-- MYREPLY 테이블에 저장된 행 중 가장 최근에 작성된 5개 행만 검색하여 Java 객체로 제공 -->
+	<!-- 문제점 : XML 기반의 매퍼파일에서는 엘리먼트에 등록된 SQL 명령에서 비교 연산자 중
+	> 연산자 또는 < 연산자를 사용할 경우 엘리먼트를 표현하는 기호로 인식되어 에러 발생 -->
+	<!-- 해결법-1 : > 연산자 또는 < 연산자를 엔티티 레퍼런스(회피문자)로 표현하여 SQL 명령 작성 -->
+	<!--  
+	<select id="selectCountReplyList" resultType="MyReply">
+		select rownum, reply.* from (select reply_no, reply_id, reply_content, reply_date 
+			, reply_comment_no from myreply order by reply_no desc) reply where rownum &lt; 6
+	</select>
+	-->
+	
+	<!-- 해결법-2 : CDATA 세션을 사용해 CDATA 세션 내부에 SQL 명령 작성 -->
+	<!-- CDATA 세션 : XML 문서에서 엘리먼트의 내용을 그대로 값으로 사용하도록 설정하는 영역 -->
+	<select id="selectCountReplyList" resultType="MyReply">
+		<![CDATA[
+		select rownum, reply.* from (select reply_no, reply_id, reply_content, reply_date 
+			, reply_comment_no from myreply order by reply_no desc) reply where rownum < 6
+		]]>	
+	</select>
+	
+	<resultMap type="MyReplyUser" id="myReplyUserResultMap1">
+		<association property="reply" javaType="MyReply">
+			<id column="reply_no" property="replyNo"/>
+			<result column="reply_id" property="replyId"/>
+			<result column="reply_content" property="replyContent"/>
+			<result column="reply_date" property="replyDate"/>
+			<result column="reply_comment_no" property="replyCommentNo"/>
+		</association>
+		<association property="user" javaType="MyUser">
+			<id column="user_id" property="userId"/>
+			<result column="user_name" property="userName"/>
+		</association>
+	</resultMap>
+	
+	<select id="selectReplyUserList1" resultMap="myReplyUserResultMap1">
+		select reply_no, reply_id, reply_content, reply_date, reply_comment_no, user_id
+			, user_name from myreply join myuser on reply_id=user_id order by reply_no desc
+	</select>
+	
+	<resultMap type="MyReply" id="myReplyResultMap">
+		<id column="reply_no" property="replyNo"/>
+		<result column="reply_id" property="replyId"/>
+		<result column="reply_content" property="replyContent"/>
+		<result column="reply_date" property="replyDate"/>
+		<result column="reply_comment_no" property="replyCommentNo"/>
+	</resultMap>
+	
+	<resultMap type="MyReplyUser" id="myReplyUserResultMap2">
+		<!-- resultMap : resultMap 엘리먼트의 식별자(id 속성값)를 속성값으로 설정 -->
+		<!-- => association 엘리먼트가 resultMap 엘리먼트로 객체를 제공받아 필드에 저장 -->
+		<!-- => resultMap 엘리먼트의 매핑 정보를 재활용 - 생산성 및 유지보수의 효율성 증가 -->
+		<association property="reply" resultMap="myReplyResultMap"/>
+		<!-- select 속성 : select 엘리먼트의 식별자(id 속성값)를 속성값으로 설정 -->
+		<!-- => association 엘리먼트가 select 엘리먼트로 객체를 제공받아 필드에 저장 -->
+		<!-- column 속성 : 검색행의 컬럼명을 속성값을 설정 -->
+		<!-- => 검색행의 컬럼값을 select 속성값으로 설정된 SELECT 명령에게 전달하여 사용되도록 제공 -->
+		<association property="user" select="selectUser" column="reply_id"/>
+	</resultMap>
+	
+	<!-- DAO 클래스의 메소드에서 사용하지 않고 association 엘리먼트에서 사용하기 위한 select 엘리먼트 -->
+	<!-- => Interface 기반의 매퍼파일에서 select 엘리먼트에 대한 추상메소드를 미작성 -->
+	<!-- => select 엘리먼트의 parameterType 속성값으로 하나의 행만 검색되도록 SELECT 명령 작성 -->
+	<select id="selectUser" resultType="MyUser" parameterType="string">
+		select user_id, user_name from myuser where user_id=#{replyId}
+	</select>
+	
+	<select id="selectReplyUserList2" resultMap="myReplyUserResultMap2">
+		select reply_no, reply_id, reply_content, reply_date, reply_comment_no 
+			from myreply order by reply_no desc
+	</select>
+	
+	<!-- 게시글번호를 전달받아 MYREPLY 테이블에 저장된 행을 검색하여 MyRepy 객체로 제공하는 
+	엘리먼트 - 검색행 : 0개 이상 -->
+	<select id="selectCommentNoReplyList" parameterType="int" resultType="MyReply">
+		select reply_no, reply_id, reply_content, reply_date, reply_comment_no 
+			from myreply where reply_comment_no=#{commentNo} order by reply_no desc
+	</select>
+</mapper>
+
+
+
+
+
+
+
+

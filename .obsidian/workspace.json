@@ -8,115 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35d74b353584733c",
+            "id": "9c5626b04caa339b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-02-jsp3-m2-controllsevlet.md",
+                "file": "_posts/2024-08-013-mybatis7-ex-replyuser.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f42c2c9d8a7f46bd",
+            "id": "b5bd6da864b67c0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-05-jsp4-m2-el.md",
+                "file": "_posts/2024-08-013-mybatis8-ex-resultmap.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b5b1eb72f0a5671a",
+            "id": "e5a5c7a7716ceb1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-05-jsp4-m2-el.md",
+                "file": "_posts/2024-08-014-mybatis9-ex-replyuser.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3bcc1a5a7423417b",
+            "id": "5a04065b587a33d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-06-jsp6-m2-el-function-operation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c43405e75ad70d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-06-jsp7-m2-el-custom-tag.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9d1dfbf9952381a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-06-jsp8-m2-jstl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f07920e23600c68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-09-mybatis3-interface-ex-mymember.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a5c376eb80c5906",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-09-mybatis5-ex-mycomment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3187cf7cd507d1b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-09-mybatis5-ex-mycomment.md",
+                "file": "_posts/2024-08-014-mybatis10-dynamic.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-09-mybatis5-ex-mycomment.md",
+                "file": "_posts/2024-08-014-mybatis10-dynamic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-09-mybatis5-ex-mycomment.md",
+                "file": "_posts/2024-08-014-mybatis10-dynamic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-09-mybatis5-ex-mycomment.md"
+                "file": "_posts/2024-08-014-mybatis10-dynamic.md"
               }
             }
           }
@@ -243,33 +183,38 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3a5c376eb80c5906",
+  "active": "dc24fe79a90e9e20",
   "lastOpenFiles": [
-    "2024-08-09-mybatis4-interface-ex-myuser.md",
-    "2024-08-09-mybatis5-ex-mycomment.md",
-    "2024-08-09-mybatis3-interface-ex-mymember.md",
-    "2024-08-08-mybatis2-ex-mymember.md",
-    "commentinsert1.jsp",
-    "MyCommentDAO.java",
-    "MyCommentMapper.xml",
-    "MyCommentMapper.java",
-    "2024-08-08-mybatis1-ex-student.md",
-    "MyMemberDAO.java",
-    "MyMemberMapper.java",
-    "MyMemberMapper.xml",
-    "MyMemberInterfaceDAO.java",
-    "MyMemberInterfaceMapper.java",
-    "2024-08-07-jsp10-m2-jstl-fmt-function.md",
-    "2024-08-07-jsp9-m2-jstl-core.md",
-    "mybatis-3.5.16 1.jar",
-    "2024-08-06-jsp8-m2-jstl.md",
+    "_posts/2024-08-014-mybatis9-ex-replyuser.md",
+    "_posts/2024-08-014-mybatis10-dynamic.md",
+    "_posts/2024-08-013-mybatis8-ex-resultmap.md",
+    "_posts/2024-08-013-mybatis7-ex-replyuser.md",
+    "_posts/2024-08-12-mybatis6-ex-mycomment-reply.md",
+    "_posts/2024-08-09-mybatis5-ex-mycomment.md",
+    "_posts/2024-08-09-mybatis3-interface-ex-mymember-mapperbinding.md",
+    "_posts/2024-08-06-jsp8-m2-jstl.md",
     "_posts/2024-08-06-jsp7-m2-el-custom-tag.md",
     "_posts/2024-08-06-jsp6-m2-el-function-operation.md",
     "_posts/2024-08-05-jsp4-m2-el.md",
+    "_posts/2024-08-02-jsp3-m2-controllsevlet.md",
+    "hewonIdParamSelect.jsp",
+    "hewonIdMapSelect.jsp",
+    "hewonListDiscriminatorSelect.jsp",
+    "hewonIdDtoSelect.jsp",
+    "hewonListScopeSelect.jsp",
+    "hewoninsert.jsp",
+    "hewonListSelect.jsp",
+    "MyHewonMapper.xml",
+    "MyHewon.java",
+    "MyCommentMapper 2.xml",
+    "_posts/2024-08-09-mybatis4-interface-ex-myuser.md",
+    "_posts/2024-08-08-mybatis2-ex-mymember.md",
+    "_posts/2024-08-08-mybatis1-ex-student.md",
+    "_posts/2024-08-07-jsp10-m2-jstl-fmt-function.md",
+    "_posts/2024-08-07-jsp9-m2-jstl-core.md",
     "_posts/2024-08-05-jsp5-m2-el-implicit.md",
     "_posts/2024-08-01-jsp1-m2-program-flow.md",
     "_posts/2024-08-02-jsp2-m2-2-ex.md",
-    "_posts/2024-08-02-jsp3-m2-controllsevlet.md",
     "_posts/screenshot-layouts.png",
     "_posts/2024-05-23-network1.md",
     "_posts/2024-05-22-IO7-object-inout.md",
@@ -277,10 +222,6 @@
     "_posts/2024-05-22-IO5-fIle-copy.md",
     "_posts/2024-05-22-IO-Console.md",
     "_posts/2024-05-21-swing-penguinmoveapp.md",
-    "_posts/2024-05-21-swing-penguingameapp.md",
-    "_posts/2024-05-21-swing-digitalclock.md",
-    "_posts/2024-05-20-swing2-paintapp.md",
-    "_posts/2024-05-20-swing1.md",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",
     "assets/images/back.jpg",
