@@ -2,8 +2,8 @@
 layout: single
 title: 2024/08/14 MyBatis9-Dynamic
 ---
-#### Dynamic 
-Here is the translation of the provided MyBatis XML configuration comments and SQL mappings into English:
+#### Dynamic SQL
+
 
 ```xml
 <!-- Dynamic SQL: Allows SQL commands to be registered differently using provided values -->

@@ -54,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "42ec3ee84d0b32a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-016-spring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4174fb931fd98f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-014-mybatis10-dynamic.md",
+                "file": "2024-08-016-spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-014-mybatis10-dynamic.md",
+                "file": "2024-08-016-spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-014-mybatis10-dynamic.md"
+                "file": "2024-08-016-spring.md"
               }
             }
           }
@@ -183,12 +207,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dc24fe79a90e9e20",
+  "active": "42ec3ee84d0b32a3",
   "lastOpenFiles": [
-    "_posts/2024-08-014-mybatis9-ex-replyuser.md",
+    "https-content.xml",
+    "Pasted image 20240816160052.png",
     "_posts/2024-08-014-mybatis10-dynamic.md",
-    "_posts/2024-08-013-mybatis8-ex-resultmap.md",
+    "2024-08-016-spring.md",
+    "무제 파일.md",
+    "_posts/2024-08-014-mybatis9-ex-replyuser.md",
+    "_posts/2024-08-07-jsp9-m2-jstl-core.md",
     "_posts/2024-08-013-mybatis7-ex-replyuser.md",
+    "_posts/2024-08-013-mybatis8-ex-resultmap.md",
     "_posts/2024-08-12-mybatis6-ex-mycomment-reply.md",
     "_posts/2024-08-09-mybatis5-ex-mycomment.md",
     "_posts/2024-08-09-mybatis3-interface-ex-mymember-mapperbinding.md",
@@ -211,7 +240,6 @@
     "_posts/2024-08-08-mybatis2-ex-mymember.md",
     "_posts/2024-08-08-mybatis1-ex-student.md",
     "_posts/2024-08-07-jsp10-m2-jstl-fmt-function.md",
-    "_posts/2024-08-07-jsp9-m2-jstl-core.md",
     "_posts/2024-08-05-jsp5-m2-el-implicit.md",
     "_posts/2024-08-01-jsp1-m2-program-flow.md",
     "_posts/2024-08-02-jsp2-m2-2-ex.md",
@@ -219,9 +247,6 @@
     "_posts/2024-05-23-network1.md",
     "_posts/2024-05-22-IO7-object-inout.md",
     "_posts/2024-05-22-IO6-data-inout.md",
-    "_posts/2024-05-22-IO5-fIle-copy.md",
-    "_posts/2024-05-22-IO-Console.md",
-    "_posts/2024-05-21-swing-penguinmoveapp.md",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",
     "assets/images/back.jpg",
