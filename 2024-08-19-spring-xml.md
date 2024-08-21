@@ -1,0 +1,137 @@
+---
+layout: single
+title: 2024/08/19 Spring-XML
+---
+
+ ### MessagePrintObject.java
+
+
+```java
+package xyz.itwill03.spring;
+
+public class MessagePrintObject {
+    // Field to store an object of a subclass that implements the MessageObject interface
+    // => To store an object in the field, a constructor or setter method is needed - composition (dependency relationship)
+    // => Only by storing an object in the field can methods be called using the stored object
+    private MessageObject object;
+
+    public MessageObject getObject() {
+        return object;
+    }
+
+    public void setObject(MessageObject object) {
+        this.object = object;
+    }
+
+    public void messagePrint() {
+        // If the field does not have an object stored, NullPointerException may occur
+        String message = object.getMessage();
+        System.out.println("message = " + message);
+    }
+}
+```
+
+
+### MessagePrintApp.java
+
+
+```java
+package xyz.itwill03.spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MessagePrintApp {
+    public static void main(String[] args) {
+        /*
+        // HelloMessageObject object = new HelloMessageObject();
+        HiMessageObject object = new HiMessageObject();
+        MessagePrintObject print = new MessagePrintObject();
+        // Passing the object as a parameter to store it in the field - composition (dependency relationship) 
+        print.setObject(object);
+        print.messagePrint();
+        */
+
+        // ApplicationContext object: An object that provides Spring Container functionality
+        // => Creates and manages objects (Spring Beans) using the Spring Bean Configuration File (XML)
+        ApplicationContext context = new ClassPathXmlApplicationContext("03_message.xml");
+
+        MessagePrintObject print = (MessagePrintObject) context.getBean("messagePrintObject");
+        print.messagePrint();
+
+        // Removing the ApplicationContext object - Spring Container destruction
+        // => All objects (Spring Beans) managed by the Spring Container are also destroyed
+        ((ClassPathXmlApplicationContext) context).close();
+    }
+}
+```
+
+### Explanation:
+
+- **`ApplicationContext`**: An interface provided by Spring that represents the Spring container, managing the lifecycle and configuration of beans.
+- **`ClassPathXmlApplicationContext`**: A concrete implementation of `ApplicationContext` that loads bean definitions from an XML file located in the classpath.
+- **`context.getBean("messagePrintObject")`**: Retrieves a bean named `messagePrintObject` from the Spring container.
+- **`context.close()`**: Closes the Spring container and destroys all beans managed by it.
+#### HelloMessageObject.java class
+```java
+package xyz.itwill03.spring;
+
+public class HelloMessageObject implements MessageObject{
+	@Override
+	public String getMessage() {
+
+		return "Hello!!!";
+	}
+
+}
+```
+
+#### HiMessageObject.java class
+```java
+package xyz.itwill03.spring;
+
+public class HiMessageObject implements MessageObject{
+	@Override
+	public String getMessage() {
+
+		return "Hi!!!";
+	}
+
+}
+````
+
+#### MessageObject.java interface
+
+```java
+package xyz.itwill03.spring;
+
+public interface MessageObject {
+	String getMessage();
+
+}
+```
+#### 03_message.xml
+
+
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- The Spring Container receives classes from the configuration file (Spring Bean Configuration File - XML)
+    to create and manage objects -->
+    <!-- => Spring Bean: An object (class) managed by the Spring Container -->
+    <!-- => The Spring Container uses reflection technology to create objects by receiving class names as strings -->
+
+    <!-- Use the bean element to provide classes to the Spring Container to be used as Spring Beans -->
+    <bean class="xyz.itwill03.spring.HelloMessageObject" id="helloMessageObject"/>
+    <bean class="xyz.itwill03.spring.HiMessageObject" id="hiMessageObject"/>
+
+    <!-- Use the sub-elements of the bean element to set dependencies for Spring Beans -->
+    <bean class="xyz.itwill03.spring.MessagePrintObject" id="messagePrintObject">
+        <!-- <property name="object" ref="helloMessageObject"/> -->
+        <property name="object" ref="hiMessageObject"/>
+    </bean>
+</beans>
+```

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- init-method 속성 : 객체(Spring Bean)을 생성 후 초기화 처리하기 위해 자동 호출될 
+	메소드의 이름을 속성값으로 설정 -->
+	<!-- destroy-method 속성 : 객체(Spring Bean)을 소멸 전 마무리 처리하기 위해 자동 호출될 
+	메소드의 이름을 속성값으로 설정 -->	
+	<bean class="xyz.itwill04.bean.InitDestroyMethodBean" id="initDestroyMethodBean"
+		init-method="init" destroy-method="destroy"/>
+		
+	<!-- lazy-init 속성 : false(기본값) 또는 true 중 하나를 속성값으로 설정 -->
+	<!-- => false : 스프링 컨테이너가 초기화될 때 객체를 미리 생성 -->	
+	<!-- => true : 스프링 컨테이너가 초기화될 때 객체를 미리 생성하지 않고 getBean() 메소드를
+	호출할때 객체를 생성하여 제공 -->	
+	<bean class="xyz.itwill04.bean.LazyInitBean" id="lazyInitBean" lazy-init="true"/>
+	
+	<!-- 스프링 컨테이너는 환경설정파일에 등록된 모든 클래스를 리플렉션 기술을 사용해 객체를
+	미리 생성하여 관리 -->
+	<!-- => 리플렉션 기술은 명령 실행시 객체를 생성하며 접근 제한자에 상관없는 필드 또는 메소드 사용 가능 -->
+	<!-- => 생성자가 은닉화 선언되어 있어도 스프링 컨테이너는 생성자로 객체 생성 가능 -->
+	<!-- 문제점 : 환경설정파일에 싱글톤 클래스를 등록하여 해당 클래스를 Class 객체로 생성한
+	후 정적영역의 명령으로 객체를 생성한 후 스프링 컨테이너에 의해 객체를 다시 생성 -->
+	<!-- 해결법 : bean 엘리먼트에 factory-method 속성을 사용해 객체가 하나만 생성되도록 설정 -->
+	<!-- factory-method 속성 : 싱글톤 클래스에서 객체를 반환하는 메소드의 이름을 속성값으로 설정 -->
+	<!-- => 정적영역의 명령으로 객체를 생성하여 스프링 컨테이너에 의해 관리 -->
+	<bean class="xyz.itwill04.bean.FactoryMethodBean" factory-method="getFactoryMethodBean"/>
+
+	<!-- 스프링 컨테이너는 bean 엘리먼트 작성 순서대로 읽어 클래스를 객체로 생성 -->
+	<!-- depends-on 속성 : bean 엘리먼트의 식별자(beanName)를 속성값으로 설정 -->
+	<!-- => bean 엘리먼트의 클래스로 객체를 생성하기 전에 depends-on 속성값으로 설정된 beanName의
+	클래스로 객체를 먼저 생성 -->
+	<bean class="xyz.itwill04.bean.DependsOnOneBean" depends-on="dependsOnTwoBean"/>	
+	<bean class="xyz.itwill04.bean.DependsOnTwoBean" id="dependsOnTwoBean"/>	
+
+	<!-- scope 속성 : singleton(기본값), prototype, request, session 중 하나를 속성값으로 설정 -->
+	<!-- singleton 또는 prototype : 객체의 생성 갯수를 설정하는 속성값 -->
+	<!-- => singleton 속성값 : 스프링 컨테이너가 bean 엘리먼트의 클래스로 객체를 하나만 생성하여 제공 -->
+	<!-- => prototype 속성값 : 스프링 컨테이너가 bean 엘리먼트의 클래스로 객체를 여러개 생성하여 제공 -->
+	<!-- request 또는 session : 웹프로그램 작성시 객체의 사용범위를 설정하는 속성값 -->
+	<bean class="xyz.itwill04.bean.ScopeBean" id="singletonBean" scope="singleton"/>
+	<!-- scope 속성값을 [prototype]으로 설정하면 lazy-init 속성값이 자동으로 [ture]로 설정 -->
+	<!-- => 스프링 컨테이너가 초기화 될때 객체를 미리 생성하지 않고 getBean() 메소드 호출시 생성 -->
+	<bean class="xyz.itwill04.bean.ScopeBean" id="prototypeBean" scope="prototype"/>
+</beans>
