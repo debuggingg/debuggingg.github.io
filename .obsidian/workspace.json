@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-019-spring-log.md",
+                "file": "_posts/2024-08-019-spring3-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-019-spring-factory.md",
+                "file": "_posts/2024-08-019-spring2-factory.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,26 +97,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-19-spring-xml.md",
+                "file": "_posts/2024-08-21-spring5-.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ba05bc2bc89b046e",
+            "id": "0bbddfffecb560f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-21-spring-.md",
+                "file": "_posts/2024-08-22-spring6-di.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84af43e3b8c8a064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "392fa667cb84c72c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-23-spring7-di-annotation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08e19adb54fc4f75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-23-spring7-di-annotation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81185087fbf214dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-23-spring8-di-lombok.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -182,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-21-spring-.md",
+                "file": "2024-08-23-spring8-di-lombok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-21-spring-.md",
+                "file": "2024-08-23-spring8-di-lombok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-21-spring-.md"
+                "file": "2024-08-23-spring8-di-lombok.md"
               }
             }
           }
@@ -243,24 +291,29 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ba05bc2bc89b046e",
+  "active": "81185087fbf214dd",
   "lastOpenFiles": [
-    "04-3_beanAnnotation.xml",
-    "04-2_beanAttribute.xml",
-    "04-1_beanCreate.xml",
-    "AnnotationConfigurationBean.java",
-    "AnnotationBeanApp.java",
-    "AnnotationBean.java",
-    "ComponentAnnotationBean.java",
-    "ComponentAnnotationBeanApp.java",
-    "FactoryMethodBean.java",
-    "LazyInitBean.java",
-    "ScopeBean.java",
-    "2024-08-19-spring-xml.md",
-    "2024-08-21-spring-.md",
-    "2024-08-019-spring-factory.md",
-    "2024-08-019-spring-log.md",
-    "2024-08-016-spring.md",
+    "MemberBuilderApp.java",
+    "MemberDAOImpl.java",
+    "Member.java",
+    "2024-08-23-spring7-di-annotation.md",
+    "2024-08-23-spring8-di-lombok.md",
+    "05-5_lombok.xml",
+    "무제 파일 1.md",
+    "_posts/2024-08-22-spring6-di-collection.md",
+    "_posts/2024-08-22-spring6-di.md",
+    "_posts/2024-08-21-spring5-.md",
+    "05-4_diAnnotation.xml",
+    "AnnotationStudentApp.java",
+    "AnnotationStudentServiceImpl.java",
+    "AnnotationStudentMybatisDAOImpl.java",
+    "AnnotationStudentJdbcDAOImpl.java",
+    "_posts/2024-08-016-spring1.md",
+    "_posts/2024-08-019-spring2-factory.md",
+    "_posts/2024-08-019-spring3-log.md",
+    "_posts/2024-08-19-spring4-xml.md",
+    "05-2_collection.xml",
+    "CollectionBean.java",
     "2024-06-17-.md",
     "_posts/2024-07-18-jsp19-ex-shop-review-modify.md",
     "_posts/2024-07-19-ajax20-.md",
@@ -277,11 +330,6 @@
     "_posts/2024-08-12-mybatis6-ex-mycomment-reply.md",
     "_posts/2024-08-09-mybatis5-ex-mycomment.md",
     "_posts/2024-08-09-mybatis3-interface-ex-mymember-mapperbinding.md",
-    "_posts/2024-08-06-jsp8-m2-jstl.md",
-    "_posts/2024-08-06-jsp7-m2-el-custom-tag.md",
-    "_posts/2024-08-06-jsp6-m2-el-function-operation.md",
-    "_posts/2024-08-05-jsp4-m2-el.md",
-    "_posts/2024-08-02-jsp3-m2-controllsevlet.md",
     "_posts/screenshot-layouts.png",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",

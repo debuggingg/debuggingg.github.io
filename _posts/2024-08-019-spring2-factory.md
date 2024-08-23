@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/08/19 Spring-Factory
+title: 2024/08/19 Spring2-Factory
 ---
 #### MessageObject.java Interface
 
