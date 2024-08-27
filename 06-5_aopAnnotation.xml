@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:component-scan base-package="xyz.itwill06.aop"/>
+	
+	<!-- aspectj-autoproxy : AOP 관련 어노테이션을 사용하여 Aspect(Proxy 클래스)를 생성해
+	제공하기 위한 기능을 제공하는 어노테이션 -->
+	<aop:aspectj-autoproxy/>
+</beans>
