@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024-08-26-spring11-aop-joinPoint
+title: 2024-08-27-spring11-aop-joinPoint
 ---
 ## AOP JoinPoint
 

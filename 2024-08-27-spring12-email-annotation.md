@@ -1,8 +1,10 @@
 ---
 layout: single
-title: 2024/06
+title: 2024-08-27-spring12-email-annotation
 ---
 ### ExecutionTimeAdvice.java
+
+
 
 ```java
 package xyz.itwill06.aop;
