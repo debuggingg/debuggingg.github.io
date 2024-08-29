@@ -198,9 +198,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3494ea4e0fd84850",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-28-spring14-mvc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e741294887374ca0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-28-spring14-mvc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1987c0e0d61a834",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-29-spring15-mvc-withoutannotation-bean.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d53746d970a1261d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-08-29-spring16-mvc-annotation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -266,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-28-spring14-mvc.md",
+                "file": "2024-08-29-spring16-mvc-annotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-28-spring14-mvc.md",
+                "file": "2024-08-29-spring16-mvc-annotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-28-spring14-mvc.md"
+                "file": "2024-08-29-spring16-mvc-annotation.md"
               }
             }
           }
@@ -327,26 +375,30 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7ee0c0c1fd529ce1",
+  "active": "d53746d970a1261d",
   "lastOpenFiles": [
-    "2024-08-28-spring13-dao.md",
+    "ParamController.java",
+    "MethodController.java",
+    "ResultController.java",
+    "ModelController.java",
+    "HelloController.java",
+    "2024-08-29-spring15-mvc-withoutannotation-bean.md",
+    "2024-08-29-spring16-mvc-annotation.md",
     "2024-08-28-spring14-mvc.md",
+    "무제 파일 1.md",
+    "무제 파일 2.md",
+    "mvc-context1.xml",
+    "2024-08-28-spring13-dao.md",
     "ViewController.java",
     "HandlerMapping.java",
     "Controller.java",
     "DispatcherServlet.java",
     "ListController.java",
-    "ViewResolver.java",
-    "Member 1.java",
     "2024-08-27-spring12-email-annotation.md",
     "2024-08-27-spring11-aop-join-point.md",
     "2024-08-26-spring10-aop-ex.md",
     "2024-08-26-spring9-aop.md",
     "2024-08-23-spring8-di-lombok.md",
-    "StudentServiceImpl 1.java",
-    "StudentRowMapper.java",
-    "StudentDAOImpl.java",
-    "무제 파일 1.md",
     "2024-08-23-spring7-di-annotation.md",
     "_posts/2024-08-22-spring6-di-collection.md",
     "_posts/2024-08-22-spring6-di.md",
@@ -361,10 +413,7 @@
     "_posts/2024-08-014-mybatis9-ex-replyuser.md",
     "_posts/2024-07-16-jsp16-ex-shop-reviewlist.md",
     "_posts/2024-07-23-ajax23-comment.md",
-    "_posts/2024-07-19-ajax21-xml-json-db-signup.md",
-    "_posts/2024-07-22-ajax22-search-id-pw.md",
     "Pasted image 20240816160052.png",
-    "_posts/2024-08-014-mybatis10-dynamic.md",
     "_posts/screenshot-layouts.png",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",
