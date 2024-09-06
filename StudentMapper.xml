@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- XML 기반의 매퍼 파일 : 엘리먼트를 사용하여 SQL 명령을 등록하기 위한 파일 -->
-<!-- => mybatis 환경설정파일에서 mapper 엘리먼트를 사용해 매퍼로 등록해야만 SqlSession 객체가
-매퍼파일에 등록된 SQL 명령을 제공받아 사용 가능 -->
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!-- mapper : XML 기반의 매퍼 파일의 최상위 엘리먼트 -->
-<!-- namespace 속성 : XML 기반의 매퍼 파일을 구분하기 위한 식별자를 속성값으로 설정 -->
-<!-- => SqlSession 객체가 사용할 SQL 명령이 등록된 매퍼파일을 구분하기 위해 사용 -->
-<!-- => namespace 속성값은 Java 자료형으로 표현하여 설정하는 것을 권장 -->
-<!-- => ibatis 프레임워크에서는 namespace 속성 생략 가능 -->
-<mapper namespace="xyz.itwill.mapper.StudentMapper">
-	<!-- select : SELECT 명령을 등록하기 위한 엘리먼트 -->
-	<!-- id 속성 : SQL 명령이 등록된 엘리먼트를 구분하기 위한 식별자를 속성값으로 설정 -->
-	<!-- resultType 속성 : SQL 명령(SELECT)의 실행결과를 Java 객체로 만들기 위한 자료형(클래스)을 속성값으로 설정 -->
-	<!-- => SELECT 명령으로 검색된 하나의 행을 하나의 Java 객체에 매핑하여 제공 -->
+<mapper namespace="xyz.itwill09.mapper.StudentMapper">
+	<insert id="insertStudent">
+		insert into student values(#{no}, #{name}, #{phone}, #{address}, #{birthday})
+	</insert>
+	
 	<select id="selectStudentList" resultType="Student">
 		select no, name, phone, address, birthday from student order by no
 	</select>

@@ -1,72 +1,22 @@
-package xyz.itwill05.di;
+package xyz.itwill09.dto;
 
-//학생정보를 저장하기 위한 클래스 - VO 클래스, DTO 클래스 : POJO(Plain Old Java Object)
+import lombok.Builder;
+import lombok.Data;
+
+//DTO 클래스 : 테이블의 행을 Java 클래스로 표현해 객체로 생성하기 위한 클래스 
+// => 데이타 처리 클래스(DAO 클래스 또는 Service 클래스)의 메소드에서 매개변수로 값을 전달받거나
+//값을 반환하기 위해 작성하는 클래스
+// => Controller 클래스의 요청 처리 메소드의 매개변수로 전달값이 저장된 Command 객체로 제공받기 위해 
+//사용 - 전달값의 이름과 필드의 이름이 같도록 작성
+
+@Data
+@Builder
 public class Student {
-	//학생정보 관련 값을 저장하기 위해 필드 작성	
-	private int num;
+	//Mybatis 프레임워크를 사용할 경우 검색행의 컬럼값을 저장하기 위해 컬럼명과 같은 이름으로
+	//필드를 작성해 자동 매핑되도록 설정 가능
+	private int no;
 	private String name;
-	private String email;
-	
-	public Student() {
-		System.out.println("### Student 클래스의 기본 생성자 호출 ###");
-	}
-
-	public Student(int num) {
-		super();
-		this.num = num;
-		System.out.println("### Student 클래스의 매개변수(학번)가 작성된 생성자 호출 ###");
-	}
-
-	public Student(String name) {
-		super();
-		this.name = name;
-		System.out.println("### Student 클래스의 매개변수(이름)가 작성된 생성자 호출 ###");
-	}
-
-	public Student(int num, String name) {
-		super();
-		this.num = num;
-		this.name = name;
-		System.out.println("### Student 클래스의 매개변수(학번, 이름)가 작성된 생성자 호출 ###");
-	}
-
-	public Student(int num, String name, String email) {
-		super();
-		this.num = num;
-		this.name = name;
-		this.email = email;
-		System.out.println("### Student 클래스의 매개변수(학번, 이름, 이메일)가 작성된 생성자 호출 ###");
-	}
-
-	public int getNum() {
-		return num;
-	}
-
-	public void setNum(int num) {
-		this.num = num;
-		System.out.println("*** Student 클래스의 setNum(int num) 메소드 호출 ***");
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-		System.out.println("*** Student 클래스의 setName(String name) 메소드 호출 ***");
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-		System.out.println("*** Student 클래스의 setEmail(String email) 메소드 호출 ***");
-	}
-	
-	@Override
-	public String toString() {
-		return "학번 = "+num+", 이름 = "+name+", 이메일 = "+email;
-	}
+	private String phone;
+	private String address;
+	private String birthday;
 }

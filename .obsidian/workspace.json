@@ -8,216 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9c5626b04caa339b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-013-mybatis7-ex-replyuser.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5bd6da864b67c0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-013-mybatis8-ex-resultmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5a5c7a7716ceb1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-014-mybatis9-ex-replyuser.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a04065b587a33d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-014-mybatis10-dynamic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42ec3ee84d0b32a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-18-jsp19-ex-shop-review-modify.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4174fb931fd98f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-019-spring3-log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b71bef185b025631",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-019-spring2-factory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbee936221174faa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-21-spring5-.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bbddfffecb560f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-22-spring6-di.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84af43e3b8c8a064",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 파일 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "455f755efb519a9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-26-spring9-aop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87b13bd00e7d1cad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-26-spring10-aop-ex.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10646cabb140fef0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-27-spring11-aop-join-point.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d5b1942f602d4eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-28-spring13-dao.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40a9b8b9c56a167f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-28-spring13-dao.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ee0c0c1fd529ce1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-28-spring14-mvc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3494ea4e0fd84850",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-28-spring14-mvc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e741294887374ca0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-28-spring14-mvc.md",
+                "file": "_posts/2024-08-28-spring14-mvc.md",
                 "mode": "source",
                 "source": false
               }
@@ -229,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-29-spring15-mvc-withoutannotation-bean.md",
+                "file": "_posts/2024-08-29-spring15-mvc-withoutannotation-bean.md",
                 "mode": "source",
                 "source": false
               }
@@ -241,14 +37,134 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-29-spring16-mvc-annotation.md",
+                "file": "_posts/2024-08-29-spring15-mvc-withoutannotation-bean.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e274bc0fa9a1f4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "356e1b8e015b251f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-29-spring16-mvc-annotation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22280f6b873e26c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-03-spring20-message.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "813d8ad6b9461386",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-29-spring16-mvc-annotation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae4ff23f43cf22f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-03-spring20-message.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e24d144f6161391",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-03-spring20-message.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdbade8d4ff9b119",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-04-spring22-mybatis-logfactory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3710e9ab21769fc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6cbd6d814511e324",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54212c87ac383067",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-04-spring23-mybatis-ex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -314,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-29-spring16-mvc-annotation.md",
+                "file": "_posts/2024-09-04-spring23-mybatis-ex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-29-spring16-mvc-annotation.md",
+                "file": "_posts/2024-09-04-spring23-mybatis-ex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-29-spring16-mvc-annotation.md"
+                "file": "_posts/2024-09-04-spring23-mybatis-ex.md"
               }
             }
           }
@@ -375,45 +291,45 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d53746d970a1261d",
+  "active": "54212c87ac383067",
   "lastOpenFiles": [
-    "ParamController.java",
-    "MethodController.java",
-    "ResultController.java",
-    "ModelController.java",
-    "HelloController.java",
-    "2024-08-29-spring15-mvc-withoutannotation-bean.md",
-    "2024-08-29-spring16-mvc-annotation.md",
-    "2024-08-28-spring14-mvc.md",
-    "무제 파일 1.md",
+    "무제 파일 5.md",
+    "무제 파일 4.md",
+    "무제 파일 3.md",
     "무제 파일 2.md",
-    "mvc-context1.xml",
-    "2024-08-28-spring13-dao.md",
-    "ViewController.java",
-    "HandlerMapping.java",
-    "Controller.java",
-    "DispatcherServlet.java",
-    "ListController.java",
-    "2024-08-27-spring12-email-annotation.md",
-    "2024-08-27-spring11-aop-join-point.md",
-    "2024-08-26-spring10-aop-ex.md",
-    "2024-08-26-spring9-aop.md",
-    "2024-08-23-spring8-di-lombok.md",
-    "2024-08-23-spring7-di-annotation.md",
-    "_posts/2024-08-22-spring6-di-collection.md",
-    "_posts/2024-08-22-spring6-di.md",
-    "_posts/2024-08-21-spring5-.md",
-    "_posts/2024-08-016-spring1.md",
-    "_posts/2024-08-019-spring2-factory.md",
-    "_posts/2024-08-019-spring3-log.md",
-    "_posts/2024-08-19-spring4-xml.md",
-    "2024-06-17-.md",
-    "_posts/2024-07-18-jsp19-ex-shop-review-modify.md",
-    "_posts/2024-07-19-ajax20-.md",
-    "_posts/2024-08-014-mybatis9-ex-replyuser.md",
-    "_posts/2024-07-16-jsp16-ex-shop-reviewlist.md",
-    "_posts/2024-07-23-ajax23-comment.md",
+    "StudentControllerTest.java",
+    "StudentServiceTest.java",
+    "DataSourceTest.java",
+    "_posts/2024-09-04-spring22-mybatis-logfactory.md",
+    "_posts/2024-09-04-spring21-errormessage.md",
+    "_posts/2024-09-04-spring23-mybatis-ex.md",
+    "_posts/2024-08-29-spring17-login-join-session-redirect-resource.md",
     "Pasted image 20240816160052.png",
+    "_posts/2024-09-03-spring20-message.md",
+    "무제 파일 1.md",
+    "student_display.jsp",
+    "student_add.jsp",
+    "StudentServiceImpl.java",
+    "StudentService.java",
+    "StudentDAOImpl 2.java",
+    "Student.java",
+    "StudentDAO 1.java",
+    "_posts/2024-09-03-spring19-validcontroller.md",
+    "_posts/2024-09-02-spring18-tiles.md",
+    "_posts/2024-08-29-spring16-mvc-annotation.md",
+    "_posts/2024-08-29-spring15-mvc-withoutannotation-bean.md",
+    "_posts/2024-08-28-spring14-mvc.md",
+    "무제 파일.md",
+    "_pages/tags-archive.md",
+    "_pages/sql.md",
+    "_pages/oraclesql-mac-install.md",
+    "_pages/github-info.md",
+    "_pages/category-archive.md",
+    "_posts/2024-08-23-spring7-di-annotation.md",
+    "_posts/2024-08-28-spring13-dao.md",
+    "_posts/2024-08-27-spring11-aop-join-point.md",
+    "_posts/2024-08-26-spring10-aop-ex.md",
+    "_posts/2024-08-26-spring9-aop.md",
     "_posts/screenshot-layouts.png",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",
