@@ -1,8 +1,8 @@
 ---
 layout: single
-title: 2024/06
+title: 2024-09-06-spring26-mybatis-filecontroller
 ---
-file upload - pom.xml 
+#### file upload - pom.xml 
 1. Apache Commons FileUpload
 pom.xml
 ```xml
@@ -30,8 +30,8 @@ pom.xml
 3.  received file or attribute using by MultiPartHttpServletRequest object 
 
 
-Here is the English translation of the `FileController` class:
 
+#### FileController
 ```java
 package xyz.itwill09.controller;
 
@@ -90,6 +90,7 @@ public class FileController {
         System.out.println("File size (Bytes) = " + uploaderFile.getBytes().length);
         
         // Retrieve the system path of the server directory where the file will be stored
+        // resources 에 경로 설정 하는 이유는 사진 파일은 view 가 응답해서 보여줄수없기때문에 frontcontroller 가 직접 응답 할수있도록 resource 안에 파일 경로를 설정 하여주어야 한다.
         String uploadDirectory = request.getServletContext().getRealPath("/resources/images/upload");
         System.out.println("uploadDirectory = " + uploadDirectory);
         

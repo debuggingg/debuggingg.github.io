@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/06
+title: 2024-09-05-spring24-mybatis-test
 ---
 
 #### junit, spring test -pom.xml 
@@ -95,7 +95,7 @@ public class DataSourceTest {
 This configuration sets up a Spring test environment and tests if a `DataSource` object can be obtained and a database connection can be established.
 
 #### StudentServiceTest.java
-Here's the English translation of your Java code:
+
 
 ```java
 package xyz.itwill.spring;
@@ -172,8 +172,8 @@ The test class includes two test methods:
 - `testAddStudent()`: Adds a student to the service.
 - `testGetStudentList()`: Retrieves and logs the list of students.
 
-StudentControllerTest.java
-Here's the English translation of your Java code:
+#### StudentControllerTest.java
+
 
 ```java
 package xyz.itwill.spring;

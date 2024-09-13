@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2024/06
+title: 2024-09-06-spring27-mybatis-file-paging
 ---
 #### FileBoardMapper.xml
 
