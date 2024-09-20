@@ -32,19 +32,43 @@
             }
           },
           {
-            "id": "b1f8bbcf88e40274",
+            "id": "706bcda083a5de3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 파일 3.md",
+                "file": "2024-09-19-springsecurity1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8dcab277cdbe2f46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5abfd080913f01cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-09-20-springsecurity2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 220.5
   },
   "right": {
     "id": "c9b95bd61201672f",
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일 3.md",
+                "file": "2024-09-20-springsecurity2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일 3.md",
+                "file": "2024-09-20-springsecurity2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일 3.md"
+                "file": "2024-09-20-springsecurity2.md"
               }
             }
           }
@@ -171,16 +195,28 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b1f8bbcf88e40274",
+  "active": "5abfd080913f01cc",
   "lastOpenFiles": [
+    "CustomUserDetails 1.java",
+    "CustomUserDetails.java",
+    "servlet-context.xml",
+    "2024-09-19-springsecurity1.md",
+    "2024-09-20-springsecurity2.md",
+    "무제 파일 1.md",
+    "_posts/2024-08-014-mybatis10-dynamic.md",
+    "_posts/2024-08-013-mybatis7-ex-replyuser.md",
+    "_posts/2024-08-014-mybatis9-ex-replyuser.md",
+    "_posts/2024-08-013-mybatis8-ex-resultmap.md",
+    "무제 파일.md",
     "2024-09-12-spring33-restful.md",
+    "2024-09-13-spring34-payment.md",
+    "security-context.xml",
+    "mybatis-config 1.xml",
     "2024-09-12-spring32-restful.md",
-    "무제 파일 3.md",
     "2024-09-11-spring32-restful.md",
     "board.jsp",
     "2024-09-11-spring31-session.md",
     "2024-09-10-spring30-schedule.md",
-    "무제 파일 1.md",
     "2024-09-09-spring28-mybatis-file-download.md",
     "2024-09-09-spring29-schedule.md",
     "2024-09-06-spring27-mybatis-file-paging.md",
@@ -198,18 +234,6 @@
     "_posts/2024-09-03-spring20-message.md",
     "student_display.jsp",
     "student_add.jsp",
-    "StudentServiceImpl.java",
-    "StudentService.java",
-    "StudentDAOImpl 2.java",
-    "Student.java",
-    "_posts/2024-09-03-spring19-validcontroller.md",
-    "_posts/2024-09-02-spring18-tiles.md",
-    "_posts/2024-08-29-spring16-mvc-annotation.md",
-    "_posts/2024-08-29-spring15-mvc-withoutannotation-bean.md",
-    "_posts/2024-08-28-spring14-mvc.md",
-    "무제 파일.md",
-    "_pages/tags-archive.md",
-    "_pages/sql.md",
     "_posts/screenshot-layouts.png",
     "screenshot.png",
     "assets/images/bear-ezgif.com-resize.gif",

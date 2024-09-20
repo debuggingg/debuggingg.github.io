@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/security https://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- http : Spring Security 기능을 SpringMVC 프로그램에 적용하기 위한 정보를 제공하는 엘리먼트 -->
+	<!-- => Spring Security 관련 환경 설정이 시작되는 위치를 제공 -->
+	<!-- auto-config : false 또는 true(기본값) 중 하나를 속성값으로 설정 -->
+	<!-- => auto-config 속성값을 [true]로 설정한 경우 기본값으로 환경 설정 -->
+	<!-- use-expressions : false 또는 true(기본값) 중 하나를 속성값으로 설정 -->
+	<!-- => use-expressions 속성을 [true]로 설정하면 SpEL 표현식을 사용하여 페이지 접근 여부 설정 가능 -->
+	<!-- SpEL 표현식 : 권한을 표현하는 표현식 -->
+	<!-- => hasRole('role') : 권한을 가지고 있는 경우를 나타내는 표현식 -->
+	<!-- => hasAny0Role('role1','role2',...) : 나열된 권한 중 하나를 가지고 있는 경우를 나타내는 표현식 -->
+	<!-- => permitAll : 모든 사용자의 접근 가능을 나타내는 표현식 -->
+	<!-- => denyAll : 모든 사용자의 접근 불가능을 나타내는 표현식 -->
+	<!-- => isAnonymous() : Anonymous 사용자(인증 받지 않은 사용자)인 경우에만 접근 가능을 나타내는 표현식 -->
+	<!-- => isRememnberMe() : Remember-me 기능으로 인증받은 사용자인 경우에만 접근 가능을 나타내는 표현식 -->
+	<!-- => isAuthentucated() : 인증 처리된 사용자(Remember-me 기능으로 인증받은 사용자 포함)인 
+	경우에만 접근 가능을 나타내는 표현식 -->
+	<!-- => isFullyAuthentucated : 인증 처리된 사용자(Remember-me 기능으로 인증받은 사용자 제외)인 
+	경우에만 접근 가능을 나타내는 표현식 -->
+ 	<http auto-config="true" use-expressions="true">
+ 	
+ 		<!-- use-expressions 속성을 [false]로 설정한 경우 access 속성값으로 SpEL 사용 불가능 -->
+ 		<!-- intercept-url 엘리먼트를 사용해 페이지에 접근 가능한 권한을 하나만 설정 가능 -->
+ 		<!-- 
+ 		<intercept-url pattern="/user/**" access="ROLE_USER"/>
+ 		<intercept-url pattern="/manager/**" access="ROLE_MANAGER"/>
+ 		<intercept-url pattern="/admin/**" access="ROLE_ADMIN"/>
+ 	 	-->
+ 	 	
+ 		<!-- intercept-url : 요청 페이지에 접근 가능을 권한을 설정하는 엘리먼트 -->
+ 		<!-- => 특정 페이지에 대한 권한 설정을 먼저하고 나머지는 마지막에 설정하는 것을 권장 -->
+ 		<!-- pattern 속성 : 요청 페이지의 경로를 속성값으로 설정 -->
+ 		<!-- => * 또는 ** 등의 패턴문자를 사용하여 속성값 설정 가능 -->
+ 		<!-- access 속성 : 페이지에 접근 가능한 권한(Role)을 속성값으로 설정 -->
+ 		<!-- => use-expressions 속성을 [true]로 설정한 경우 SpEL를 사용해 권한 설정 가능 -->
+ 		<!-- => 권한이 없는 사용자가 페이지를 요청할 경우 AccessDeniedException 발생 -->
+ 		<intercept-url pattern="/guest/**" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+ 		<intercept-url pattern="/user/**" access="hasRole('ROLE_USER')"/>
+ 		<intercept-url pattern="/manager/**" access="hasRole('ROLE_MANAGER')"/>
+ 		<intercept-url pattern="/admin/**" access="hasRole('ROLE_ADMIN')"/>
+ 		<intercept-url pattern="/**" access="permitAll"/>
+ 		
+ 		<!-- form-login : form 태그를 사용한 로그인 페이지를 설정하기 위한 엘리먼트 -->
+ 		<!-- login-page 속성 : 아이디와 비밀번호를 입력받기 위한 페이지의 경로를 속성값으로 설정 -->
+ 		<!-- => 속성을 설정하지 않은 경우 Spring Security에서 제공하는 로그인 페이지 사용 -->
+ 		<!-- login-processing-url 속성 : 아이디와 비밀번호를 전달받아 인증 처리하는 페이지의 경로를 속성값으로 설정 -->
+ 		<!-- <form-login login-page="/loginPage" login-processing-url="/loginPage"/> -->
+ 	</http>
+ 	
+ 	<!-- authentication-manager : 인증 관리자를 등록하기 위한 엘리먼트 -->
+ 	<!-- => 다양한 형태의 인증 방식 제공 -->
+ 	<!-- authentication-provider : 인증 제공자를 등록하기 위한 엘리먼트 -->
+ 	<!-- => 실질적인 인증 작업을 진행하는 기능 제공 -->
+ 	<!-- user-service : 인증 정보를 등록하기 위한 엘리먼트 -->
+ 	<!-- => 인증 처리를 이용해 사용자의 권한 관련 정보를 반환하는 기능 -->
+ 	<!-- user : 인증을 위한 정보 및 사용자의 권한 정보를 설정하는 엘리먼트 -->
+ 	<!-- name 속성 : 사용자를 구분하기 위한 식별자(아이디)를 속성값으로 설정 -->
+ 	<!-- password 속성 : 사용자의 비밀번호를 속성값으로 설정 -->
+ 	<!-- => Spring Security 5.0 이상에서는 비밀번호를 반드시 암호화 처리하여 비교되도록 구현 -->
+ 	<!-- => password 속성값으로 설정된 비밀번호 앞부분에 {noop}를 붙여 작성하면 암호화 처리
+ 	하지 않아도 비교 -->
+ 	<!-- authorities 속성 : 권한(Role)을 속성값으로 설정 -->
+ 	<!-- => 권한은 ROLE 기반으로 설정 - 속성값을 ROLE_XXX 형식으로 설정 -->
+ 	<!-- => 사용자에게 다수의 권한을 제공할 경우 , 기호로 구분하여 권한을 나열해 설정 가능 -->
+ 	<!-- 인증이 성공한 경우 Authentication Manager는 Spring Security 관련 세션(Security ContextHolder)에
+ 	인증 및 인가 관련 정보(Authentication 객체) 저장 -->
+ 	<!-- 
+ 	<authentication-manager>
+ 		<authentication-provider>
+ 			<user-service>
+ 				<user name="abc123" password="{noop}123456" authorities="ROLE_USER"/>
+ 				<user name="opq456" password="{noop}123456" authorities="ROLE_USER, ROLE_MANAGER"/>
+ 				<user name="xyz789" password="{noop}123456" authorities="ROLE_ADMIN"/>
+ 			</user-service>
+ 		</authentication-provider>
+ 	</authentication-manager>
+ 	-->
+ 	 
+ 	<!-- jdbc-user-service : Spring Security가 JDBC를 이용해 인증 처리하기 위한 엘리먼트 -->
+ 	<!-- => JdbcUserDetailsManager 클래스를 사용해 인증과 인가 처리 -->
+ 	<!-- => USERS 테이블을 생성해 사용자 정보를 저장하고 AUTHORITIES 테이블을 생성하여 사용자의 
+ 	권한 정보를 저장할 경우 SQL 명령을 작성하지 않아도 기본적으로 제공되는 SQL 명령으로 인증 
+ 	처리 후 사용자 정보(UserDetails 객체)를 반환 -->
+ 	<!-- data-source-ref : Connection 객체를 제공하기 위한 DataSource 관련 클래스의 Spring
+ 	Bean 식별자(beanName)을 속성값으로 설정 --> 
+ 	<!-- password-encoder : 암호화 처리된 비밀번호를 비교하기 위한 기능을 제공하는 엘리먼트 -->
+ 	<!-- ref 속성 : PasswordEncoder 인터페이스를 상속받은 클래스의 Spring Bean 식별자(beanName)을 
+ 	속성값으로 설정 -->
+ 	<authentication-manager>
+ 		<authentication-provider>
+ 			<jdbc-user-service data-source-ref="dataSource"/>
+ 			<password-encoder ref="customPasswordEncoder"/>
+ 		</authentication-provider>
+ 	</authentication-manager> 
+ 	
+ 	<beans:bean class="xyz.itwill.security.CustomPasswordEncoder" id="customPasswordEncoder"/>
+</beans:beans>
+
+
+
+
+
+
